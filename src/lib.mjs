@@ -1,11 +1,12 @@
 // Helpers partagés Runner B. Zéro dépendance (fetch natif Node 20+).
+// Consomme la file au format « Bloc 1 » : stathisto/pipeline/README.md fait foi.
+// Réplique en JS la sélection `a_publier` de pipeline/etats.py (statut/post_at/priorite).
 import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 export const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
-export const QUEUE_DIR = join(ROOT, 'queue');
-export const PUBLISHED_DIR = join(ROOT, 'published');
+export const FILE_DIR = join(ROOT, 'file'); // équivalent de pipeline/file/
 
 export function loadConfig() {
   return JSON.parse(readFileSync(join(ROOT, 'config.json'), 'utf8'));
@@ -19,46 +20,45 @@ export function requireToken() {
   return t.trim();
 }
 
-// Charge tous les items de queue/*.json (hors README). Retourne {id, path, item}.
-export function loadQueue() {
+// Charge tous les items de file/*.json (hors README). Retourne {slug, file, path, item}.
+export function loadFile() {
   let names;
   try {
-    names = readdirSync(QUEUE_DIR);
+    names = readdirSync(FILE_DIR);
   } catch {
     return [];
   }
   return names
     .filter((n) => n.endsWith('.json'))
     .map((n) => {
-      const path = join(QUEUE_DIR, n);
+      const path = join(FILE_DIR, n);
       const item = JSON.parse(readFileSync(path, 'utf8'));
-      return { id: item.id || n.replace(/\.json$/, ''), file: n, path, item };
+      return { slug: item.slug || n.replace(/\.json$/, ''), file: n, path, item };
     });
 }
 
-// Un item est « dû » s'il est programmé et que son heure est passée.
+// Un item est « dû » = statut `programmé` et post_at (ISO+offset) passé. (a_publier)
 export function isDue(item, now = new Date()) {
-  const status = item.status || 'scheduled';
-  if (status !== 'scheduled') return false;
-  if (!item.publish_at) return false;
-  const t = new Date(item.publish_at);
+  if (item.statut !== 'programmé') return false;
+  if (!item.post_at) return false;
+  const t = new Date(item.post_at);
   if (Number.isNaN(t.getTime())) return false;
   return t.getTime() <= now.getTime();
 }
 
-// Choisit le prochain item à poster : priorité d'abord, puis publish_at le plus ancien.
+// Prochain item à poster : priorité décroissante, puis post_at croissant (tri de a_publier).
 export function pickDue(entries, now = new Date()) {
   const due = entries.filter((e) => isDue(e.item, now));
   due.sort((a, b) => {
-    const pa = a.item.priority ? 1 : 0;
-    const pb = b.item.priority ? 1 : 0;
+    const pa = Number(a.item.priorite || 0);
+    const pb = Number(b.item.priorite || 0);
     if (pa !== pb) return pb - pa;
-    return new Date(a.item.publish_at) - new Date(b.item.publish_at);
+    return new Date(a.item.post_at) - new Date(b.item.post_at);
   });
   return due[0] || null;
 }
 
-// Appel Graph. `params` -> query string. POST par défaut si `method` non fourni pour /media*.
+// Appel Graph. `params` -> query string. POST par défaut, GET si method==='GET'.
 export async function graph(cfg, method, path, params, token) {
   const url = new URL(`${cfg.graph_host}/${cfg.graph_version}/${path}`);
   const body = new URLSearchParams();
@@ -98,7 +98,7 @@ export async function graph(cfg, method, path, params, token) {
 
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Redacte un token dans un log éventuel.
+// Redacte le token dans un log éventuel.
 export function redact(s) {
   const t = process.env.IG_ACCESS_TOKEN;
   if (!t) return s;

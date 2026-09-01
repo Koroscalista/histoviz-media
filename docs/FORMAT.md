@@ -1,71 +1,50 @@
 # Format de la file — « Bloc 1 »
 
-La file de publication est le dossier **`queue/`** du repo. **Un item = un fichier `<id>.json`.**
-C'est le seul contrat entre le producteur (SMM / Runner A) et le publisher (Runner B). Runner B
-**consomme** ce format, il ne le génère jamais.
+**Le contrat qui fait foi est `stathisto/pipeline/README.md`** (module déterministe
+`pipeline/etats.py`). Ce fichier n'en est qu'un rappel côté publisher : Runner B **consomme**
+ce format, il ne le définit pas et ne le génère pas.
 
-Le SMM écrit les items ; Runner B les lit, poste le plus ancien qui est dû, puis déplace le fichier
-dans `published/` en y ajoutant le résultat. L'historique git tient lieu de journal d'audit.
+La file est le dossier **`file/`** : **un item = un fichier `<slug>.json`** (jamais un pointeur
+global mutable — le slug est un argument, cf. l'abandon d'`out/data.js`). L'item porte l'état de
+bout en bout, de `idée` à `publié`.
 
-## Schéma d'un item
+## Ce que Runner B lit et écrit
 
-```json
-{
-  "id": "2026-09-05-age-we-die-uk",
-  "slug": "age-we-die-uk",
-  "format": "signature",
-  "pilier": "esperance-de-vie",
-  "media_type": "REELS",
-  "media_url": "https://github.com/Koroscalista/histoviz-media/releases/download/<tag>/<fichier>.mp4",
-  "caption": "Accroche…\n\nWatch…\n\n📊 …\n\nSource: Our World in Data\n\n🔔 …\n\n#history #data …",
-  "share_to_feed": true,
-  "publish_at": "2026-09-05T15:00:00Z",
-  "priority": false
-}
-```
+Runner B ne touche qu'à **un seul cran** : `programmé → publié`.
 
-### Champs
+- **Dû** (réplique de `a_publier`) : `statut === "programmé"` **et** `post_at` (ISO 8601 **avec
+  offset**) passé. Tri : `priorite` décroissant (ad hoc §8 d'abord), puis `post_at` croissant.
+  Au plus **un item publié par run**.
+- Après succès, il mute l'item **sur place** (comme `avancer_fichier`) : `statut → "publié"`,
+  remplit `publication{media_id, permalink, published_at}`, et pousse une entrée dans
+  `historique`. Le fichier ne bouge pas ; un item resté `programmé` n'a pas été posté.
 
-| Champ | Requis | Rôle |
-|---|---|---|
-| `id` | oui | Identifiant unique = **nom du fichier** (`<id>.json`). Convention `YYYY-MM-DD-slug`. |
-| `slug` | reco | Slug de la production (traçabilité vers le moteur). |
-| `format` | reco | `signature` ou `filler` (info éditoriale, non utilisée pour publier). |
-| `pilier` | reco | Pilier éditorial (audit / rotation). |
-| `media_type` | non | `REELS` par défaut. Seul type géré en v1. |
-| `media_url` | **oui** | URL **publique** du MP4 (asset d'un GitHub Release de `histoviz-media`). |
-| `caption` | **oui** | Légende Instagram complète, déjà rédigée par le SMM. |
-| `share_to_feed` | non | `true` par défaut (le Reel apparaît aussi au feed). `false` pour Reel seul. |
-| `publish_at` | **oui** | Date/heure de publication en **UTC ISO 8601** (`…Z`). Porte le créneau réel. |
-| `priority` | non | `true` = demande ad hoc, passe devant à cadence égale (§8 de l'archi). |
+## Champs consommés / écrits par Runner B
 
-### Fuseau horaire — important
+| Champ | Lu | Écrit | Rôle côté publisher |
+|---|---|---|---|
+| `slug` | ✓ | | Identité = nom du fichier `<slug>.json`. |
+| `statut` | ✓ | ✓ | `programmé` → publie ; passe à `publié`. |
+| `media.mp4_url` | ✓ | | URL publique du MP4 (asset GitHub Release). **Requis.** |
+| `caption` | ✓ | | Légende Instagram, rédigée par le SMM. **Requis.** |
+| `post_at` | ✓ | | Créneau, ISO 8601 **avec offset** (`+02:00`). Porte l'heure réelle. **Requis.** |
+| `priorite` | ✓ | | Nombre ; `>0` = ad hoc, passe en tête. |
+| `publication` | | ✓ | `{media_id, permalink, published_at}` posé après publication. |
+| `historique` | | ✓ | Entrée `{statut:"publié", at}` ajoutée. |
 
-`publish_at` est **toujours en UTC**. C'est au producteur (SMM) de convertir « 17h Paris » :
-- Été (CEST, UTC+2) → `15:00:00Z`
-- Hiver (CET, UTC+1) → `16:00:00Z`
+Les autres champs (`pilier` 1–5, `format`, `type`, `media.duree_s`) sont éditoriaux : Runner B
+ne s'en sert pas pour publier. Schéma complet et exemple : `stathisto/pipeline/README.md`.
 
-Runner B compare simplement `publish_at` à `now()` UTC. Le cron poll toutes les 15 min : un item
-programmé à 15:00Z part au premier run suivant, soit ~15:00–15:15Z. La dérive du cron GitHub
-(5–15 min) rend une livraison à la seconde illusoire — viser une **fenêtre**, pas un instant.
+## Fuseau horaire
 
-## Ce que Runner B écrit dans `published/<id>.json`
+`post_at` est en **ISO 8601 avec offset** (ex. `2026-09-05T18:00:00+02:00` = 18h Paris en été).
+C'est le SMM qui pose l'offset ; Runner B compare simplement à `now()`. Le cron GitHub poll toutes
+les 15 min → livraison dans la fenêtre `[post_at, post_at+~15 min]` (la dérive du cron rend une
+livraison à la seconde illusoire).
 
-Les champs d'origine, plus :
+## Où vit physiquement la file
 
-```json
-{
-  "status": "published",
-  "published_at": "2026-09-05T15:03:12Z",
-  "ig_media_id": "17912345678901234",
-  "ig_permalink": "https://www.instagram.com/reel/…"
-}
-```
-
-## Règles de consommation (Runner B)
-
-- **Dû** = `status` absent ou `"scheduled"` **et** `publish_at ≤ now`.
-- Ordre : `priority` d'abord, puis `publish_at` le plus ancien.
-- **Au plus un item publié par run** (sécurité + limite API 50/24 h jamais approchée).
-- Après succès : l'item quitte `queue/` pour `published/`. Un item resté dans `queue/` n'a pas
-  (encore) été posté.
+Runner B tourne dans `histoviz-media` (GitHub Actions) et lit **son propre** `file/`. Le SMM
+(Runner A, Mac/Cowork) écrit les items ici via `pipeline/etats.py` en passant ce dossier en
+argument (`etats.ecrire("<checkout>/file", item)`). Même format des deux côtés, lecture
+réimplémentée en JS côté publisher (aucune dépendance Python sur Actions).

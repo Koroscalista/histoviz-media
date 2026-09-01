@@ -1,11 +1,11 @@
 // Runner B — publication. À chaque réveil : « un post est-il dû ? »
-// Si oui : crée le conteneur Reel, attend la fin de l'encodage, publie, marque l'item publié.
-// Au plus UN item par run. Aucun raisonnement, aucun LLM. Voir docs/FORMAT.md pour la file.
-import { writeFileSync, mkdirSync, rmSync } from 'node:fs';
-import { join } from 'node:path';
+// Si oui : crée le conteneur Reel, attend la fin de l'encodage, publie, puis avance l'item
+// `programmé → publié` SUR PLACE (statut + publication{} + historique), comme avancer_fichier.
+// Au plus UN item par run. Aucun raisonnement, aucun LLM.
+// Format de file = Bloc 1 : stathisto/pipeline/README.md fait foi.
+import { writeFileSync } from 'node:fs';
 import {
-  loadConfig, requireToken, loadQueue, pickDue, graph, sleep, redact,
-  PUBLISHED_DIR,
+  loadConfig, requireToken, loadFile, pickDue, graph, sleep, redact,
 } from './lib.mjs';
 
 const DRY = process.argv.includes('--dry-run');
@@ -27,17 +27,18 @@ async function waitContainer(cfg, creationId, token) {
 
 async function publishItem(cfg, entry, token) {
   const { item } = entry;
-  log(`→ Publication: ${entry.id} (${item.format || '?'}) @ ${item.publish_at}`);
-  log(`  média: ${item.media_url}`);
+  const mp4 = item.media?.mp4_url;
+  if (!mp4) throw new Error(`Item ${entry.slug}: media.mp4_url manquant.`);
 
+  log(`→ Publication: ${entry.slug} (${item.format || '?'}/${item.type || '-'}) @ ${item.post_at}`);
+  log(`  média: ${mp4}`);
   if (DRY) { log('  [dry-run] aucun appel API.'); return { dry: true }; }
 
-  // 1. Conteneur
+  // 1. Conteneur Reel
   const create = await graph(cfg, 'POST', `${cfg.ig_user_id}/media`, {
-    media_type: item.media_type || 'REELS',
-    video_url: item.media_url,
+    media_type: 'REELS',
+    video_url: mp4,
     caption: item.caption,
-    share_to_feed: item.share_to_feed === false ? undefined : true,
   }, token);
   const creationId = create.id;
   log(`  conteneur créé: ${creationId}`);
@@ -60,31 +61,32 @@ async function publishItem(cfg, entry, token) {
     permalink = meta.permalink || null;
   } catch (e) { log(`  (permalink non récupéré: ${e.message})`); }
 
-  return { ig_media_id: mediaId, ig_permalink: permalink };
+  return { media_id: mediaId, permalink };
 }
 
-// Déplace l'item de queue/ vers published/ avec le résultat.
-function archive(entry, result) {
-  const out = {
-    ...entry.item,
-    status: 'published',
-    published_at: new Date().toISOString(),
-    ig_media_id: result.ig_media_id || null,
-    ig_permalink: result.ig_permalink || null,
+// Avance l'item programmé → publié SUR PLACE, comme etats.avancer_fichier.
+function marquerPublie(entry, result) {
+  const now = new Date().toISOString();
+  const it = entry.item;
+  it.statut = 'publié';
+  it.publication = {
+    media_id: result.media_id || null,
+    permalink: result.permalink || null,
+    published_at: now,
   };
-  mkdirSync(PUBLISHED_DIR, { recursive: true });
-  writeFileSync(join(PUBLISHED_DIR, `${entry.file}`), JSON.stringify(out, null, 2) + '\n');
-  rmSync(entry.path);
+  it.historique = Array.isArray(it.historique) ? it.historique : [];
+  it.historique.push({ statut: 'publié', at: now });
+  writeFileSync(entry.path, JSON.stringify(it, null, 2) + '\n');
 }
 
 async function main() {
   const cfg = loadConfig();
   const now = new Date();
-  const entries = loadQueue();
+  const entries = loadFile();
   const entry = pickDue(entries, now);
 
   if (!entry) {
-    log(`Rien à publier (${entries.length} item(s) en file, aucun dû à ${now.toISOString()}).`);
+    log(`Rien à publier (${entries.length} item(s) en file, aucun programmé/dû à ${now.toISOString()}).`);
     return;
   }
 
@@ -92,9 +94,9 @@ async function main() {
   const result = await publishItem(cfg, entry, token);
 
   if (DRY) return;
-  archive(entry, result);
-  log(`✓ Item archivé dans published/${entry.file}`);
-  if (result.ig_permalink) log(`  ${result.ig_permalink}`);
+  marquerPublie(entry, result);
+  log(`✓ ${entry.slug} → publié (file/${entry.file})`);
+  if (result.permalink) log(`  ${result.permalink}`);
 }
 
 main().catch((e) => {
