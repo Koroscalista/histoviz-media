@@ -1,0 +1,15 @@
+{
+  "name": "histoviz-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HistoViz — Runner B (publication Instagram always-on). Consomme une file d'items prêts et poste des Reels via l'API Instagram Graph. Zéro dépendance.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "publish": "node src/publish.mjs",
+    "publish:dry": "node src/publish.mjs --dry-run",
+    "refresh-token": "node src/refresh-token.mjs"
+  }
+}

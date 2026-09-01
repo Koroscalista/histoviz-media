@@ -1,0 +1,27 @@
+name: refresh-token
+
+# Renouvelle le token longue durée Instagram (60 j) bien avant l'expiration.
+# Hebdomadaire = large marge : chaque refresh remet le compteur à ~60 j.
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # tous les lundis 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rafraîchir le token et réécrire le secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          # PAT fine-grained (Secrets: read/write sur ce repo), consommé par `gh secret set`.
+          GH_TOKEN: ${{ secrets.GH_PAT_SECRETS }}
+        run: node src/refresh-token.mjs

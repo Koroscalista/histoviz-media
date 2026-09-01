@@ -1,0 +1,48 @@
+name: publish
+
+# Runner B — publication always-on. Poll toutes les 15 min : publie le 1er item dû, au plus un.
+# Le créneau réel est porté par `publish_at` (UTC) dans chaque item de queue/.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Ne rien publier, juste montrer ce qui serait posté'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Jamais deux publications en parallèle ; on ne coupe pas un run en cours.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Publier l'item dû
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node src/publish.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commiter le résultat
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "histoviz-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add -A
+            git commit -m "publish: $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "Rien à commiter."
+          fi

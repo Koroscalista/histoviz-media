@@ -1,0 +1,9 @@
+{
+  "ig_user_id": "17841427154321142",
+  "graph_host": "https://graph.instagram.com",
+  "graph_version": "v21.0",
+  "container_poll": {
+    "interval_seconds": 8,
+    "timeout_seconds": 360
+  }
+}
