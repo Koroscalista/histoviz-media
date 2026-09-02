@@ -37,9 +37,12 @@ export function loadFile() {
     });
 }
 
-// Un item est « dû » = statut `programmé` et post_at (ISO+offset) passé. (a_publier)
+// Un item est « dû » = statut `programmé`, non bloqué/abandonné, et post_at (ISO+offset)
+// passé. Miroir exact de `a_publier` / `est_actif` côté Python (pipeline/etats.py) : un hold
+// ou un kill posé par Alexis dans Notion doit empêcher la publication ici aussi.
 export function isDue(item, now = new Date()) {
   if (item.statut !== 'programmé') return false;
+  if (item.bloque || item.abandonne) return false;
   if (!item.post_at) return false;
   const t = new Date(item.post_at);
   if (Number.isNaN(t.getTime())) return false;
