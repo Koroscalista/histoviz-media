@@ -1,22 +1,45 @@
 {
   "slug": "hydropower-giants",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/hydropower-giants/hydropower-giants.mp4",
-    "duree_s": 42.0
+    "duree_s": 42
   },
   "caption": "China now produces more hydroelectricity than the next four countries combined.\n\nWatch the race for hydropower unfold from 1965 to 2025, as China surges past Brazil, Canada, the United States and Russia to take the lead.\n\n📊 See the world's hydroelectricity generation (TWh) climb from 923 TWh in 1965 to 4,435 TWh in 2025 in this animated ranking. Explore how China rose to the top after commissioning its mega-dams — Three Gorges (2003–2012) and Baihetan (2021) — while Brazil's Itaipu (1984) and the vast reservoirs of Canada, the United States and Russia shaped decades of the standings.\n\nSource: Our World in Data (Energy Institute / Ember), CC BY.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #hydropower #hydroelectricity #renewableenergy #energy #china #threegorges #cleanenergy #datavisualization",
   "post_at": "2026-09-02T00:09:40+02:00",
   "priorite": 0,
-  "publication": null,
+  "publication": {
+    "media_id": "18580758112071438",
+    "permalink": "https://www.instagram.com/reel/Dcx3I6DEWy2/",
+    "published_at": "2026-09-02T08:58:49.734Z"
+  },
   "historique": [
-    {"statut": "idée", "at": "2026-09-02T00:10:40+02:00"},
-    {"statut": "prêt", "at": "2026-09-02T00:10:40+02:00"},
-    {"statut": "produit", "at": "2026-09-02T00:10:40+02:00"},
-    {"statut": "prêt à publier", "at": "2026-09-02T00:10:40+02:00"},
-    {"statut": "programmé", "at": "2026-09-02T00:10:40+02:00"}
+    {
+      "statut": "idée",
+      "at": "2026-09-02T00:10:40+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-02T00:10:40+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-02T00:10:40+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-02T00:10:40+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-02T00:10:40+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-02T08:58:49.734Z"
+    }
   ]
 }
