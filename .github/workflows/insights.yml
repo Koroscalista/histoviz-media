@@ -1,0 +1,60 @@
+# insights.yml — pull hebdomadaire des insights IG → stats.json dans stathisto
+#
+# Vit côté histoviz-media (là où le secret IG_ACCESS_TOKEN existe, comme publish.yml).
+# Checkoute stathisto pour lire la file et lancer tools/perf_pull.py, puis recommite
+# stats.json + history.jsonl dans stathisto.
+#
+# Frontière de sécurité : le token ne quitte jamais Actions — passé en env au seul step
+# du pull, jamais loggé, jamais écrit.
+#
+# Secrets attendus (posés côté histoviz-media) :
+#   - IG_ACCESS_TOKEN : token IG longue durée (permission instagram_manage_insights)
+#   - GH_PAT_SECRETS  : PAT avec write sur Koroscalista/StatHisto (write-back stats.json)
+
+name: insights-hebdo
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # tous les lundis 06:00 UTC — avant le bilan local
+  workflow_dispatch:              # déclenchable à la main pour tester
+
+permissions:
+  contents: read                  # l'écriture sur stathisto passe par le PAT, pas par GITHUB_TOKEN
+
+concurrency:
+  group: insights-hebdo
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout stathisto (la file + le script vivent là)
+        uses: actions/checkout@v4
+        with:
+          repository: Koroscalista/StatHisto
+          token: ${{ secrets.GH_PAT_SECRETS }}
+          path: stathisto
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull des insights (déterministe, stdlib — le token reste dans ce step)
+        working-directory: stathisto
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 tools/perf_pull.py
+
+      - name: Write-back stats.json + history.jsonl dans stathisto
+        working-directory: stathisto
+        run: |
+          git config user.name  "histoviz-insights-bot"
+          git config user.email "insights@users.noreply.github.com"
+          if git diff --quiet -- pipeline/perf; then
+            echo "Aucun changement d'insights — rien à committer."
+            exit 0
+          fi
+          git add pipeline/perf/stats.json pipeline/perf/history.jsonl
+          git commit -m "perf: pull insights $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
