@@ -1,0 +1,29 @@
+{
+  "slug": "countries-uk-invaded",
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "atlas",
+  "type": "atlas",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/countries-uk-invaded/countries-uk-invaded.mp4",
+    "duree_s": 45
+  },
+  "caption": "All Countries Invaded by Britain 🇬🇧\n\nHistorians count 171 — nine of every ten nations on Earth. Here are 94 present-day countries where British troops actually set foot: colonies, invasions, and raids across every continent. From Canada to Australia, Iceland to Argentina, India to Egypt.\n\nSo… did Britain invade your country too? 👇\n\nSources: S. Laycock, \"All the Countries We've Ever Invaded\"; Wikipedia — wars involving the United Kingdom. Present-day borders.\n\n#history #britishempire #geography #map #uk #colonialism #histoire",
+  "post_at": "2026-09-03T17:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T16:55:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T16:55:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T16:55:00+02:00"
+    }
+  ]
+}
