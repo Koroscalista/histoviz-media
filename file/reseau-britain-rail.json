@@ -1,0 +1,28 @@
+{
+  "slug": "reseau-britain-rail",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-britain-rail/reseau-britain-rail.mp4"
+  },
+  "caption": "The real British rail network, opening and closure dates from OpenHistoricalMap (uneven quality). The post-1960 contraction is the Beeching cuts. Land: Natural Earth.",
+  "post_at": "2026-10-02T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

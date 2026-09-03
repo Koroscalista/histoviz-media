@@ -1,0 +1,28 @@
+{
+  "slug": "most-visited-countries",
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/most-visited-countries/most-visited-countries.mp4"
+  },
+  "caption": "International tourist arrivals by country, 1995-2020, in millions. Source: World Bank Open Data, from UN Tourism (CC BY 4.0).",
+  "post_at": "2026-10-14T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

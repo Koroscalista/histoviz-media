@@ -1,0 +1,28 @@
+{
+  "slug": "most-populated-countries",
+  "statut": "programmé",
+  "pilier": 1,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/most-populated-countries/most-populated-countries.mp4"
+  },
+  "caption": "Population by country, 1800-2025, in millions. Modern era (1960-2025): World Bank SP.POP.TOTL. Deep history (before 1960): Gapminder Systema Globalis, chain-linked to the World Bank at 1960 so the junction has no jump. Both CC BY 4.0. Figures before ~1950 are scholarly reconstructions. In 2023 India overtakes China as the world's most populous country.",
+  "post_at": "2026-10-20T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

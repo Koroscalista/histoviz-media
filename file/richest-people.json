@@ -1,0 +1,28 @@
+{
+  "slug": "richest-people",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/richest-people/richest-people.mp4"
+  },
+  "caption": "Net worth of the world's richest people, 1990-2026, in billion USD (nominal, not inflation-adjusted). Assembled from the annual Wikipedia lists of Forbes billionaires. Source: Wikipedia, from Forbes (CC BY-SA).",
+  "post_at": "2026-10-24T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

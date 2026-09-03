@@ -1,0 +1,28 @@
+{
+  "slug": "extreme-poverty",
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/extreme-poverty/extreme-poverty.mp4"
+  },
+  "caption": "People living in extreme poverty (below $2.15 a day) by country, 1990-2011, in millions. The window stops at 2011: after it, India (no survey until 2021) and China drop out of the data, which would misleadingly suggest poverty had ended. Computed as poverty rate (%) x population; between-survey years are interpolated. Source: World Bank PIP, via Open Data (CC BY 4.0).",
+  "post_at": "2026-09-26T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

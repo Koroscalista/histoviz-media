@@ -1,0 +1,28 @@
+{
+  "slug": "best-selling-video-games",
+  "statut": "programmé",
+  "pilier": 5,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/best-selling-video-games/best-selling-video-games.mp4"
+  },
+  "caption": "Cumulative sales of the best-selling video game franchises, 1984-2025, in millions. Sales are estimated and spread over time by a saturation curve, so figures are reconstructions, not annual measurements. Source: Wikipedia (CC BY-SA).",
+  "post_at": "2026-10-18T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

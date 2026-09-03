@@ -1,0 +1,28 @@
+{
+  "slug": "gdp-per-capita",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/gdp-per-capita/gdp-per-capita.mp4"
+  },
+  "caption": "GDP per capita 1900-2022, in 2011 international dollars (thousands), from the Maddison Project Database 2023 (Bolt & van Zanden, GGDC, CC BY 4.0). Scholarly reconstruction. Historical aggregates excluded.",
+  "post_at": "2026-09-16T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

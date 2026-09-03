@@ -1,0 +1,28 @@
+{
+  "slug": "most-played-steam-games",
+  "statut": "programmé",
+  "pilier": 5,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/most-played-steam-games/most-played-steam-games.mp4"
+  },
+  "caption": "Peak concurrent players per quarter on Steam, 2012-2026. Quarterly peak = the highest simultaneous player count reached in the quarter. PC / Steam only. Source: steamcharts.com, from Steam data.",
+  "post_at": "2026-11-03T18:00:00+01:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}

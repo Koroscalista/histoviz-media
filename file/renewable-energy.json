@@ -1,0 +1,28 @@
+{
+  "slug": "renewable-energy",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/renewable-energy/renewable-energy.mp4"
+  },
+  "caption": "Renewable energy consumption by country, 1965-2024, in terawatt-hours (input-equivalent). Includes hydro, wind, solar and other renewables. Source: Energy Institute & Ember, via Our World in Data (CC BY).",
+  "post_at": "2026-09-28T18:00:00+02:00",
+  "priorite": 0,
+  "publication": {},
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-03T17:10:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-03T17:10:00+02:00"
+    }
+  ]
+}
