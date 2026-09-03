@@ -10,20 +10,20 @@
   "caption": "Number of listed domestic companies by country, 1975-2025. Source: World Bank Open Data, from the World Federation of Exchanges (CC BY 4.0).",
   "post_at": "2026-09-16T18:00:00+02:00",
   "priorite": 0,
+  "notion_id": 34,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     }
-  ],
-  "notion_id": 34
+  ]
 }

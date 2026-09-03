@@ -10,20 +10,20 @@
   "caption": "Registered Syrian refugees by country of asylum, 2011-2023. Source: UNHCR Refugee Data Finder. Routes to Europe follow a schematic reconstruction of the documented Eastern-Mediterranean/Balkan corridor, not GPS traces.",
   "post_at": "2026-09-10T18:00:00+02:00",
   "priorite": 0,
+  "notion_id": 148,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     }
-  ],
-  "notion_id": 148
+  ]
 }

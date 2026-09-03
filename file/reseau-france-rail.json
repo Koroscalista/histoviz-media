@@ -10,20 +10,20 @@
   "caption": "The real French rail network, opening and closure dates from OpenHistoricalMap (uneven quality). Land: Natural Earth.",
   "post_at": "2026-10-04T18:00:00+02:00",
   "priorite": 0,
+  "notion_id": 118,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     }
-  ],
-  "notion_id": 118
+  ]
 }

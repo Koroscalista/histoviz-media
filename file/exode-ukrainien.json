@@ -10,20 +10,20 @@
   "caption": "Registered Ukrainian refugees by country of asylum, 2014-2023. Source: UNHCR Refugee Data Finder.",
   "post_at": "2026-09-14T18:00:00+02:00",
   "priorite": 0,
+  "notion_id": 149,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     }
-  ],
-  "notion_id": 149
+  ]
 }

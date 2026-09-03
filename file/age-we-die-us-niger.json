@@ -10,20 +10,20 @@
   "caption": "Distribution of age at death (life-table dx, both sexes, radix 100,000), United States vs Niger, 1950-2023. Source: UN World Population Prospects 2024.",
   "post_at": "2026-09-06T18:00:00+02:00",
   "priorite": 0,
+  "notion_id": 147,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:30:00+02:00"
+      "at": "2026-09-03T17:45:00+02:00"
     }
-  ],
-  "notion_id": 147
+  ]
 }
