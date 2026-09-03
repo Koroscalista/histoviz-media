@@ -8,21 +8,21 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/exode-syrien/exode-syrien.mp4"
   },
   "caption": "Registered Syrian refugees by country of asylum, 2011-2023. Source: UNHCR Refugee Data Finder. Routes to Europe follow a schematic reconstruction of the documented Eastern-Mediterranean/Balkan corridor, not GPS traces.",
-  "post_at": "2026-09-18T18:00:00+02:00",
+  "post_at": "2026-09-16T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     }
   ]
 }

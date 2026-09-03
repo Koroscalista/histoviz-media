@@ -8,21 +8,21 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/highest-paid-athletes/highest-paid-athletes.mp4"
   },
   "caption": "Annual earnings of the world's highest-paid athletes, 2012-2026, in million USD (nominal). Assembled from the annual Wikipedia lists of the Forbes ranking. Source: Wikipedia, from Forbes (CC BY-SA).",
-  "post_at": "2026-10-26T18:00:00+01:00",
+  "post_at": "2026-10-24T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     }
   ]
 }

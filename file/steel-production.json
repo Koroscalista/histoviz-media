@@ -8,21 +8,21 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/steel-production/steel-production.mp4"
   },
   "caption": "Iron and steel production by country, 1870-2022, in million tonnes. Source: Correlates of War, National Material Capabilities v7.0 (irst). Russia shown as USSR from 1922 to 1991.",
-  "post_at": "2026-11-01T18:00:00+01:00",
+  "post_at": "2026-10-30T18:00:00+01:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     }
   ]
 }

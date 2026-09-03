@@ -8,21 +8,21 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/coal-power/coal-power.mp4"
   },
   "caption": "Coal consumption by country, 1965-2024, in terawatt-hours. Source: Energy Institute Statistical Review of World Energy, via Our World in Data (CC BY).",
-  "post_at": "2026-09-12T18:00:00+02:00",
+  "post_at": "2026-09-10T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     }
   ]
 }

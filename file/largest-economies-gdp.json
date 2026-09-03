@@ -8,21 +8,21 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/largest-economies-gdp/largest-economies-gdp.mp4"
   },
   "caption": "Real GDP by country, 1950-2018, in constant international dollars (PPP). Regional aggregates are excluded to keep a country-to-country ranking. Source: Maddison Project Database 2020 (Bolt & van Zanden), via Our World in Data.",
-  "post_at": "2026-09-20T18:00:00+02:00",
+  "post_at": "2026-09-18T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:10:00+02:00"
+      "at": "2026-09-03T17:20:00+02:00"
     }
   ]
 }
