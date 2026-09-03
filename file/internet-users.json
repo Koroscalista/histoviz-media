@@ -8,21 +8,22 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/internet-users/internet-users.mp4"
   },
   "caption": "Number of internet users by country, 1990-2025, in millions. Computed as internet-user share (%) x population. Source: World Bank Open Data, from the ITU (CC BY 4.0).",
-  "post_at": "2026-09-28T18:00:00+02:00",
+  "post_at": "2026-09-22T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     }
-  ]
+  ],
+  "notion_id": 32
 }

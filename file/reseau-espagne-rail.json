@@ -8,21 +8,22 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-espagne-rail/reseau-espagne-rail.mp4"
   },
   "caption": "The real Spanish rail network, opening and closure dates by line section (reference academic dataset). Land: Natural Earth.",
-  "post_at": "2026-10-06T18:00:00+02:00",
+  "post_at": "2026-09-28T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     }
-  ]
+  ],
+  "notion_id": 122
 }

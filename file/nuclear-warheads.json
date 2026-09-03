@@ -8,21 +8,22 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nuclear-warheads/nuclear-warheads.mp4"
   },
   "caption": "Nuclear warhead stockpiles by country, 1945-2026. Source: Federation of American Scientists, Nuclear Notebook, via Our World in Data (CC BY).",
-  "post_at": "2026-10-26T18:00:00+01:00",
+  "post_at": "2026-10-16T18:00:00+02:00",
   "priorite": 0,
   "publication": {},
   "historique": [
     {
       "statut": "produit",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "prêt à publier",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     },
     {
       "statut": "programmé",
-      "at": "2026-09-03T17:20:00+02:00"
+      "at": "2026-09-03T17:30:00+02:00"
     }
-  ]
+  ],
+  "notion_id": 35
 }
