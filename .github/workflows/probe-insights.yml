@@ -1,0 +1,87 @@
+# probe-insights.yml — sonde jetable : le token peut-il lire les insights ?
+#
+# Ne dépend NI du PAT NI de stathisto : elle ne fait qu'interroger l'API avec
+# IG_ACCESS_TOKEN pour répondre à deux questions qu'on ne peut pas trancher en local
+# (frontière de sécurité §6 : le token ne sort jamais d'Actions) —
+#   1. l'hôte graph.instagram.com accepte-t-il ce token ?
+#   2. la permission insights est-elle bien sur le token ?
+# Elle n'écrit rien, ne commite rien, et n'affiche jamais le token.
+#
+# À SUPPRIMER une fois insights.yml vert de bout en bout.
+
+name: probe-insights
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sonder /me/media puis /insights sur le post le plus récent
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request, urllib.error
+
+          TOKEN = os.environ["IG_ACCESS_TOKEN"]
+          METRIQUES = ["reach", "views", "likes", "comments", "saved", "shares",
+                       "total_interactions", "ig_reels_avg_watch_time",
+                       "ig_reels_video_view_total_time"]
+
+          def get(url):
+              # renvoie (ok, payload) — jamais l'URL, qui porte le token
+              try:
+                  with urllib.request.urlopen(url, timeout=30) as r:
+                      return True, json.loads(r.read().decode())
+              except urllib.error.HTTPError as e:
+                  return False, e.read().decode("utf-8", "replace")
+
+          for host in ("https://graph.instagram.com", "https://graph.facebook.com"):
+              q = urllib.parse.urlencode(
+                  {"fields": "id,media_product_type,timestamp", "limit": 100,
+                   "access_token": TOKEN})
+              ok, data = get(f"{host}/v21.0/me/media?{q}")
+              if not ok:
+                  print(f"[{host}] /me/media REFUSE -> {data[:400]}")
+                  continue
+              medias = data.get("data") or []
+              pages = 1
+              nxt = (data.get("paging") or {}).get("next")
+              while nxt and pages < 50:
+                  ok2, d2 = get(nxt)
+                  if not ok2:
+                      break
+                  medias.extend(d2.get("data") or [])
+                  nxt = (d2.get("paging") or {}).get("next")
+                  pages += 1
+              print(f"[{host}] /me/media OK -> {len(medias)} media, {pages} page(s)")
+              if not medias:
+                  continue
+              mid = medias[0]["id"]
+              print(f"[{host}] plus recent : {medias[0].get('media_product_type')} "
+                    f"{medias[0].get('timestamp')}")
+              cand = list(METRIQUES)
+              while cand:
+                  q = urllib.parse.urlencode({"metric": ",".join(cand), "access_token": TOKEN})
+                  ok3, d3 = get(f"{host}/v21.0/{mid}/insights?{q}")
+                  if ok3:
+                      vals = {e["name"]: (e.get("values") or [{}])[0].get("value")
+                              for e in d3.get("data", [])}
+                      print(f"[{host}] /insights OK -> {json.dumps(vals)}")
+                      break
+                  fautive = next((m for m in cand if m in d3), None)
+                  if not fautive:
+                      print(f"[{host}] /insights REFUSE -> {d3[:400]}")
+                      break
+                  print(f"[{host}] metrique refusee, on retire : {fautive}")
+                  cand.remove(fautive)
+          PY
