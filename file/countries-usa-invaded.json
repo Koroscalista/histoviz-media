@@ -1,6 +1,6 @@
 {
   "slug": "countries-usa-invaded",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "atlas",
   "type": "atlas",
@@ -11,7 +11,11 @@
   "caption": "All Countries Invaded by America 🇺🇸\n\nSo much for isolationism. 53 present-day countries where U.S. forces landed, occupied, struck, or backed a coup — from half of Mexico to Vietnam. Including Operation Condor across South America, and the 2026 strikes on Venezuela.\n\nDid America come to yours? 👇\n\nSources: Wikipedia — wars involving the U.S.; CRS — Instances of Use of U.S. Armed Forces Abroad; Operation Condor. Present-day borders.\n\n#history #usa #geography #map #military #operationcondor #histoire",
   "post_at": "2026-09-04T18:00:00+02:00",
   "priorite": 0,
-  "publication": {},
+  "publication": {
+    "media_id": "18194922217389752",
+    "permalink": "https://www.instagram.com/reel/Dc3x38cjJIU/",
+    "published_at": "2026-09-04T16:08:57.938Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T16:55:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-04T16:08:57.938Z"
     }
   ]
 }
