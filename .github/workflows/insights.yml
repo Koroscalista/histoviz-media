@@ -64,10 +64,13 @@ jobs:
         run: |
           git config user.name  "histoviz-insights-bot"
           git config user.email "insights@users.noreply.github.com"
-          if git diff --quiet -- pipeline/perf; then
+          # On stage AVANT de comparer : `git diff` seul ignore les fichiers non suivis,
+          # or au tout premier run stats.json et history.jsonl sont nouveaux. Le job
+          # passait alors au vert en annonçant « rien à committer » — indéfiniment.
+          git add pipeline/perf/stats.json pipeline/perf/history.jsonl
+          if git diff --cached --quiet -- pipeline/perf; then
             echo "Aucun changement d'insights — rien à committer."
             exit 0
           fi
-          git add pipeline/perf/stats.json pipeline/perf/history.jsonl
           git commit -m "perf: pull insights $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
