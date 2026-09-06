@@ -1,6 +1,6 @@
 {
   "slug": "biggest-car-manufacturers",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-06T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 30,
-  "publication": {},
+  "publication": {
+    "media_id": "18332242585277989",
+    "permalink": "https://www.instagram.com/reel/Dc80lZkDLvb/",
+    "published_at": "2026-09-06T15:08:12.674Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-06T15:08:12.674Z"
     }
   ]
 }
