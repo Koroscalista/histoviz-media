@@ -1,6 +1,6 @@
 {
   "slug": "exode-syrien",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-07T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 148,
-  "publication": {},
+  "publication": {
+    "media_id": "18135988009538481",
+    "permalink": "https://www.instagram.com/reel/Dc_ZYXRjYOg/",
+    "published_at": "2026-09-07T15:08:11.038Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-07T15:08:11.038Z"
     }
   ]
 }
