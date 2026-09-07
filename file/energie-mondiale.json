@@ -1,0 +1,32 @@
+{
+  "slug": "energie-mondiale",
+  "notion_id": 155,
+  "statut": "produit",
+  "pilier": 4,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": null,
+    "duree_s": 50.0
+  },
+  "caption": null,
+  "post_at": null,
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-07T09:56:12+00:00"
+    }
+  ]
+}
