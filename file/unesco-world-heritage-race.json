@@ -1,13 +1,13 @@
 {
   "slug": "unesco-world-heritage-race",
   "notion_id": 99,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 5,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/unesco-world-heritage-race/unesco-world-heritage-race.mp4",
+    "duree_s": 57.566667
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T16:48:25+00:00"
     }
   ]
 }

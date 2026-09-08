@@ -1,13 +1,13 @@
 {
   "slug": "nobel-prizes-by-country",
   "notion_id": 94,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nobel-prizes-by-country/nobel-prizes-by-country.mp4",
+    "duree_s": 75.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T16:25:03+00:00"
     }
   ]
 }

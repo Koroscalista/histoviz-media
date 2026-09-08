@@ -1,13 +1,13 @@
 {
   "slug": "africa-most-populated",
   "notion_id": 125,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/africa-most-populated/africa-most-populated.mp4",
+    "duree_s": 75.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T15:44:18+00:00"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "slug": "child-mortality-by-country",
   "notion_id": 77,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/child-mortality-by-country/child-mortality-by-country.mp4",
+    "duree_s": 75.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T15:59:48+00:00"
     }
   ]
 }

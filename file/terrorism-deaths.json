@@ -1,13 +1,13 @@
 {
   "slug": "terrorism-deaths",
   "notion_id": 68,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 2,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/terrorism-deaths/terrorism-deaths.mp4",
+    "duree_s": 35.666667
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T16:44:29+00:00"
     }
   ]
 }
