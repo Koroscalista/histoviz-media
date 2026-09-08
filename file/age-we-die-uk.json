@@ -1,13 +1,13 @@
 {
   "slug": "age-we-die-uk",
   "notion_id": 151,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-uk/age-we-die-uk.mp4",
+    "duree_s": 43.8
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T14:40:52+00:00"
     }
   ]
 }
