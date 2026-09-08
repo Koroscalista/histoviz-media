@@ -5,18 +5,22 @@
 # que Runner B lit. Sans intégration automatique, chaque run finit par « quelqu'un doit merger
 # à la main » — et le pipe ne tourne plus tout seul (constaté les 06 et 07/09/2026).
 #
-# Ce workflow, lui, s'exécute dans le dépôt avec les droits du dépôt. Il n'a pas besoin du PAT :
-# le GITHUB_TOKEN de l'exécution suffit à pousser sur `main` de son propre dépôt.
+# Ce workflow s'exécute dans le dépôt avec les droits du dépôt : le GITHUB_TOKEN de l'exécution
+# suffit à pousser sur `main`, aucun PAT nécessaire.
 #
 # Il est délibérément étroit : il n'intègre QUE des fichiers de la file. Une branche `claude/*`
 # qui touche autre chose est refusée, jamais mergée en silence — c'est ce qui empêche une
 # session compromise ou distraite de pousser du code sur `main` par ce chemin.
+#
+# Toute la logique non triviale vit dans `.github/scripts/` : du Python multi-ligne inséré
+# directement dans un bloc `run:` casse le fichier de workflow, et un script se teste en local.
 
 name: auto-merge-file
 
 on:
   push:
-    branches: ['claude/**']
+    branches:
+      - 'claude/**'
   workflow_dispatch:
     inputs:
       branche:
@@ -27,7 +31,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: auto-merge-file          # jamais deux merges concurrents sur main
+  group: auto-merge-file
   cancel-in-progress: false
 
 jobs:
@@ -41,8 +45,11 @@ jobs:
 
       - name: Identifier la branche à intégrer
         id: br
+        env:
+          ENTREE: ${{ github.event.inputs.branche }}
+          REF: ${{ github.ref_name }}
         run: |
-          BR="${{ github.event.inputs.branche || github.ref_name }}"
+          BR="${ENTREE:-$REF}"
           case "$BR" in
             claude/*) ;;
             *) echo "REFUS : « $BR » n'est pas une branche claude/*"; exit 1 ;;
@@ -50,9 +57,10 @@ jobs:
           git fetch origin "$BR:refs/remotes/origin/$BR"
           echo "nom=$BR" >> "$GITHUB_OUTPUT"
 
-      - name: Garde-fou 1 — rien hors de la file
+      - name: Garde-fou 1 - rien hors de la file
+        env:
+          BR: ${{ steps.br.outputs.nom }}
         run: |
-          BR="${{ steps.br.outputs.nom }}"
           HORS=$(git diff --name-only "origin/main...origin/$BR" -- ':!file')
           if [ -n "$HORS" ]; then
             echo "REFUS : cette branche touche des fichiers hors file/ :"
@@ -60,23 +68,26 @@ jobs:
             echo "Un changement de code s'intègre par une PR relue, pas par ce chemin."
             exit 1
           fi
+          echo "OK : seuls des fichiers de file/ ont changé."
 
-      - name: Garde-fou 2 — chaque item est un JSON lisible et porte un slug
+      - name: Garde-fou 2 - chaque item est un item de file valide
+        env:
+          BR: ${{ steps.br.outputs.nom }}
         run: |
-          BR="${{ steps.br.outputs.nom }}"
+          mkdir -p /tmp/items
+          LISTE=""
           for f in $(git diff --name-only --diff-filter=d "origin/main...origin/$BR" -- file); do
             case "$f" in *.json) ;; *) continue ;; esac
-            git show "origin/$BR:$f" | python3 -c "
-import json,sys
-d = json.load(sys.stdin)
-assert d.get('slug'), 'slug manquant'
-assert d.get('statut'), 'statut manquant'
-" || { echo "REFUS : $f n'est pas un item de file valide"; exit 1; }
+            git show "origin/$BR:$f" > "/tmp/items/$(basename "$f")"
+            LISTE="$LISTE /tmp/items/$(basename "$f")"
           done
+          if [ -z "$LISTE" ]; then echo "Aucun item ajouté ou modifié."; exit 0; fi
+          python3 .github/scripts/valider_items.py $LISTE
 
       - name: Merger et pousser
+        env:
+          BR: ${{ steps.br.outputs.nom }}
         run: |
-          BR="${{ steps.br.outputs.nom }}"
           if git merge-base --is-ancestor "origin/$BR" origin/main; then
             echo "Déjà intégrée, rien à faire."
             exit 0
@@ -89,5 +100,7 @@ assert d.get('statut'), 'statut manquant'
 
       - name: Retirer la branche intégrée
         if: success()
-        continue-on-error: true       # la branche a pu être supprimée entre-temps
-        run: git push origin --delete "${{ steps.br.outputs.nom }}"
+        continue-on-error: true
+        env:
+          BR: ${{ steps.br.outputs.nom }}
+        run: git push origin --delete "$BR"
