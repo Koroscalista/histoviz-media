@@ -94,7 +94,14 @@ jobs:
               echo "bundle absent — item laissé en prêt"; echo "::endgroup::"; continue
             fi
             typ=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('type') or '')" "$bundle")
-            python3 filler/build.py "$bundle" || { echo "build KO"; echo "::endgroup::"; continue; }
+            # Les gros CSV sources ne sont pas versionnés (choix documenté du .gitignore) : dans
+            # un dépôt fraîchement cloné, `build.py` échoue faute de CSV alors que `data.json`,
+            # lui, est là. Il suffit alors de régénérer `data.js`, simple enveloppe du data.json.
+            if ! python3 filler/build.py "$bundle"; then
+              echo "build impossible (source absente ?) — repli sur le data.json versionné"
+              python3 tools/data_js.py "$slug" \
+                || { echo "ni build ni data.json — item laissé en prêt"; echo "::endgroup::"; continue; }
+            fi
             python3 tools/rendre.py "filler/templates/$typ/chart.html" \
                     --slug "$slug" --video --out "$slug.mp4" \
               || { echo "rendu KO"; echo "::endgroup::"; continue; }
