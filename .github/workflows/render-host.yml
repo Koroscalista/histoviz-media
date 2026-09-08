@@ -1,0 +1,142 @@
+# render-host.yml — rend les items `prêt`, héberge le MP4, et les fait passer à `produit`.
+#
+# Pourquoi ici et pas dans Runner A. La session cloud de Runner A sait rendre une vidéo, mais son
+# proxy GitHub lui refuse la création de Releases (403, accès limité aux opérations de revue de
+# PR). Un MP4 rendu dans ce conteneur est donc perdu avec lui : aucun item ne peut atteindre
+# `programmé`, et rien ne se publie. Constaté les 06, 07 et 08/09/2026.
+#
+# Ce workflow s'exécute dans le dépôt : le GITHUB_TOKEN de l'exécution crée les Releases de ce
+# dépôt et pousse sur `main` sans PAT. Le PAT (GH_PAT_SECRETS) ne sert qu'à cloner le moteur.
+#
+# L'actu passe devant : `pipeline.etats actu` d'abord, le reste ensuite.
+
+name: render-host
+
+on:
+  workflow_run:
+    workflows: [auto-merge-file]
+    types: [completed]
+  schedule:
+    - cron: '25 * * * *'          # filet horaire, décalé du cron de publication
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Ne traiter que ce slug (vide = tous les items prêts)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-host
+  cancel-in-progress: false
+
+jobs:
+  rendre:
+    runs-on: ubuntu-latest
+    steps:
+      # La file et le moteur doivent être FRÈRES : etats.dossier_file() cherche
+      # « histoviz-media/file » chez un ancêtre, et c'est comme ça qu'il la trouve.
+      - name: Checkout du dépôt de publication
+        uses: actions/checkout@v4
+        with:
+          path: histoviz-media
+          ref: main
+
+      - name: Checkout du moteur
+        uses: actions/checkout@v4
+        with:
+          repository: Koroscalista/StatHisto
+          token: ${{ secrets.GH_PAT_SECRETS }}
+          path: stathisto
+          ref: master
+
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+
+      - name: Dépendances
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python3 -m pip install --quiet playwright pillow shapely openpyxl
+          python3 -m playwright install --with-deps chromium
+
+      - name: Que faut-il rendre ?
+        id: quoi
+        working-directory: stathisto
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, sys
+          sys.path.insert(0, ".")
+          from pipeline import etats
+          file_dir = etats.dossier_file(strict=True)
+          seul = os.environ.get("SLUG") or None
+          # l'actu d'abord (fenêtre courte), puis les autres `prêt`
+          rapides = [i["slug"] for i in etats.voie_rapide(file_dir) if i["statut"] == "prêt"]
+          autres  = [i["slug"] for i in etats.lister(file_dir)
+                     if i.get("statut") == "prêt" and etats.est_actif(i)
+                     and i["slug"] not in rapides]
+          slugs = [seul] if seul else rapides + autres
+          print(f"file_dir={file_dir}")
+          print(f"slugs={json.dumps(slugs)}")
+          PY
+        env:
+          SLUG: ${{ github.event.inputs.slug }}
+
+      - name: Rendre, héberger, avancer
+        if: steps.quoi.outputs.slugs != '[]'
+        working-directory: stathisto
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      # Releases du dépôt de publication
+          FILE_DIR: ${{ steps.quoi.outputs.file_dir }}
+          SLUGS: ${{ steps.quoi.outputs.slugs }}
+        run: |
+          set -euo pipefail
+          for slug in $(python3 -c "import json,os;print(' '.join(json.loads(os.environ['SLUGS'])))"); do
+            echo "::group::$slug"
+            bundle="filler/productions/$slug/sujet.json"
+            if [ ! -f "$bundle" ]; then
+              echo "bundle absent, item laissé en prêt"; echo "::endgroup::"; continue
+            fi
+            typ=$(python3 -c "import json;print(json.load(open('$bundle')).get('type') or '')")
+            python3 filler/build.py "$bundle"
+            python3 tools/rendre.py "filler/templates/$typ/chart.html" \
+                    --slug "$slug" --video --out "$slug.mp4"
+            mp4="filler/productions/$slug/rendus/$slug.mp4"
+            duree=$(python3 -c "
+import subprocess,json
+o=subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','json','$mp4'],
+                 capture_output=True,text=True).stdout
+print(round(float(json.loads(o)['format']['duration']),1))")
+            echo "durée : $duree s"
+            # La fenêtre 30–75 s est une règle éditoriale : hors fenêtre, on n'avance pas.
+            python3 -c "
+d=float('$duree')
+raise SystemExit(0 if 30 <= d <= 75 else 1)" || {
+              echo "durée hors fenêtre 30-75 s : item laissé en prêt, à retravailler par l'édito"
+              echo "::endgroup::"; continue; }
+            gh release create "$slug" "$mp4" --repo Koroscalista/histoviz-media \
+               --title "$slug" --notes "MP4 de $slug" 2>/dev/null \
+              || gh release upload "$slug" "$mp4" --repo Koroscalista/histoviz-media --clobber
+            url="https://github.com/Koroscalista/histoviz-media/releases/download/$slug/$slug.mp4"
+            python3 - <<PY
+import sys; sys.path.insert(0, ".")
+from pipeline import etats
+etats.avancer_fichier("$FILE_DIR", "$slug", **{"media.duree_s": float("$duree"),
+                                              "media.mp4_url": "$url"})
+PY
+            echo "::endgroup::"
+          done
+
+      - name: Committer la file
+        working-directory: histoviz-media
+        run: |
+          if [ -z "$(git status --porcelain -- file)" ]; then echo "Rien à commiter."; exit 0; fi
+          if [ -n "$(git status --porcelain -- ':!file')" ]; then
+            echo "STOP : des fichiers hors file/ ont bougé"; exit 1
+          fi
+          git config user.name  "histoviz-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add file/
+          git commit -m "render-host: $(date -u +%FT%TZ)"
+          git pull --rebase
+          git push

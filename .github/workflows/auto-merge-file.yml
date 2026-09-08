@@ -1,0 +1,93 @@
+# auto-merge-file.yml — intègre dans `main` les branches `claude/*` poussées par Runner A.
+#
+# Pourquoi ce workflow existe. Runner A tourne dans une session cloud dont le proxy GitHub
+# n'autorise le push que sur sa propre branche `claude/*` : il ne peut pas écrire sur `main`,
+# que Runner B lit. Sans intégration automatique, chaque run finit par « quelqu'un doit merger
+# à la main » — et le pipe ne tourne plus tout seul (constaté les 06 et 07/09/2026).
+#
+# Ce workflow, lui, s'exécute dans le dépôt avec les droits du dépôt. Il n'a pas besoin du PAT :
+# le GITHUB_TOKEN de l'exécution suffit à pousser sur `main` de son propre dépôt.
+#
+# Il est délibérément étroit : il n'intègre QUE des fichiers de la file. Une branche `claude/*`
+# qui touche autre chose est refusée, jamais mergée en silence — c'est ce qui empêche une
+# session compromise ou distraite de pousser du code sur `main` par ce chemin.
+
+name: auto-merge-file
+
+on:
+  push:
+    branches: ['claude/**']
+  workflow_dispatch:
+    inputs:
+      branche:
+        description: 'Branche claude/* à intégrer'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-merge-file          # jamais deux merges concurrents sur main
+  cancel-in-progress: false
+
+jobs:
+  merger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Identifier la branche à intégrer
+        id: br
+        run: |
+          BR="${{ github.event.inputs.branche || github.ref_name }}"
+          case "$BR" in
+            claude/*) ;;
+            *) echo "REFUS : « $BR » n'est pas une branche claude/*"; exit 1 ;;
+          esac
+          git fetch origin "$BR:refs/remotes/origin/$BR"
+          echo "nom=$BR" >> "$GITHUB_OUTPUT"
+
+      - name: Garde-fou 1 — rien hors de la file
+        run: |
+          BR="${{ steps.br.outputs.nom }}"
+          HORS=$(git diff --name-only "origin/main...origin/$BR" -- ':!file')
+          if [ -n "$HORS" ]; then
+            echo "REFUS : cette branche touche des fichiers hors file/ :"
+            echo "$HORS"
+            echo "Un changement de code s'intègre par une PR relue, pas par ce chemin."
+            exit 1
+          fi
+
+      - name: Garde-fou 2 — chaque item est un JSON lisible et porte un slug
+        run: |
+          BR="${{ steps.br.outputs.nom }}"
+          for f in $(git diff --name-only --diff-filter=d "origin/main...origin/$BR" -- file); do
+            case "$f" in *.json) ;; *) continue ;; esac
+            git show "origin/$BR:$f" | python3 -c "
+import json,sys
+d = json.load(sys.stdin)
+assert d.get('slug'), 'slug manquant'
+assert d.get('statut'), 'statut manquant'
+" || { echo "REFUS : $f n'est pas un item de file valide"; exit 1; }
+          done
+
+      - name: Merger et pousser
+        run: |
+          BR="${{ steps.br.outputs.nom }}"
+          if git merge-base --is-ancestor "origin/$BR" origin/main; then
+            echo "Déjà intégrée, rien à faire."
+            exit 0
+          fi
+          git config user.name  "histoviz-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git merge --no-ff "origin/$BR" -m "auto-merge: $BR (file)"
+          git push origin main
+          echo "Intégrée : $BR"
+
+      - name: Retirer la branche intégrée
+        if: success()
+        continue-on-error: true       # la branche a pu être supprimée entre-temps
+        run: git push origin --delete "${{ steps.br.outputs.nom }}"
