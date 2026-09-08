@@ -1,7 +1,7 @@
 {
   "slug": "age-we-die-uk",
   "notion_id": 151,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-uk/age-we-die-uk.mp4",
     "duree_s": 43.8
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1950, the most common age of death for a British man was zero: 3,381 of every 100,000 boys died before their first birthday.\n\nWatch that infant spike collapse as the whole curve slides right — the peak age of death climbs from 75 to 86 for men, from 79 to 90 for women.\nWatch the two curves pull apart through the 1970s, then crowd back together in the oldest years.\n\n📊 See the distribution of age at death in the United Kingdom from 1950 to 2023 in this animated distribution. Explore how life-table deaths (dx, per 100,000) drained out of childhood and piled up in old age, and how the gap between men and women opened and then closed: by 2023, 42% of men and 55% of women die at 85 or older.\n\nSource: UN World Population Prospects 2024 — Complete life tables (dx, by sex).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #datavisualization #demography #lifeexpectancy #mortality #population #unitedkingdom #uk #britishhistory",
+  "post_at": "2026-09-27T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T14:40:52+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-08T15:42:22+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-08T15:42:22+00:00"
     }
   ]
 }
