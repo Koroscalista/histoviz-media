@@ -1,26 +1,28 @@
 {
-  "slug": "sudan-s-great-exodus",
-  "notion_id": 174,
-  "statut": "idée",
+  "slug": "age-we-die-japan",
+  "notion_id": 106,
+  "statut": "prêt",
   "pilier": 3,
   "format": "filler",
-  "type": "flux",
+  "type": "distribution",
   "media": {
     "mp4_url": null,
     "duree_s": null
   },
   "caption": null,
   "post_at": null,
-  "priorite": 1,
+  "priorite": 0,
   "bloque": null,
   "abandonne": false,
   "publication": null,
   "historique": [
     {
       "statut": "idée",
-      "at": "2026-09-07T09:50:55+00:00"
+      "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-08T15:37:11+00:00"
     }
-  ],
-  "publier_avant": "2026-09-13T17:00:00+02:00",
-  "origine": "actu"
+  ]
 }

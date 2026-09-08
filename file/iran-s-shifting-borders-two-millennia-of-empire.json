@@ -1,10 +1,10 @@
 {
-  "slug": "iran-vs-israel-the-military-spending-race",
-  "notion_id": 173,
+  "slug": "iran-s-shifting-borders-two-millennia-of-empire",
+  "notion_id": 182,
   "statut": "idée",
-  "pilier": 2,
+  "pilier": 1,
   "format": "filler",
-  "type": "trajectoires",
+  "type": "territoire",
   "media": {
     "mp4_url": null,
     "duree_s": null
@@ -18,9 +18,9 @@
   "historique": [
     {
       "statut": "idée",
-      "at": "2026-09-07T09:50:55+00:00"
+      "at": "2026-09-08T15:38:31+00:00"
     }
   ],
-  "publier_avant": "2026-09-09T17:00:00+02:00",
-  "origine": "actu"
+  "origine": "actu",
+  "publier_avant": "2026-09-12T17:00:00+02:00"
 }
