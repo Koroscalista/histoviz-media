@@ -1,7 +1,7 @@
 {
   "slug": "sudan-s-great-exodus",
   "notion_id": 174,
-  "statut": "idée",
+  "statut": "prêt",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
@@ -19,6 +19,10 @@
     {
       "statut": "idée",
       "at": "2026-09-07T09:50:55+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-08T15:50:27+00:00"
     }
   ],
   "publier_avant": "2026-09-13T17:00:00+02:00",
