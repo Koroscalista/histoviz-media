@@ -1,13 +1,13 @@
 {
   "slug": "largest-economies-2023",
   "notion_id": 53,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 4,
   "format": "filler",
   "type": "trajectoires",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/largest-economies-2023/largest-economies-2023.mp4",
+    "duree_s": 47.566667
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-08T10:03:11+00:00"
     }
   ]
 }
