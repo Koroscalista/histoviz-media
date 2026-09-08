@@ -1,0 +1,28 @@
+{
+  "slug": "best-selling-book-series",
+  "notion_id": 101,
+  "statut": "prêt",
+  "pilier": 5,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": null,
+    "duree_s": null
+  },
+  "caption": null,
+  "post_at": null,
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-08T15:37:11+00:00"
+    }
+  ]
+}
