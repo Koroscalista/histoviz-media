@@ -1,0 +1,32 @@
+{
+  "slug": "napoleon-russia-1812",
+  "notion_id": 157,
+  "statut": "produit",
+  "pilier": 2,
+  "format": "filler",
+  "type": "campagne",
+  "media": {
+    "mp4_url": null,
+    "duree_s": 42.0
+  },
+  "caption": null,
+  "post_at": null,
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-09-07T09:48:32+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-07T10:01:40+00:00"
+    }
+  ]
+}
