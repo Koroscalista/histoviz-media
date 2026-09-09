@@ -1,7 +1,7 @@
 {
   "slug": "terrorism-deaths",
   "notion_id": 68,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 2,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/terrorism-deaths/terrorism-deaths.mp4",
     "duree_s": 35.666667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "2014 was the worst year on record: 44,600 people killed by terrorist attacks worldwide, 14,095 of them in Iraq alone.\n\nWatch the ranking move country by country — Switzerland tops it in 1970 with 47 deaths, Burundi and Sri Lanka in the nineties, Iraq after 2003, Afghanistan and Nigeria at the end.\n\n📊 See deaths from terrorist attacks by country from 1970 to 2021 in this animated ranking. Explore how the geography of terrorism moved from Europe and Latin America to South Asia, the Middle East and the Sahel — and how small the early numbers look beside the later ones.\n\nSource: Global Terrorism Database, National Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland, via Our World in Data. The database holds no records for 1993, a year lost by its compilers; that gap is interpolated. Regional aggregates are excluded.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #terrorism #conflict #geopolitics #security #middleeast #20thcentury #datavisualization #barchartrace",
+  "post_at": "2026-10-26T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:44:29+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "nuclear-firepower",
   "notion_id": 37,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 1,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nuclear-firepower/nuclear-firepower.mp4",
     "duree_s": 45.5
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "American nuclear firepower peaked in 1962, at 11,623 equivalent megatons. The world total peaked in 1981, at around 15,800.\n\nWatch the USSR overtake the United States in 1985, then watch both arsenals collapse after START I — down to 1,261 and 1,006 megatons by 2010.\n\n📊 See deliverable strategic nuclear firepower by country from 1945 to 2010 in this animated ranking, in equivalent megatons. Explore why the Cold War's destructive peak came two decades before the warhead count peaked, and what is left today.\n\nSource: Kyungwon Suh, The Strategic Nuclear Forces Dataset v2.0 (2023), via Our World in Data (CC BY 4.0). Estimated megatonnage of strategic warheads deliverable in a first strike; tactical and reserve warheads are not counted. These are scholarly estimates — the real inventories are secret.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #nuclear #nuclearweapons #coldwar #armscontrol #militaryhistory #geopolitics #datavisualization #barchartrace",
+  "post_at": "2026-10-20T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:26:58+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

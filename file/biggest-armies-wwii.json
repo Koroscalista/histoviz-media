@@ -1,7 +1,7 @@
 {
   "slug": "biggest-armies-wwii",
   "notion_id": 181,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 2,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/biggest-armies-wwii/biggest-armies-wwii.mp4",
     "duree_s": 30.566667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1933 Germany had an army of 118,000 men. Twelve years later the world had 51 million soldiers under arms.\n\nWatch China lead the ranking in 1933 with 1.7 million, Germany take the top spot in 1939 with 2.75 million, and the USSR and the United States finish at 12.5 and 12.1 million.\n\n📊 See active military personnel by country from 1933 to 1945 in this animated ranking, in thousands. Explore how conscription, invasion and total mobilisation multiplied the world's armies more than tenfold in twelve years.\n\nSource: Correlates of War Project, National Material Capabilities v7.0 (Singer, Bremer & Stuckey). Occupied countries drop out of the ranking for the years they had no army of their own: Poland from 1940, France in 1942-43, Ethiopia from 1936. Chinese figures before 1937 are a constant carried forward by the source, not an annual measurement. German states are consolidated into a single Germany line; Russia is labelled USSR.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #worldwarii #ww2 #militaryhistory #army #conscription #20thcentury #datavisualization #barchartrace",
+  "post_at": "2026-10-14T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T15:52:18+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ],
   "origine": "manuel"

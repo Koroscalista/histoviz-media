@@ -1,7 +1,7 @@
 {
   "slug": "co2-mondial",
   "notion_id": 154,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -9,7 +9,7 @@
     "mp4_url": null,
     "duree_s": 50.0
   },
-  "caption": null,
+  "caption": "In 1950 China ranked tenth. In 2022 it emitted 11,712 million tonnes of CO₂ — more than the United States and India combined.\n\nWatch the United States lead for six decades from 2,541 Mt in 1950, watch the Soviet line break up in 1991, and watch China cross everyone after joining the WTO in 2001.\n\n📊 See annual CO₂ emissions from fossil fuels and industry, country by country, from 1950 to 2022 in this animated ranking, in millions of tonnes. Explore how the oil shocks, the collapse of the Soviet Union and China's industrialisation redrew the world's carbon map.\n\nSource: Global Carbon Budget, via Our World in Data (CC BY).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #co2 #climate #climatechange #emissions #carbon #china #datavisualization #barchartrace",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-07T09:53:53+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

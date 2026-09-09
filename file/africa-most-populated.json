@@ -1,7 +1,7 @@
 {
   "slug": "africa-most-populated",
   "notion_id": 125,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/africa-most-populated/africa-most-populated.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "Africa held about 100 million people in 1800. Nigeria alone now has 238 million.\n\nWatch Nigeria pull away from the whole continent, Ethiopia overtake Egypt in 2009, and Tanzania pass South Africa in 2020.\n\n📊 See the most populated countries in Africa from 1800 to 2025 in this animated ranking, population in millions. Explore how Nigeria, Ethiopia, Egypt and the DR Congo rose, and exactly when each one overtook the others.\n\nSource: World Bank SP.POP.TOTL (1960–2025) and Gapminder Systema Globalis (before 1960), chain-linked at 1960, both CC BY 4.0. Figures before ~1950 are scholarly reconstructions and are sparse for Africa: most years between 1800 and 1950 are interpolated between census estimates.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #africa #nigeria #ethiopia #egypt #population #demography #datavisualization #barchartrace",
+  "post_at": "2026-09-29T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T15:44:18+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

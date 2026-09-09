@@ -1,7 +1,7 @@
 {
   "slug": "unesco-world-heritage-race",
   "notion_id": 99,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/unesco-world-heritage-race/unesco-world-heritage-race.mp4",
     "duree_s": 57.566667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "Italy has 62 UNESCO World Heritage sites. China has 61.\n\nWatch Spain lead in 2002 with 38 sites, watch China join the list in 1987 and climb from nothing, and watch Italy hold on by a single site.\n\n📊 See cumulative UNESCO World Heritage sites by country from 1978 to 2026 in this animated ranking. Explore how Europe dominated the early lists, how China and India caught up, and where France, Germany and Spain stand today.\n\nSource: UNESCO World Heritage Centre, via the UNESCO DataHub (© UNESCO/World Heritage Centre). A transboundary site counts for each of its States Parties, as UNESCO does. No session was held in 2020 and 2022.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #unesco #worldheritage #heritage #architecture #italy #china #datavisualization #barchartrace",
+  "post_at": "2026-10-30T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:48:25+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

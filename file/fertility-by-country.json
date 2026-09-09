@@ -1,7 +1,7 @@
 {
   "slug": "fertility-by-country",
   "notion_id": 76,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/fertility-by-country/fertility-by-country.mp4",
     "duree_s": 51.066667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1950 the average woman on Earth had five children. Today she has barely two.\n\nWatch the top of the ranking fall from 8.2 births per woman in Rwanda in 1950 to 6.1 in Somalia, Niger, Chad and the DR Congo in 2023 — and watch Yemen peak at 8.9 in 1986 before it turns.\n\n📊 See the total fertility rate country by country from 1950 to 2023 in this animated ranking, live births per woman. Explore how Gulf fertility collapsed after 1980, how even Niger turned down after 2010, and where the world average sits now.\n\nSource: Human Fertility Database (2025) and UN World Population Prospects (2024), with major processing by Our World in Data (CC BY 4.0). Regional and income-group aggregates are excluded; the footer line is the world average, not a total.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #fertility #birthrate #demography #population #globaltrends #niger #datavisualization #barchartrace",
+  "post_at": "2026-10-15T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:07:57+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

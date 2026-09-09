@@ -1,7 +1,7 @@
 {
   "slug": "olympic-gold-by-country",
   "notion_id": 93,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/olympic-gold-by-country/olympic-gold-by-country.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "The United States has won 1,110 Olympic golds. The country in second place has 395.\n\nWatch the Soviet Union enter in 1952, climb to second in forty years, then vanish — and watch China arrive late and reach 303.\n\n📊 See cumulative Summer Olympic gold medals by country from 1896 to 2024 in this animated ranking. Explore how the United States built an unmatched lead, how the USSR rose and stopped, and where Great Britain, China, France and Italy stand today.\n\nSource: Wikipedia — Summer Olympics medal tables, from IOC and Olympedia records (CC BY-SA). Medals are counted per event, as in the official medal tables. The Soviet Union, the Unified Team, Russia, East and West Germany are counted as separate committees, following IOC practice.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #olympics #olympicgames #goldmedal #sportshistory #unitedstates #ussr #datavisualization #barchartrace",
+  "post_at": "2026-10-06T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:31:41+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

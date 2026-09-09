@@ -1,7 +1,7 @@
 {
   "slug": "europe-most-populated",
   "notion_id": 123,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/europe-most-populated/europe-most-populated.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1800 Russia and France were neck and neck: 31 million against 30. Today Russia has 144 million and France 69.\n\nWatch Germany overtake France in 1871, watch two world wars flatten the curves, and watch Russia peak at 149 million in 1992 before it turns down.\n\n📊 See the most populated countries in Europe from 1800 to 2025 in this animated ranking, population in millions. Explore how Germany, the United Kingdom, France, Italy and Spain traded places across two centuries.\n\nSource: World Bank SP.POP.TOTL (1960–2025) and Gapminder Systema Globalis (before 1960), chain-linked at 1960, both CC BY 4.0. Russia is counted as European; historical states such as Czechoslovakia and Yugoslavia appear for as long as the source reports them. Figures before ~1950 are scholarly reconstructions.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #europe #population #demography #russia #germany #france #datavisualization #barchartrace",
+  "post_at": "2026-10-23T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:03:05+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

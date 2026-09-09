@@ -1,7 +1,7 @@
 {
   "slug": "rise-of-the-megacity",
   "notion_id": 136,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/rise-of-the-megacity/rise-of-the-megacity.mp4",
     "duree_s": 45.5
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1950 two cities on Earth held more than 10 million people. In 2015 there were 29.\n\nWatch the curve of city dwellers swell and lean right: 419 million people living in cities above 300,000 in 1950, 2.3 billion in 2015.\n\n📊 See where big-city dwellers live, sorted by the size of their city, from 1950 to 2015 in this animated distribution. Explore how the world's urban population shifted out of mid-sized cities and into ever larger agglomerations.\n\nSource: UN DESA Population Division, World Urbanization Prospects 2018, file F12. The panel is the 1,860 agglomerations that had reached 300,000 inhabitants by 2018, tracked backwards; 305 of them were above 300,000 in 1950, and 1,772 in 2015.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #megacity #urbanization #cities #population #demography #urbanplanning #datavisualization #distribution",
+  "post_at": "2026-10-17T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:40:24+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

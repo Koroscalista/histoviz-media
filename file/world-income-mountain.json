@@ -1,7 +1,7 @@
 {
   "slug": "world-income-mountain",
   "notion_id": 110,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/world-income-mountain/world-income-mountain.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1800, 74% of humanity lived on less than $2 a day. By 2020 it was 4.9% — one person in twenty.\n\nWatch the whole mountain of humanity slide right: a second hump pulls away after 1950, poverty peaks at 1.46 billion people in 1980, then Asia lifts the entire curve.\n\n📊 See the world's population sorted by daily income from 1800 to 2024 in this animated distribution, 105 logarithmic brackets in 2017 PPP dollars. Explore how the shape of global income changed, when the second peak appeared, and how fast the poorest brackets emptied.\n\nSource: Gapminder Income Mountains (v3), from World Bank PovcalNet / PIP, via open-numbers (CC BY 4.0). Bracket 20 starts at $2.00 a day; each bracket is 1.32 times the previous one. Figures before 1980 are modelled estimates.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #poverty #income #inequality #economics #globaleconomy #development #datavisualization #gapminder",
+  "post_at": "2026-10-01T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:58:39+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

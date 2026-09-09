@@ -1,7 +1,7 @@
 {
   "slug": "evolution-france-1789-1816",
   "notion_id": 41,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/evolution-france-1789-1816/evolution-france-1789-1816.mp4",
     "duree_s": 43.2
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1789 France stops at its own borders. By 1810 its sphere runs from Spain to the Duchy of Warsaw. By 1815 all of it is gone.\n\nWatch the Comtat Venaissin go first in 1791, then Savoy, Belgium and the Rhineland; watch Prussia, Spain and Austria fall into the sphere after 1807; then watch the whole structure unravel from 1813.\n\n📊 See the territorial evolution of France and its sphere from 1789 to 1816 in this animated map — annexations, satellite kingdoms, allies and subject states, year by year. Explore how the Revolution and the Empire redrew Europe, and how quickly it collapsed.\n\nSource: OpenHistoricalMap — historical borders by date (ODbL), revolutionary and Napoleonic chronology.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #napoleon #frenchrevolution #france #empire #europeanhistory #maps #datavisualization #historymap",
+  "post_at": "2026-10-08T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T08:26:56+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

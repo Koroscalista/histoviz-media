@@ -1,7 +1,7 @@
 {
   "slug": "foreign-exchange-reserves",
   "notion_id": 61,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/foreign-exchange-reserves/foreign-exchange-reserves.mp4",
     "duree_s": 45.5
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "China's reserves were $80 billion in 1995. They peaked at $3,900 billion in 2014.\n\nWatch the United States lead from 1960, Japan and Germany take over in the nineties, and China climb past everyone — finishing at $3,749 billion against $1,385 billion for the US.\n\n📊 See total reserves including gold, country by country, from 1960 to 2025 in this animated ranking, in billions of US dollars. Explore how the oil crises, the Asian financial crisis and China's WTO accession redrew the world's war chest.\n\nSource: World Bank Open Data, from IMF International Financial Statistics (CC BY 4.0), indicator FI.RES.TOTL.CD. Total reserves cover foreign exchange, gold, SDRs and IMF position. The World Bank publishes no world aggregate for this indicator, so the world total shown is the sum of reporting countries.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #economics #centralbank #reserves #forex #china #globaleconomy #datavisualization #barchartrace",
+  "post_at": "2026-10-22T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:10:00+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "korea-grows-old",
   "notion_id": 108,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/korea-grows-old/korea-grows-old.mp4",
     "duree_s": 51.1
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1950, four Koreans in ten were under fifteen. In 2016 seniors overtook children, and in 2020 the population itself started to shrink.\n\nWatch the pyramid invert inside a single lifetime: the war leaves a notch in 1953, the widest generation is born in 1963, and births fall below replacement in 1983.\n\n📊 See South Korea's population by age and sex from 1950 to 2023 in this animated pyramid, in thousands. Explore how the base narrowed, how the boom generation climbed the chart, and what the fastest ageing ever recorded actually looks like.\n\nSource: UN World Population Prospects 2024, Population Division, UN DESA — population by 5-year age groups and sex, medium variant.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #korea #southkorea #demography #population #ageing #populationpyramid #datavisualization #asia",
+  "post_at": "2026-10-09T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:15:12+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "reseau-espagne-rail-clair",
   "notion_id": 122,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "reseau",
@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-espagne-rail-clair/reseau-espagne-rail-clair.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
+  "caption": "22,604 km of Spanish railway, drawn on the year each section actually opened, from 1848 onwards.\n\nWatch the Iberian-gauge network spread out of Madrid, watch narrow-gauge lines fill the north, and watch high-speed track appear on top of it all.\n\n📊 See the Spanish rail network build itself from 1848 to 2022 in this animated map, 4,472 sections placed at their real opening dates and coloured by gauge: Iberian, narrow and high speed. Explore how Madrid's radial network took shape, and how the AVE was laid over it.\n\nSource: Railways of Spain GIS — Esteban-Oliver & Martí-Henneberg, DOI 10.34810/DATA917 (CC BY 4.0). Land: Natural Earth (public domain).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #railway #trains #spain #renfe #ave #infrastructure #datavisualization #historymap",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:35:13+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }
