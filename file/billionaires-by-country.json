@@ -1,7 +1,7 @@
 {
   "slug": "billionaires-by-country",
   "notion_id": 89,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/billionaires-by-country/billionaires-by-country.mp4",
     "duree_s": 31.2
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 2001 the United States had 185 dollar billionaires and China had none. By 2025 China has 840.\n\nWatch China climb from nowhere to within touching distance of the top — and watch the American bar keep growing anyway, all the way to 976.\n\n📊 See the number of dollar billionaires by country from 2001 to 2025 in this animated ranking. Explore how the 2009 financial crisis, China's billionaire surge and the pandemic wealth boom reshaped the map of extreme wealth, and where India, Germany and Russia stand today.\n\nSource: Gapminder — dollar billionaires by country. Counts harmonised by Gapminder from the Forbes Billionaires List and the Hurun Global Rich List (CC BY 4.0).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #billionaires #wealth #economics #inequality #china #unitedstates #datavisualization #barchartrace",
+  "post_at": "2026-09-28T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T15:53:42+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

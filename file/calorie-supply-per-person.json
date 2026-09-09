@@ -1,7 +1,7 @@
 {
   "slug": "calorie-supply-per-person",
   "notion_id": 80,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/calorie-supply-per-person/calorie-supply-per-person.mp4",
     "duree_s": 43.4
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In sixty years the world gained 800 calories a day per person. The top of the ranking now sits at 3,947 kcal, in the United States.\n\nWatch Switzerland and Ireland lead in 1961, watch Saudi Arabia's oil boom push it to a record 4,793 kcal a day in 1983, and watch the United States take the lead in 2023.\n\n📊 See daily food supply per person, country by country, from 1961 to 2023 in this animated ranking, in kilocalories a day. Explore how the world's food supply grew, which countries pulled ahead, and where the world average sits now.\n\nSource: FAO (2025) and other sources, with major processing by Our World in Data (CC BY 4.0). This is supply at the end of the chain, not measured intake. FAO regional aggregates, dependent territories and states under one million people are excluded, as is Jordan, whose series breaks in 1967.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #food #calories #nutrition #agriculture #foodsecurity #globalhealth #datavisualization #barchartrace",
+  "post_at": "2026-10-27T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T15:55:45+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

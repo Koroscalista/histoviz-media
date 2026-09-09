@@ -1,7 +1,7 @@
 {
   "slug": "black-death-carto",
   "notion_id": 166,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "territoire",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/black-death-carto/black-death-carto.mp4",
     "duree_s": 40.9
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "From a single Sicilian port in October 1347, the plague took six years to swallow a continent.\n\nWatch it jump port to port — Messina and Constantinople first, then Genoa, Venice, Marseille and Pisa — before it reaches Norway in 1349 and Russia in 1352.\n\n📊 See the spread of the Black Death across Europe from October 1347 to 1353 in this animated map, month by month. Explore how the pandemic travelled by sea long before it travelled by land, and how long each region held out.\n\nSource: reconstructed spread, arrival dates after O.J. Benedictow and standard accounts. RECONSTRUCTION: major arrival dates are sourced (Sicily Oct 1347, Marseille Jan 1348, Spain, Portugal and England summer 1348, Norway 1349, Russia 1352-53); intermediate national dates are geographically interpolated and indicative only. Modern national borders (Natural Earth, public domain) are used only as a neutral canvas — they are NOT the political borders of 1347.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #blackdeath #plague #medievalhistory #pandemic #europe #epidemic #datavisualization #historymap",
+  "post_at": "2026-10-13T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T08:22:50+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

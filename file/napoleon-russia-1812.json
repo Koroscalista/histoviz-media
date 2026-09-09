@@ -1,7 +1,7 @@
 {
   "slug": "napoleon-russia-1812",
   "notion_id": 157,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 2,
   "format": "filler",
   "type": "campagne",
@@ -9,7 +9,7 @@
     "mp4_url": null,
     "duree_s": 42.0
   },
-  "caption": null,
+  "caption": "340,000 men crossed the Niemen in June 1812. 4,000 recrossed it.\n\nWatch the ribbon narrow at every step — 340,000 at the border, 100,000 by the time they reach Moscow, and almost nothing at the end. Smolensk and Borodino were victories; Vyazma and the Berezina were not.\n\n📊 See Napoleon's Russian campaign of 1812 in this animated map, after Charles Minard's 1869 figurative chart: the width of the band is the strength of the Grande Armée, from the Niemen to Moscow and back. Explore where the army melted away, and how little of it returned.\n\nSource: Charles Minard (1869), reconstruction of the Russian campaign.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #napoleon #1812 #minard #militaryhistory #russia #19thcentury #datavisualization #historymap",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-07T10:01:40+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

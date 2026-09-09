@@ -1,7 +1,7 @@
 {
   "slug": "reseau-france-rail-clair",
   "notion_id": 118,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "reseau",
@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-france-rail-clair/reseau-france-rail-clair.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
+  "caption": "24,206 km of French railway, drawn line by line on the year each section actually opened.\n\nWatch the network grow out of Paris from 1827, thread every province by the end of the century — then watch lines start to disappear again.\n\n📊 See the French rail network build itself from 1827 to 2024 in this animated map, 11,031 sections placed at their real opening dates. Explore how the star-shaped network radiated from Paris, and where it later retreated.\n\nSource: OpenHistoricalMap — start_date and end_date on railway ways (ODbL); coverage quality varies. Land: Natural Earth (public domain).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #railway #trains #france #sncf #infrastructure #maps #datavisualization #historymap",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:38:32+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

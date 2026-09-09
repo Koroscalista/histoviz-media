@@ -1,7 +1,7 @@
 {
   "slug": "nuclear-tests",
   "notion_id": 66,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 2,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nuclear-tests/nuclear-tests.mp4",
     "duree_s": 35.666667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1962 alone the world set off 178 nuclear bombs. Ninety-six of them were American.\n\nWatch the United States and the USSR trade the lead year after year, watch the Partial Test Ban Treaty of 1963 bend the curve down, and watch France and China keep testing to the very end.\n\n📊 See nuclear weapons tests per year by country from 1945 to 1996 in this animated ranking. Explore how the arms race was measured in detonations, which years were the worst, and how the test ban treaties changed the count.\n\nSource: Arms Control Association, The Nuclear Testing Tally, via Our World in Data (CC BY 4.0). The bombings of Hiroshima and Nagasaki are not counted as tests, and simultaneous explosions count as one. Testing resumed after 1996 only in India, Pakistan and North Korea.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #nuclear #nucleartesting #coldwar #armsrace #disarmament #militaryhistory #datavisualization #barchartrace",
+  "post_at": "2026-10-02T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:28:28+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

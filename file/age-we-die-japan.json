@@ -1,7 +1,7 @@
 {
   "slug": "age-we-die-japan",
   "notion_id": 106,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-japan/age-we-die-japan.mp4",
     "duree_s": 53.9
   },
-  "caption": null,
+  "caption": "No country has pushed death further away, or faster. By 2010 Japan's curve runs out of axis.\n\nWatch post-war Japan still burying children in 1947, watch universal health insurance arrive in 1961, and watch the women's peak march past eighty-five after 1990.\n\n📊 See the distribution of age at death in Japan from 1947 to 2024 in this animated distribution, men against women, life-table dx per 100,000. Explore the fastest mortality decline ever recorded, and what a population that outlives everyone actually looks like.\n\nSource: HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org. CC BY 4.0. Period life tables 1x1, Japan, dx by sex.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #japan #mortality #longevity #lifeexpectancy #demography #ageing #datavisualization #distribution",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-09T15:44:51+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

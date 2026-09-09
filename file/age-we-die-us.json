@@ -1,7 +1,7 @@
 {
   "slug": "age-we-die-us",
   "notion_id": 102,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-us/age-we-die-us.mp4",
     "duree_s": 65.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "For eighty years, death in America retreated towards old age. Then, after 2015, a second hump grew back in midlife.\n\nWatch antibiotics empty out the first year of life after 1950, watch the peak slide towards old age with women leading, then watch overdoses hollow out the middle from 2017 and Covid drag the curve back in 2020.\n\n📊 See the distribution of age at death in the United States from 1933 to 2024 in this animated distribution, men against women, life-table dx per 100,000. Explore how the great compression of mortality slowed to a halt, and exactly where the curve turned around.\n\nSource: HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org. CC BY 4.0. Period life tables 1x1, USA, dx by sex.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #mortality #lifeexpectancy #publichealth #demography #unitedstates #opioidcrisis #datavisualization #distribution",
+  "post_at": "2026-10-31T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T15:47:47+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

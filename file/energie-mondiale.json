@@ -1,7 +1,7 @@
 {
   "slug": "energie-mondiale",
   "notion_id": 155,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -9,7 +9,7 @@
     "mp4_url": null,
     "duree_s": 50.0
   },
-  "caption": null,
+  "caption": "In 1965 the United States burned 14,440 TWh of primary energy, nearly ten times China. In 2024 China burns 48,987 TWh, nearly twice the United States.\n\nWatch two oil shocks bend the curve in 1973 and 1979, watch the USSR break apart in 1991, and watch India climb to third place at 11,336 TWh.\n\n📊 See primary energy consumption by country from 1965 to 2024 in this animated ranking, in terawatt-hours. Explore how the world's energy centre of gravity moved from North America and Europe to Asia.\n\nSource: Energy Institute Statistical Review of World Energy, via Our World in Data (CC BY).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #energy #electricity #oil #geopolitics #economics #china #datavisualization #barchartrace",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-07T09:56:12+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

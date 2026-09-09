@@ -1,7 +1,7 @@
 {
   "slug": "nobel-prizes-by-country",
   "notion_id": 94,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nobel-prizes-by-country/nobel-prizes-by-country.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "The United States has won 431 Nobel Prizes. The United Kingdom, in second place, has 113.\n\nWatch Germany and France lead the opening decades, then watch the whole ranking tip after 1933, when scientists flee Europe.\n\n📊 See cumulative Nobel Prizes by country from 1901 to 2025 in this animated ranking. Explore how Europe owned the early century, how the United States took over after the Second World War, and where Sweden, Switzerland and France sit today.\n\nSource: Nobel Prize API, nobelprize.org (CC0). A prize is credited to the country of the laureate's institution at the time of the award, or to their country of birth when no affiliation is recorded. Organisations awarded the Peace Prize are excluded.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #nobelprize #science #research #academia #unitedstates #germany #datavisualization #barchartrace",
+  "post_at": "2026-10-07T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:25:03+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

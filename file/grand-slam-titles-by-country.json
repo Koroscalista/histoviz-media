@@ -1,7 +1,7 @@
 {
   "slug": "grand-slam-titles-by-country",
   "notion_id": 96,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/grand-slam-titles-by-country/grand-slam-titles-by-country.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "The United States has won 323 Grand Slam singles titles. Switzerland, a country of nine million people, has 30.\n\nWatch Britain lead in 1905 with 53 titles, watch the United States pull clear to 203 by 1965, and watch Spain, France and Switzerland arrive in the modern era.\n\n📊 See cumulative Grand Slam singles titles by country from 1905 to 2025 in this animated ranking, men's and women's draws combined. Explore how the Australian Open, Roland-Garros, Wimbledon and the US Open have been shared out over 120 years.\n\nSource: Wikipedia, from the four majors' official records (CC BY-SA). A title is credited to the country the champion represented that year.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #tennis #grandslam #wimbledon #rolandgarros #usopen #sportshistory #datavisualization #barchartrace",
+  "post_at": "2026-10-24T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:13:03+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

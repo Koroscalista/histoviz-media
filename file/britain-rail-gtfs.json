@@ -1,7 +1,7 @@
 {
   "slug": "britain-rail-gtfs",
   "notion_id": 162,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/britain-rail-gtfs/britain-rail-gtfs.mp4",
     "duree_s": 40.0
   },
-  "caption": null,
+  "caption": "One ordinary day on Britain's railways: 22,264 scheduled train services, all moving at once.\n\nWatch the network wake before dawn, saturate at rush hour and empty out overnight — every dot is a real service, from intercity to sleeper.\n\n📊 See a full day of British rail traffic in this animated flow map, built from the published National Rail GTFS timetable for Thursday 3 September 2026, across 2,584 stations. Explore how London pulls the whole network, and when the country actually moves.\n\nSource: National Rail GTFS via travelwhiz, data from RDG/ATOC (CC BY 4.0). Positions are interpolated between the published stops; stations are joined in straight lines, as the GTFS carries no track geometry. Service classes approximate the operator: intercity (Avanti, LNER, GWR, CrossCountry, TransPennine…), night (Caledonian Sleeper), regional (the rest).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #trains #railway #britain #uk #nationalrail #transport #datavisualization #opendata",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-09T08:25:05+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

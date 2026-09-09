@@ -1,7 +1,7 @@
 {
   "slug": "asia-most-populated",
   "notion_id": 124,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/asia-most-populated/asia-most-populated.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "China led Asia's population every single year from 1800. In 2021 that ends.\n\nWatch China go from 326 million to 1,407 million and India from 164 million to 1,464 — and watch the Great Leap Forward famine dent the curve in 1961.\n\n📊 See the most populated countries in Asia from 1800 to 2025 in this animated ranking, population in millions. Explore how India overtook China, when Pakistan passed Japan, and where Indonesia and Bangladesh sit today.\n\nSource: World Bank SP.POP.TOTL (1960–2025) and Gapminder Systema Globalis (before 1960), chain-linked at 1960, both CC BY 4.0. India, Pakistan and Bangladesh are counted on their present-day territories throughout. Figures before ~1950 are scholarly reconstructions.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #asia #india #china #population #demography #japan #datavisualization #barchartrace",
+  "post_at": "2026-10-11T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T15:50:52+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

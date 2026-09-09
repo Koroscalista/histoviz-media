@@ -1,7 +1,7 @@
 {
   "slug": "merchandise-exports",
   "notion_id": 90,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/merchandise-exports/merchandise-exports.mp4",
     "duree_s": 44.8
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 1960 the United States sold $20 billion of goods to the world and China was nowhere. In 2024 China sells $3,576 billion.\n\nWatch the United States and Germany trade the top spot for thirty years, then watch China join the WTO in 2001 and climb past everyone.\n\n📊 See merchandise exports by country from 1960 to 2024 in this animated ranking, in billions of current US dollars. Explore how Japan, Germany and the United States shared the lead, and where the Netherlands, South Korea and China stand in world trade today.\n\nSource: World Bank Open Data / WITS, from UN COMTRADE (CC BY 4.0), indicator TX.VAL.MRCH.CD.WT. Belgium is reported jointly with Luxembourg before 1999, and Russia only from 1992.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #trade #exports #globaltrade #economics #china #germany #datavisualization #barchartrace",
+  "post_at": "2026-10-10T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:19:16+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

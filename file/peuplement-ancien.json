@@ -1,7 +1,7 @@
 {
   "slug": "peuplement-ancien",
   "notion_id": 158,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -9,7 +9,7 @@
     "mp4_url": null,
     "duree_s": 75.0
   },
-  "caption": null,
+  "caption": "Nobody counted the living in 4000 BC. Density times habitable land puts East Asia and the Near East at roughly 2 million people each.\n\nWatch East Asia pull away: about 6 million by 2000 BC, and around 40 million by the year zero — four times the Near East, four times Europe.\n\n📊 See estimated regional population in Antiquity, from 4000 BC to the year zero, in this animated ranking. Explore the orders of magnitude behind the first cities in Mesopotamia and the unification of China in 221 BC.\n\nSource: derived — density × habitable area from McEvedy & Jones (1978), cross-checked against Biraben (1979) world totals. These are ORDERS OF MAGNITUDE, prefixed ≈, not measurements.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #ancienthistory #antiquity #population #demography #mesopotamia #archaeology #datavisualization #barchartrace",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-07T10:04:52+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }

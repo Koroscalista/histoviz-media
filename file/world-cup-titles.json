@@ -1,7 +1,7 @@
 {
   "slug": "world-cup-titles",
   "notion_id": 95,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/world-cup-titles/world-cup-titles.mp4",
     "duree_s": 64.366667
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "Only eight nations have ever won the World Cup. Brazil has five of them.\n\nWatch Uruguay open the count in 1930, Brazil take a third crown in 1970 and pull clear, and Spain finally join the list in 2010.\n\n📊 See every FIFA World Cup title by nation from 1930 to 2022 in this animated ranking. Explore how Brazil reached five, how Italy and Germany settled on four each, and how Argentina climbed to three.\n\nSource: Wikipedia — List of FIFA World Cup finals, from FIFA records (CC BY-SA). The three titles won by West Germany (1954, 1974, 1990) are credited to Germany, following FIFA practice. No tournament was held in 1942 and 1946.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #worldcup #football #soccer #fifa #brazil #sportshistory #datavisualization #barchartrace",
+  "post_at": "2026-09-30T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-08T16:55:43+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:11:13+00:00"
     }
   ]
 }

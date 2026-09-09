@@ -1,7 +1,7 @@
 {
   "slug": "age-we-die-france",
   "notion_id": 103,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-france/age-we-die-france.mp4",
     "duree_s": 75.0
   },
-  "caption": null,
+  "caption": "In 1816, most deaths in France happened before the age of five. Today the peak sits past ninety.\n\nWatch cholera in 1832, the siege of Paris in 1871, the trenches of 1915 and the Spanish flu of 1918 tear holes into the young ages — then watch childhood empty out for good.\n\n📊 See the distribution of age at death in France from 1816 to 2024 in this animated distribution, men against women, life-table dx per 100,000. Explore two centuries of mortality in a single shape, and watch the men's and women's peaks pull apart after 1960.\n\nSource: HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org. CC BY 4.0. Period life tables 1x1, France total population (FRATNP), dx by sex.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #france #mortality #lifeexpectancy #demography #frenchhistory #publichealth #datavisualization #distribution",
   "post_at": null,
   "priorite": 0,
   "bloque": null,
@@ -27,6 +27,10 @@
     {
       "statut": "produit",
       "at": "2026-09-09T15:42:25+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:11:14+00:00"
     }
   ]
 }
