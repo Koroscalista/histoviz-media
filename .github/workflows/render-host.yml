@@ -105,7 +105,14 @@ jobs:
             python3 tools/rendre.py "filler/templates/$typ/chart.html" \
                     --slug "$slug" --video --out "$slug.mp4" \
               || { echo "rendu KO"; echo "::endgroup::"; continue; }
-            mp4="filler/productions/$slug/rendus/$slug.mp4"
+            # Le rendu sort un MP4 MUET — c'est le contrat du socle. La musique est une passe
+            # distincte (socle/musique.py choisit, socle/mux.py muxe). Sans elle on héberge du
+            # muet : c'est ce qui a envoyé le reel « Iran vs Israel » sans son le 09/09/2026.
+            final=$(python3 ../histoviz-media/.github/scripts/muxer.py --moteur . --slug "$slug") \
+              || { echo "mux KO — item laissé en prêt"; echo "::endgroup::"; continue; }
+            # L'asset hébergé porte toujours <slug>.mp4 : c'est l'URL que la file référence.
+            mp4="$RUNNER_TEMP/$slug.mp4"
+            cp "$final" "$mp4"
             duree=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$mp4")
             url="https://github.com/$DEPOT/releases/download/$slug/$slug.mp4"
             # 1. la durée décide AVANT l'hébergement : pas de Release pour une vidéo hors fenêtre
