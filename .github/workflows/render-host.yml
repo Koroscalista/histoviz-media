@@ -56,10 +56,24 @@ jobs:
         with:
           python-version: '3.12'
 
+      # `apt-get update` interroge TOUTES les sources du runner, y compris des dépôts tiers
+      # préinstallés dont on n'a aucun besoin (Google Chrome, Microsoft). Quand l'un d'eux sert
+      # un index corrompu — « Hash Sum mismatch » sur dl.google.com, arrivé deux fois le
+      # 09/09/2026 — apt sort en 100, le shell est en `-e`, la marche s'arrête AVANT ffmpeg, et
+      # plus rien ne se rend ni ne s'héberge. On retire donc ces sources (playwright installe son
+      # propre Chromium, on ne se sert pas de celle de Google), on retente, et on tolère un
+      # échec résiduel : les index en cache suffisent à installer ffmpeg.
       - name: Dépendances
         run: |
-          sudo apt-get update -qq
+          sudo rm -f /etc/apt/sources.list.d/google-chrome.list \
+                     /etc/apt/sources.list.d/microsoft-prod.list
+          for essai in 1 2 3; do
+            sudo apt-get update -qq -o Acquire::Retries=3 && break
+            echo "apt-get update KO (essai $essai) — nouvelle tentative dans 10 s"
+            sleep 10
+          done
           sudo apt-get install -y ffmpeg
+          command -v ffmpeg || { echo "ffmpeg absent : impossible de muxer"; exit 1; }
           python3 -m pip install --quiet playwright pillow shapely openpyxl
           python3 -m playwright install --with-deps chromium
 
