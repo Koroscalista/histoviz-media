@@ -1,7 +1,7 @@
 {
   "slug": "how-europe-cut-the-cord-from-russian-gas",
   "notion_id": 189,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 4,
   "format": "filler",
   "type": "flux",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/how-europe-cut-the-cord-from-russian-gas/how-europe-cut-the-cord-from-russian-gas.mp4",
     "duree_s": 36.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "In 2021, Russia supplied half the gas Europe imported. Three years later, one seventh.\n\nWatch the corridors flip: Russian volumes fall from 153,226 to 37,843 million cubic metres between 2021 and 2024, while Norway becomes the EU's first supplier and American shipments climb from nothing in 2015 to 46,294.\n\n📊 See EU natural gas imports by partner country from 2015 to 2024 in this animated flow map, in million cubic metres. Explore how Norway, the United States, Algeria and Qatar filled the gap Russia left after the invasion of Ukraine.\n\nSource: Eurostat (nrg_ti_gas), Imports of natural gas by partner country. Reuse authorised with citation.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #europe #energy #gas #russia #norway #eurostat #geopolitics #datavisualization",
+  "post_at": "2026-09-10T16:00:00+02:00",
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
@@ -45,6 +45,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T15:34:44+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T17:35:49+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T17:35:49+02:00"
     }
   ],
   "origine": "actu",
