@@ -1,13 +1,13 @@
 {
   "slug": "napoleon-conquers-europe",
   "notion_id": 156,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/napoleon-conquers-europe/napoleon-conquers-europe.mp4",
+    "duree_s": 30.0
   },
   "caption": "In 1803 France had one ally in Europe. By 1812 even Prussia and Austria marched under its banner.\n\nWatch Switzerland, the Kingdom of Italy, Bavaria, Württemberg, Baden, Saxony and Naples fall in behind France between 1803 and 1806, then the Duchy of Warsaw and Westphalia in 1807 — and watch Russia stand alone at the other end of the map.\n\n📊 See who controlled what in Europe, year by year, from 1803 to 1812 in this animated map. Explore how the French sphere grew from a single confederation into a continent of allies and satellites, on the eve of the Russian campaign.\n\nSource: OpenHistoricalMap — historical borders by date (ODbL), Napoleonic chronology.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #napoleon #europeanhistory #empire #france #19thcentury #maps #datavisualization #historymap",
   "post_at": null,
@@ -37,6 +37,10 @@
       "at": "2026-09-09T20:15:58+02:00",
       "motif": "MP4 rendu mais jamais hébergé (session cloud sans droit de Release) : l'item avait quitté « prêt » sans media.mp4_url et n'était plus jamais sélectionné par render-host",
       "retour": true
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T18:48:00+00:00"
     }
   ]
 }

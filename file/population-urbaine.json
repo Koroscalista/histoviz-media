@@ -1,13 +1,13 @@
 {
   "slug": "population-urbaine",
   "notion_id": 159,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/population-urbaine/population-urbaine.mp4",
+    "duree_s": 44.8
   },
   "caption": "In 1960, 132 million Chinese lived in cities. Today 928 million do — more than India and the United States combined.\n\nWatch China open its economy in 1978 and pull away, watch the world turn majority-urban in 2007, and watch India climb to 513 million city dwellers.\n\n📊 See urban population by country from 1960 to 2024 in this animated ranking, in millions. Explore how the world's city dwellers concentrated in a handful of countries, and where Brazil, Indonesia, Nigeria and Russia stand today.\n\nSource: Gapminder, Systema Globalis (concept urban_population, CC BY 4.0). No world total is published for this series, so none is shown.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #urbanization #cities #population #demography #china #india #datavisualization #barchartrace",
   "post_at": null,
@@ -37,6 +37,10 @@
       "at": "2026-09-09T20:15:58+02:00",
       "motif": "MP4 rendu mais jamais hébergé (session cloud sans droit de Release) : l'item avait quitté « prêt » sans media.mp4_url et n'était plus jamais sélectionné par render-host",
       "retour": true
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T18:54:24+00:00"
     }
   ]
 }

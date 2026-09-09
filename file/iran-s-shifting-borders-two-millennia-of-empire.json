@@ -1,13 +1,13 @@
 {
   "slug": "iran-s-shifting-borders-two-millennia-of-empire",
   "notion_id": 182,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/iran-s-shifting-borders-two-millennia-of-empire/iran-s-shifting-borders-two-millennia-of-empire.mp4",
+    "duree_s": 74.933333
   },
   "caption": "In 800 CE, the empire ruling the Iranian plateau reached across land that today lies in 20 different countries. By 1828, one.\n\nWatch the map swell and shrink era by era: Parthians, Sasanians, the Abbasid Caliphate, the Mongol Ilkhanate from Tabriz, Timur's empire out to Samarkand, the Safavids, the Qajars.\nWatch Mesopotamia change hands again and again, and the Caucasus come and go until the Treaty of Turkmenchay in 1828.\n\n📊 See which empire ruled Persia from 1 CE to 2000 in this animated historical map. Explore how power over the Iranian plateau passed from Parthia and Sasanian Persia to the Caliphate, the Seljuks, the Mongols and the Safavids, and how far each of them reached — from Egypt and the Levant to the Indus, Armenia and the Oxus — drawn over the borders of today for reference.\n\nSource: Reconstructed borders from A. Ourednik, historical-basemaps (GPL-3.0); coastlines from Natural Earth (public domain). Borders before 1800 are scholarly reconstructions, not surveys.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #historicalmaps #persia #iran #ancienthistory #middleeast #sasanian #abbasid #safavid #mongolempire",
   "post_at": null,
@@ -37,6 +37,10 @@
       "at": "2026-09-09T20:15:58+02:00",
       "motif": "MP4 rendu mais jamais hébergé (session cloud sans droit de Release) : l'item avait quitté « prêt » sans media.mp4_url et n'était plus jamais sélectionné par render-host",
       "retour": true
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T18:42:33+00:00"
     }
   ],
   "origine": "actu",
