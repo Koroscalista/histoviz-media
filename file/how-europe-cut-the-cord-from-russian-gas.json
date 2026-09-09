@@ -1,13 +1,13 @@
 {
   "slug": "how-europe-cut-the-cord-from-russian-gas",
   "notion_id": 189,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 4,
   "format": "filler",
   "type": "flux",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/how-europe-cut-the-cord-from-russian-gas/how-europe-cut-the-cord-from-russian-gas.mp4",
+    "duree_s": 36.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-09T16:10:19+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T14:14:26+00:00"
     }
   ],
   "origine": "actu",
