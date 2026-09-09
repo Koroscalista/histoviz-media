@@ -12,10 +12,7 @@
   "caption": null,
   "post_at": null,
   "priorite": 0,
-  "bloque": {
-    "raison": "data jamais ingérée : le bundle existe mais filler/productions/<slug>/data/ est vide (ni CSV source, ni data.json). Rien ne peut le rendre. À débloquer une fois l'ingestion faite (tools/wpp_agewedie_to_csv.py pour les age-we-die-*).",
-    "at": "2026-09-09T15:56:44+02:00"
-  },
+  "bloque": null,
   "abandonne": false,
   "publication": null,
   "historique": [
