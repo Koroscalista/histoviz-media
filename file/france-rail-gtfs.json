@@ -1,13 +1,13 @@
 {
   "slug": "france-rail-gtfs",
   "notion_id": 160,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-rail-gtfs/france-rail-gtfs.mp4",
+    "duree_s": 40.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-09T08:10:36+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T08:29:00+00:00"
     }
   ]
 }
