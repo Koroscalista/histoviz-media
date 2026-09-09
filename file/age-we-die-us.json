@@ -1,13 +1,13 @@
 {
   "slug": "age-we-die-us",
   "notion_id": 102,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-us/age-we-die-us.mp4",
+    "duree_s": 65.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T15:47:47+00:00"
     }
   ]
 }

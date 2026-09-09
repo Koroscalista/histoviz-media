@@ -1,13 +1,13 @@
 {
   "slug": "age-we-die-japan",
   "notion_id": 106,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/age-we-die-japan/age-we-die-japan.mp4",
+    "duree_s": 53.9
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-08T15:37:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-09T15:44:51+00:00"
     }
   ]
 }
