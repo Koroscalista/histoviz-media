@@ -1,7 +1,7 @@
 {
   "slug": "iran-vs-israel-the-military-spending-race",
   "notion_id": 173,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 2,
   "format": "filler",
   "type": "trajectoires",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/iran-vs-israel-the-military-spending-race/iran-vs-israel-the-military-spending-race.mp4",
     "duree_s": 45.5
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "Iran spends less on its military today than it did in 1976.\n\nWatch the gap widen: by 2025 Israel's budget reaches $43.7B against Iran's $7.5B — almost six times more. Iran's own peak came half a century ago, at $10.6B in 1976, three years before the Islamic Revolution.\n\n📊 See military spending in Iran and Israel from 1960 to 2025 in this animated chart, in billion USD at constant 2024 prices. Explore how the Six-Day War, the Iran-Iraq War and the war in Gaza shaped two defence budgets over 65 years.\n\nSource: SIPRI Military Expenditure Database, 1949-2025 v1.2 (free to use with citation).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #iran #israel #middleeast #military #defence #geopolitics #sipri #datavisualization",
+  "post_at": "2026-09-09T16:20:00+02:00",
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T13:51:09+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T15:54:35+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T15:54:35+02:00"
     }
   ],
   "publier_avant": "2026-09-09T17:00:00+02:00",

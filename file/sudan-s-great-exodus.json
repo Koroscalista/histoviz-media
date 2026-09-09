@@ -1,7 +1,7 @@
 {
   "slug": "sudan-s-great-exodus",
   "notion_id": 174,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/sudan-s-great-exodus/sudan-s-great-exodus.mp4",
     "duree_s": 40.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "By the end of 2025, 3.6 million Sudanese had fled to just seven neighbouring countries.\n\nWatch the exodus spread: the first wave follows the war erupting in Khartoum in 2023, then a new route opens to Libya, and the fall of El Fasher pushes the numbers higher again.\n\n📊 See Sudanese refugees and asylum-seekers by country of asylum from 2015 to 2025 in this animated flow map. Explore how a decade of displacement became the fastest-growing refugee crisis on earth — the seven countries shown hold 96% of all Sudanese refugees.\n\nSource: UNHCR Refugee Data Finder (api.unhcr.org, extracted September 2026).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #sudan #refugees #unhcr #africa #migration #humanitarian #displacement #datavisualization",
+  "post_at": "2026-09-10T12:00:00+02:00",
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T13:52:57+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-09T15:54:35+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-09T15:54:35+02:00"
     }
   ],
   "publier_avant": "2026-09-13T17:00:00+02:00",
