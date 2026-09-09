@@ -1,7 +1,7 @@
 {
   "slug": "iran-vs-israel-the-military-spending-race",
   "notion_id": 173,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "filler",
   "type": "trajectoires",
@@ -14,7 +14,11 @@
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18125041672803447",
+    "permalink": "https://www.instagram.com/reel/DdEeSn_jFcW/",
+    "published_at": "2026-09-09T14:27:17.697Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -35,6 +39,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T15:54:35+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-09T14:27:17.697Z"
     }
   ],
   "publier_avant": "2026-09-09T17:00:00+02:00",
