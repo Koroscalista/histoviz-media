@@ -65,8 +65,13 @@ jobs:
       # échec résiduel : les index en cache suffisent à installer ffmpeg.
       - name: Dépendances
         run: |
-          sudo rm -f /etc/apt/sources.list.d/google-chrome.list \
-                     /etc/apt/sources.list.d/microsoft-prod.list
+          # On repère les sources par leur CONTENU, pas par leur nom : l'image du runner les
+          # nomme tantôt `google-chrome.list`, tantôt `google-chrome.sources` (deb822). Un `rm`
+          # sur un nom en dur ne supprime rien et laisse le dépôt cassé dans la boucle — vérifié
+          # sur le run 34390217150, où dl.google.com était encore interrogé après le `rm`.
+          grep -rl -e 'dl\.google\.com' -e 'packages\.microsoft\.com' \
+               /etc/apt/sources.list.d/ 2>/dev/null | sudo xargs -r rm -f
+          echo "sources apt restantes :"; ls /etc/apt/sources.list.d/ || true
           for essai in 1 2 3; do
             sudo apt-get update -qq -o Acquire::Retries=3 && break
             echo "apt-get update KO (essai $essai) — nouvelle tentative dans 10 s"
@@ -75,6 +80,8 @@ jobs:
           sudo apt-get install -y ffmpeg
           command -v ffmpeg || { echo "ffmpeg absent : impossible de muxer"; exit 1; }
           python3 -m pip install --quiet playwright pillow shapely openpyxl
+          # `--with-deps` relance un `apt-get update` à lui, sans tolérance : si une source tierce
+          # est cassée il échoue aussi. D'où le nettoyage ci-dessus, qui protège les deux.
           python3 -m playwright install --with-deps chromium
 
       - name: Que faut-il rendre ?
