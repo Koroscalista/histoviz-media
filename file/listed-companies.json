@@ -1,6 +1,6 @@
 {
   "slug": "listed-companies",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-10T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 34,
-  "publication": {},
+  "publication": {
+    "media_id": "18033188153660200",
+    "permalink": "https://www.instagram.com/reel/DdHHwFrDxJ0/",
+    "published_at": "2026-09-10T15:08:20.724Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-10T15:08:20.724Z"
     }
   ]
 }
