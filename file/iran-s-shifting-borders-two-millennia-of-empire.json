@@ -1,7 +1,7 @@
 {
   "slug": "iran-s-shifting-borders-two-millennia-of-empire",
   "notion_id": 182,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
@@ -10,7 +10,7 @@
     "duree_s": 74.933333
   },
   "caption": "In 800 CE, the empire ruling the Iranian plateau reached across land that today lies in 20 different countries. By 1828, one.\n\nWatch the map swell and shrink era by era: Parthians, Sasanians, the Abbasid Caliphate, the Mongol Ilkhanate from Tabriz, Timur's empire out to Samarkand, the Safavids, the Qajars.\nWatch Mesopotamia change hands again and again, and the Caucasus come and go until the Treaty of Turkmenchay in 1828.\n\n📊 See which empire ruled Persia from 1 CE to 2000 in this animated historical map. Explore how power over the Iranian plateau passed from Parthia and Sasanian Persia to the Caliphate, the Seljuks, the Mongols and the Safavids, and how far each of them reached — from Egypt and the Levant to the Indus, Armenia and the Oxus — drawn over the borders of today for reference.\n\nSource: Reconstructed borders from A. Ourednik, historical-basemaps (GPL-3.0); coastlines from Natural Earth (public domain). Borders before 1800 are scholarly reconstructions, not surveys.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #historicalmaps #persia #iran #ancienthistory #middleeast #sasanian #abbasid #safavid #mongolempire",
-  "post_at": null,
+  "post_at": "2026-09-10T12:00:00+02:00",
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
@@ -41,6 +41,14 @@
     {
       "statut": "produit",
       "at": "2026-09-09T18:42:33+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-10T08:15:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-10T08:15:52+00:00"
     }
   ],
   "origine": "actu",

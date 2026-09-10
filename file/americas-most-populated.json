@@ -1,7 +1,7 @@
 {
   "slug": "americas-most-populated",
   "notion_id": 126,
-  "statut": "prêt à publier",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "In 1800 the United States had 7 million people. It has since multiplied by nearly fifty, to 342 million.\n\nWatch Brazil overtake Mexico in 1853, Colombia pass Canada in 1974 and then Argentina in 1992, and watch Venezuelans flee the crisis from 2016.\n\n📊 See the most populated countries of the Americas from 1800 to 2025 in this animated ranking, population in millions. Explore how the United States, Brazil and Mexico pulled away, and where Colombia, Argentina and Canada stand today.\n\nSource: World Bank SP.POP.TOTL (1960–2025) and Gapminder Systema Globalis (before 1960), chain-linked at 1960, both CC BY 4.0. Figures before ~1950 are scholarly reconstructions.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #americas #population #demography #brazil #unitedstates #mexico #datavisualization #barchartrace",
-  "post_at": null,
+  "post_at": "2026-11-06T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -31,6 +31,10 @@
     {
       "statut": "prêt à publier",
       "at": "2026-09-09T17:11:14+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-10T08:15:52+00:00"
     }
   ]
 }

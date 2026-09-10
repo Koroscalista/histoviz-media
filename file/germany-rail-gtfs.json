@@ -1,7 +1,7 @@
 {
   "slug": "germany-rail-gtfs",
   "notion_id": 161,
-  "statut": "prêt à publier",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
@@ -10,7 +10,7 @@
     "duree_s": 40.0
   },
   "caption": "One ordinary day on Germany's railways: 43,124 scheduled train services, all moving at once.\n\nWatch 7,540 stations light up — ICE, IC and EC long-distance trains threading through a dense mesh of RE, RB and S-Bahn services.\n\n📊 See a full day of German rail traffic in this animated flow map, built from the published DB and DELFI GTFS timetable for Thursday 3 September 2026. Explore how Berlin, Hamburg, Cologne, Frankfurt and Munich anchor the busiest network in Europe.\n\nSource: gtfs.de, aggregating Deutsche Bahn and DELFI timetables (CC BY 4.0). Positions are interpolated between the published stops; stations are joined in straight lines, as the GTFS carries no track geometry. Service classes are derived from the line name.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #trains #railway #germany #deutschebahn #ice #transport #datavisualization #opendata",
-  "post_at": null,
+  "post_at": "2026-11-01T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -31,6 +31,10 @@
     {
       "statut": "prêt à publier",
       "at": "2026-09-09T17:11:14+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-10T08:15:52+00:00"
     }
   ]
 }

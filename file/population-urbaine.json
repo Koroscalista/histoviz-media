@@ -1,7 +1,7 @@
 {
   "slug": "population-urbaine",
   "notion_id": 159,
-  "statut": "produit",
+  "statut": "prêt à publier",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -41,6 +41,10 @@
     {
       "statut": "produit",
       "at": "2026-09-09T18:54:24+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-10T08:15:52+00:00"
     }
   ]
 }
