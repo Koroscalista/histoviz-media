@@ -1,13 +1,13 @@
 {
   "slug": "black-death-europe",
   "notion_id": null,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 3,
   "format": "filler",
   "type": "trajectoires",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/black-death-europe/black-death-europe.mp4",
+    "duree_s": 60.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-09-11T08:05:08+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-11T08:13:33+00:00"
     }
   ]
 }
