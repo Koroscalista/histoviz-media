@@ -1,6 +1,6 @@
 {
   "slug": "renewable-energy",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-12T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 49,
-  "publication": {},
+  "publication": {
+    "media_id": "17932846821393601",
+    "permalink": "https://www.instagram.com/reel/DdMRRAWls_l/",
+    "published_at": "2026-09-12T15:07:45.803Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-12T15:07:45.803Z"
     }
   ]
 }
