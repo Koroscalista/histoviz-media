@@ -1,7 +1,7 @@
 {
   "slug": "black-death-europe",
   "notion_id": null,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "trajectoires",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/black-death-europe/black-death-europe.mp4",
     "duree_s": 60.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "The Black Death killed roughly a third of Europe's population in just four years — and the continent needed two centuries to get that population back.\n\nWatch Europe's population collapse from ~74 million in 1347 to a low of ~52 million by 1400, then climb, decade after decade, until it finally clears its pre-plague peak around 1550.\n\n📊 See the population of Europe rise, collapse, and recover across three centuries (1300-1600) in this animated trajectory. Explore how the Black Death of 1347-1351 erased a generation of growth in half a decade, why recurring outbreaks kept pushing the total lower into the early 1400s, and how long it really took Europe to reclaim the ground it lost.\n\nSource: Reconstructed series, linearly interpolated between published anchor estimates (1300≈70M, 1347≈74M peak, 1400≈52M, 1500≈67M, 1600≈89M) — synthesis via Encyclopedia.com, consistent with J.C. Russell and O.J. Benedictow; recovery to pre-plague level in the 16th century per Wikipedia/Britannica. Intermediate values are interpolated and indicative only.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #blackdeath #plague #europeanhistory #demography #medievalhistory #datavisualization #historytok #population",
+  "post_at": "2026-11-18T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-09-11T08:13:33+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-12T08:09:29+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-12T08:09:29+00:00"
     }
   ]
 }
