@@ -1,6 +1,6 @@
 {
   "slug": "reseau-britain-rail",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-14T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 120,
-  "publication": {},
+  "publication": {
+    "media_id": "18030500303674675",
+    "permalink": "https://www.instagram.com/reel/DdR354MlIxv/",
+    "published_at": "2026-09-14T19:21:20.697Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-14T19:21:20.697Z"
     }
   ]
 }
