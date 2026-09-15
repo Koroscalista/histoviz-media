@@ -1,6 +1,6 @@
 {
   "slug": "largest-cities",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-15T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 4,
-  "publication": {},
+  "publication": {
+    "media_id": "18116372822055820",
+    "permalink": "https://www.instagram.com/reel/DdUAJisjrp8/",
+    "published_at": "2026-09-15T15:12:09.213Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-15T15:12:09.213Z"
     }
   ]
 }
