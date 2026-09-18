@@ -1,6 +1,6 @@
 {
   "slug": "most-visited-countries",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-18T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 38,
-  "publication": {},
+  "publication": {
+    "media_id": "17943792741341653",
+    "permalink": "https://www.instagram.com/reel/Ddbt0O3DSi6/",
+    "published_at": "2026-09-18T15:05:51.105Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-18T15:05:51.105Z"
     }
   ]
 }
