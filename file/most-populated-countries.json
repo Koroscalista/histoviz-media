@@ -1,6 +1,6 @@
 {
   "slug": "most-populated-countries",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-20T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 6,
-  "publication": {},
+  "publication": {
+    "media_id": "18093120947406711",
+    "permalink": "https://www.instagram.com/reel/DdhALhsk1Qj/",
+    "published_at": "2026-09-20T16:22:29.309Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-20T16:22:29.309Z"
     }
   ]
 }
