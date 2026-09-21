@@ -1,21 +1,17 @@
 {
   "slug": "reseau-france-rail",
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-france-rail/reseau-france-rail.mp4"
   },
-  "caption": "The real French rail network, opening and closure dates from OpenHistoricalMap (uneven quality). Land: Natural Earth.",
-  "post_at": "2026-09-16T17:00:00+02:00",
+  "caption": "France's rail network reached about 42,000 km in the 1930s. Today it is down to roughly 29,000 km.\n\nWatch it draw itself at its real construction dates — the 1827 coal line out of Saint-Étienne, the star of main lines radiating from Paris, then the secondary lines of the 1880s reaching almost every subprefecture. After the 1930s peak the map thins out: branch lines close, tracks are lifted.\n\n📊 Each section appears the year it opened and fades the year it closed to all traffic. The dataset was rebuilt for this video: track geometry from SNCF Réseau's national network file (closed and sold-off lines included) and from OpenStreetMap for lines since dismantled; opening and closing dates read from the French Wikipedia article of each line, completed by OpenHistoricalMap. It covers about 37,000 km of the roughly 42,000 km peak — narrow-gauge local networks are out of scope and some dates are approximate.\n\nSource: SNCF Réseau (ODbL) · OpenStreetMap (ODbL) · Wikipédia FR (CC BY-SA) · OpenHistoricalMap (ODbL) · land: Natural Earth.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #railway #france #sncf #trains #maps #geography #opendata #datavisualization",
+  "post_at": "2026-09-21T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 118,
-  "publication": {
-    "media_id": "18109588958165526",
-    "permalink": "https://www.instagram.com/reel/DdW7Rb1D7c2/",
-    "published_at": "2026-09-16T18:27:22.706Z"
-  },
+  "publication": {},
   "historique": [
     {
       "statut": "produit",
@@ -32,6 +28,10 @@
     {
       "statut": "publié",
       "at": "2026-09-16T18:27:22.706Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-21T14:52:00+00:00"
     }
   ]
 }
