@@ -1,6 +1,6 @@
 {
   "slug": "reseau-france-rail",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-21T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 118,
-  "publication": {},
+  "publication": {
+    "media_id": "18073121171740001",
+    "permalink": "https://www.instagram.com/reel/Ddj0913Ef32/",
+    "published_at": "2026-09-21T18:42:10.909Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -32,6 +36,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-21T14:52:00+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-21T18:42:10.909Z"
     }
   ]
 }
