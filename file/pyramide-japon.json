@@ -1,6 +1,6 @@
 {
   "slug": "pyramide-japon",
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "distribution",
@@ -8,14 +8,10 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/pyramide-japon/pyramide-japon.mp4"
   },
   "caption": "Japan's population by age and sex, 1950-2023, in thousands. Source: UN World Population Prospects 2024.",
-  "post_at": "2026-09-21T20:00:00+02:00",
+  "post_at": "2026-09-22T12:00:00+02:00",
   "priorite": 0,
   "notion_id": 107,
-  "publication": {
-    "media_id": "18098310905333674",
-    "permalink": "https://www.instagram.com/reel/DdkNX57EeWe/",
-    "published_at": "2026-09-21T22:15:08.545Z"
-  },
+  "publication": {},
   "historique": [
     {
       "statut": "produit",
@@ -32,6 +28,10 @@
     {
       "statut": "publié",
       "at": "2026-09-21T22:15:08.545Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-22T09:05:00+00:00"
     }
   ]
 }

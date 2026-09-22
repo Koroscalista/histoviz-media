@@ -49,6 +49,36 @@ export function isDue(item, now = new Date()) {
   return t.getTime() <= now.getTime();
 }
 
+// GARDE-FOU HORAIRE. Les runs planifiés de GitHub Actions arrivent en retard et de façon
+// irrégulière (mesuré sur 120 runs : 13 réveils/jour au lieu de 96, écart médian 24 min mais
+// jusqu'à 7 h). Un item dû à 17 h peut donc être pris à 23 h et sortir en pleine nuit — c'est
+// arrivé le 21/09/2026 (pyramide-japon postée à 00 h 15). Hors fenêtre, on ne publie pas : on
+// attend le réveil suivant, quitte à sortir le lendemain — jamais un post nocturne.
+//
+// Deux fenêtres (config.json, donc données) : 17 h–21 h pour une vidéo normale, 12 h–21 h pour
+// une réaction à l'actu, qui perd sa valeur en attendant le soir. Le créneau de l'item prime sur
+// le début de fenêtre : un post délibérément calé à 12 h sort à 12 h, sans être retenu jusqu'à
+// 17 h. La fin de fenêtre, elle, ne se négocie pas.
+function heureLocale(tz, d) {
+  // en-GB et pas fr-FR : le format français rend « 17 h », qui ne se convertit pas en nombre.
+  return Number(new Intl.DateTimeFormat('en-GB', {
+    timeZone: tz || 'Europe/Paris', hour: '2-digit', hour12: false,
+  }).format(d));
+}
+
+export function dansFenetre(cfg, item, now = new Date()) {
+  const f = cfg.fenetre_publication;
+  if (!f) return true;
+  const w = (item && (item.origine === 'actu' || Number(item.priorite || 0) >= 1))
+    ? (f.actu || f.normale) : (f.normale || f.actu);
+  if (!w) return true;
+  const h = heureLocale(f.tz, now);
+  if (Number.isNaN(h)) return true;          // fuseau illisible : on ne bloque pas la publication
+  const creneau = item && item.post_at ? heureLocale(f.tz, new Date(item.post_at)) : NaN;
+  const debut = Number.isNaN(creneau) ? w.debut : Math.min(w.debut, creneau);
+  return h >= debut && h < w.fin;
+}
+
 // Prochain item à poster : priorité décroissante, puis post_at croissant (tri de a_publier).
 export function pickDue(entries, now = new Date()) {
   const due = entries.filter((e) => isDue(e.item, now));

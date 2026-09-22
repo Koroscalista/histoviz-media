@@ -1,10 +1,21 @@
 name: publish
 
-# Runner B — publication always-on. Poll toutes les 15 min : publie le 1er item dû, au plus un.
-# Le créneau réel est porté par `publish_at` (UTC) dans chaque item de queue/.
+# Runner B — publication always-on. Publie le 1er item dû, au plus un par vérification.
+# Le créneau réel est porté par `post_at` dans chaque item de file/, la plage horaire autorisée
+# par `fenetre_publication` de config.json (17 h–21 h ; 12 h–21 h pour une réaction à l'actu).
+#
+# POURQUOI UNE BOUCLE, ET PAS UN SIMPLE CRON (21/09/2026). GitHub ne tient pas les horaires des
+# workflows planifiés : mesuré sur 120 runs de ce dépôt, `*/15` donnait ~13 réveils par jour au
+# lieu de 96, avec des trous jusqu'à 6 h 55 — la vidéo France due à 17 h est sortie à 20 h 42, et
+# celle du Japon à 00 h 15. Deux corrections ici :
+#   1. minutes DÉCALÉES : GitHub lâche en priorité les runs planifiés aux minutes rondes
+#      (:00 :15 :30 :45), de loin les plus demandées ;
+#   2. chaque run RESTE ÉVEILLÉ ~50 min et vérifie toutes les 5 min. Un run lancé en retard
+#      couvre donc la tranche suivante, au lieu de laisser un trou jusqu'au réveil d'après.
+# Le dépôt est public : les minutes Actions sont gratuites, la boucle ne coûte rien.
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -15,7 +26,8 @@ on:
 permissions:
   contents: write
 
-# Jamais deux publications en parallèle ; on ne coupe pas un run en cours.
+# Jamais deux publications en parallèle ; on ne coupe pas un run en cours. Les runs planifiés qui
+# arrivent pendant la boucle attendent leur tour et prennent le relais : la couverture s'enchaîne.
 concurrency:
   group: publish
   cancel-in-progress: false
@@ -23,26 +35,35 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Publier l'item dû
+      - name: Voir ce qui serait publié (dry-run)
+        if: ${{ inputs.dry_run }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node src/publish.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: node src/publish.mjs --dry-run
 
-      - name: Commiter le résultat
+      - name: Publier les items dus (veille ~50 min, vérification toutes les 5 min)
         if: ${{ !inputs.dry_run }}
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "histoviz-bot"
-            git config user.email "actions@users.noreply.github.com"
-            git add -A
-            git commit -m "publish: $(date -u +%FT%TZ)"
-            git push
-          else
-            echo "Rien à commiter."
-          fi
+          git config user.name "histoviz-bot"
+          git config user.email "actions@users.noreply.github.com"
+          echec=0
+          for i in $(seq 1 11); do
+            node src/publish.mjs || echec=1
+            if [ -n "$(git status --porcelain)" ]; then
+              git add -A
+              git commit -m "publish: $(date -u +%FT%TZ)"
+              git pull --rebase --autostash
+              git push
+            fi
+            if [ "$i" -lt 11 ]; then sleep 290; fi
+          done
+          exit $echec

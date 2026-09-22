@@ -5,7 +5,7 @@
 // Format de file = Bloc 1 : stathisto/pipeline/README.md fait foi.
 import { writeFileSync } from 'node:fs';
 import {
-  loadConfig, requireToken, loadFile, pickDue, graph, sleep, redact,
+  loadConfig, requireToken, loadFile, pickDue, graph, sleep, redact, dansFenetre,
 } from './lib.mjs';
 
 const DRY = process.argv.includes('--dry-run');
@@ -85,6 +85,14 @@ async function main() {
   const entries = loadFile();
   const entry = pickDue(entries, now);
 
+  if (entry && !dansFenetre(cfg, entry.item, now)) {
+    const f = cfg.fenetre_publication;
+    const w = (entry.item.origine === 'actu' || Number(entry.item.priorite || 0) >= 1)
+      ? f.actu : f.normale;
+    log(`Hors fenêtre de publication (${w.debut}h–${w.fin}h ${f.tz}) : ${entry.slug} attend le `
+      + 'prochain réveil dans la fenêtre. Rien n\'est publié.');
+    return;
+  }
   if (!entry) {
     log(`Rien à publier (${entries.length} item(s) en file, aucun programmé/dû à ${now.toISOString()}).`);
     return;

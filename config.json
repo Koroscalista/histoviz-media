@@ -5,5 +5,10 @@
   "container_poll": {
     "interval_seconds": 8,
     "timeout_seconds": 360
+  },
+  "fenetre_publication": {
+    "tz": "Europe/Paris",
+    "normale": { "debut": 17, "fin": 21 },
+    "actu": { "debut": 12, "fin": 21 }
   }
 }
