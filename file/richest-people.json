@@ -1,6 +1,6 @@
 {
   "slug": "richest-people",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-22T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 2,
-  "publication": {},
+  "publication": {
+    "media_id": "17936130321373373",
+    "permalink": "https://www.instagram.com/reel/DdmVYfKjYOj/",
+    "published_at": "2026-09-22T18:03:38.088Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-22T18:03:38.088Z"
     }
   ]
 }
