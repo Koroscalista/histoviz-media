@@ -1,32 +1,40 @@
 {
- "slug": "france-railway-companies",
- "notion_id": null,
- "statut": "programmé",
- "pilier": 3,
- "format": "signature",
- "type": null,
- "media": {
-  "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-railway-companies/france-railway-companies.mp4",
-  "duree_s": 54.97
- },
- "caption": "Five of France's six great railway companies had their own gate into Paris. The sixth, the Midi, never reached the capital at all.\n\nWatch each network grow out of its Paris terminus: the Nord from the Gare du Nord, the Est from the Gare de l'Est, the Ouest-État from Saint-Lazare and Montparnasse, the Paris-Orléans from Austerlitz, the PLM from the Gare de Lyon. Watch Alsace-Lorraine stand apart, and the Midi spread from Bordeaux to the Mediterranean without ever touching Paris.\n\n📊 See how the railways of France were shared out between companies from 1842 to 1938 in this animated map. Explore how the law of 11 June 1842 drew the main lines as a star around Paris, how the conventions of 1859 handed each region to a single company as a monopoly, how the bankrupt Ouest passed to the state in 1909 and how Alsace-Lorraine came back from Germany in 1919 as a separate network — until 1 January 1938, when every one of them became the SNCF. Line thickness follows traffic; the companies are gone, their stations remain.\n\nSource: lines and dates from SNCF Réseau (ODbL), OpenStreetMap (ODbL), OpenHistoricalMap (ODbL), Wikipédia FR (CC BY-SA) and Wikidata (CC0). Company areas and band widths traced from a 1930 network map published by histoire-itinerante.fr. Historical sources: law of 11 June 1842, conventions of 1859, convention of 31 August 1937; François Caron, Histoire des chemins de fer en France (Fayard).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #france #railway #trains #sncf #frenchhistory #historicalmaps #maps #infographic",
- "post_at": "2026-09-24T17:00:00+02:00",
- "priorite": 0,
- "bloque": null,
- "abandonne": false,
- "publication": null,
- "historique": [
-  {
-   "statut": "produit",
-   "at": "2026-09-22T16:00:00+02:00"
+  "slug": "france-railway-companies",
+  "notion_id": null,
+  "statut": "publié",
+  "pilier": 3,
+  "format": "signature",
+  "type": null,
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-railway-companies/france-railway-companies.mp4",
+    "duree_s": 54.97
   },
-  {
-   "statut": "prêt à publier",
-   "at": "2026-09-22T16:00:00+02:00"
+  "caption": "Five of France's six great railway companies had their own gate into Paris. The sixth, the Midi, never reached the capital at all.\n\nWatch each network grow out of its Paris terminus: the Nord from the Gare du Nord, the Est from the Gare de l'Est, the Ouest-État from Saint-Lazare and Montparnasse, the Paris-Orléans from Austerlitz, the PLM from the Gare de Lyon. Watch Alsace-Lorraine stand apart, and the Midi spread from Bordeaux to the Mediterranean without ever touching Paris.\n\n📊 See how the railways of France were shared out between companies from 1842 to 1938 in this animated map. Explore how the law of 11 June 1842 drew the main lines as a star around Paris, how the conventions of 1859 handed each region to a single company as a monopoly, how the bankrupt Ouest passed to the state in 1909 and how Alsace-Lorraine came back from Germany in 1919 as a separate network — until 1 January 1938, when every one of them became the SNCF. Line thickness follows traffic; the companies are gone, their stations remain.\n\nSource: lines and dates from SNCF Réseau (ODbL), OpenStreetMap (ODbL), OpenHistoricalMap (ODbL), Wikipédia FR (CC BY-SA) and Wikidata (CC0). Company areas and band widths traced from a 1930 network map published by histoire-itinerante.fr. Historical sources: law of 11 June 1842, conventions of 1859, convention of 31 August 1937; François Caron, Histoire des chemins de fer en France (Fayard).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #france #railway #trains #sncf #frenchhistory #historicalmaps #maps #infographic",
+  "post_at": "2026-09-24T17:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": {
+    "media_id": "18194427796394971",
+    "permalink": "https://www.instagram.com/reel/DdraRxTj_Th/",
+    "published_at": "2026-09-24T17:22:59.588Z"
   },
-  {
-   "statut": "programmé",
-   "at": "2026-09-22T16:00:00+02:00"
-  }
- ]
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-09-22T16:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-22T16:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-22T16:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-24T17:22:59.588Z"
+    }
+  ]
 }
