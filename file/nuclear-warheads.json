@@ -1,6 +1,6 @@
 {
   "slug": "nuclear-warheads",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "race",
@@ -11,7 +11,11 @@
   "post_at": "2026-09-24T17:00:00+02:00",
   "priorite": 0,
   "notion_id": 35,
-  "publication": {},
+  "publication": {
+    "media_id": "18053351996587959",
+    "permalink": "https://www.instagram.com/reel/Ddra8qciLPk/",
+    "published_at": "2026-09-24T17:28:49.735Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -24,6 +28,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-03T17:45:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-24T17:28:49.735Z"
     }
   ]
 }
