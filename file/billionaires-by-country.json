@@ -1,7 +1,7 @@
 {
   "slug": "billionaires-by-country",
   "notion_id": 89,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "race",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18122247517937230",
+    "permalink": "https://www.instagram.com/reel/Dd1dxQVCW4g/",
+    "published_at": "2026-09-28T15:05:34.239Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -35,6 +39,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-09-28T15:05:34.239Z"
     }
   ]
 }
