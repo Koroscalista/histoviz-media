@@ -1,0 +1,32 @@
+{
+  "slug": "reseau-allemagne-rail",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-allemagne-rail/reseau-allemagne-rail.mp4",
+    "duree_s": 45.0
+  },
+  "caption": "The real German rail network, opening and closure dates from OpenHistoricalMap (uneven quality). Built by some thirty separate states before the Empire, and cut back harder than anywhere else since: 6,000 closed sections in this map alone. Today's borders, so the lines lost in 1945 — East Prussia, Silesia — are not shown. Land: Natural Earth.",
+  "post_at": "2026-09-29T17:00:00+02:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-29T10:35:00+02:00"
+    }
+  ]
+}
