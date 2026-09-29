@@ -1,0 +1,32 @@
+{
+  "slug": "reseau-pologne-rail",
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-pologne-rail/reseau-pologne-rail.mp4",
+    "duree_s": 45.0
+  },
+  "caption": "The real rail network of today's Poland, opening and closure dates from OpenHistoricalMap (uneven quality). Until 1918 there is no Poland to build it: the dense west is Prussian, the thin east Russian, the south Austro-Hungarian — the partitions are still visible in the mesh. Land: Natural Earth.",
+  "post_at": "2026-10-05T17:00:00+02:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-09-29T10:35:00+02:00"
+    }
+  ]
+}
