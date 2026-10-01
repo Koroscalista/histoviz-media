@@ -13,6 +13,14 @@ name: publish
 #   2. chaque run RESTE ÉVEILLÉ ~50 min et vérifie toutes les 5 min. Un run lancé en retard
 #      couvre donc la tranche suivante, au lieu de laisser un trou jusqu'au réveil d'après.
 # Le dépôt est public : les minutes Actions sont gratuites, la boucle ne coûte rien.
+#
+# VEILLE JUSQU'À LA FIN DE FENÊTRE (01/10/2026). Mesuré du 22 au 30/09 : GitHub ne crée que 4 à
+# 6 runs par jour sur les 144 planifiés. À 50 min de veille chacun, ~4 h sur 24 étaient couvertes,
+# au hasard : le 30/09, le run de 16 h 11 s'est arrêté à 16 h 59 et le suivant est arrivé à
+# 21 h 24 — toute la fenêtre 17 h–21 h ratée, world-cup-titles pas posté. Désormais un run qui
+# démarre entre 10 h et 21 h (Paris) veille jusqu'à 21 h 05, plafonné à 5 h 45 (GitHub coupe un
+# job à 6 h). Hors de cette plage, il veille 50 min comme avant. Un run vivant des heures relit
+# la file distante (git pull) avant chaque vérification : un item reprogrammé entre-temps est vu.
 on:
   schedule:
     - cron: '3,13,23,33,43,53 * * * *'
@@ -35,7 +43,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 65
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -48,15 +56,26 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node src/publish.mjs --dry-run
 
-      - name: Publier les items dus (veille ~50 min, vérification toutes les 5 min)
+      - name: Publier les items dus (veille jusqu'à 21 h 05 Paris, vérification toutes les 5 min)
         if: ${{ !inputs.dry_run }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: |
           git config user.name "histoviz-bot"
           git config user.email "actions@users.noreply.github.com"
+          debut=$(date +%s)
+          heure=$((10#$(TZ=Europe/Paris date +%H)))
+          if [ "$heure" -ge 10 ] && [ "$heure" -lt 21 ]; then
+            fin=$(TZ=Europe/Paris date -d 'today 21:05' +%s)
+          else
+            fin=$((debut + 50 * 60))
+          fi
+          [ "$fin" -gt $((debut + 345 * 60)) ] && fin=$((debut + 345 * 60))
+          [ "$fin" -lt $((debut + 50 * 60)) ] && fin=$((debut + 50 * 60))
+          echo "Veille jusqu'à $(TZ=Europe/Paris date -d "@$fin" '+%H:%M') (Paris)."
           echec=0
-          for i in $(seq 1 11); do
+          while :; do
+            git pull --rebase --autostash -q || true
             node src/publish.mjs || echec=1
             if [ -n "$(git status --porcelain)" ]; then
               git add -A
@@ -64,6 +83,7 @@ jobs:
               git pull --rebase --autostash
               git push
             fi
-            if [ "$i" -lt 11 ]; then sleep 290; fi
+            [ $(( $(date +%s) + 290 )) -ge "$fin" ] && break
+            sleep 290
           done
           exit $echec

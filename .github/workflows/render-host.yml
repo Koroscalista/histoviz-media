@@ -146,9 +146,18 @@ jobs:
               gh release upload "$slug" "$mp4" --repo "$DEPOT" --clobber \
                 || { echo "hébergement KO — item laissé en prêt"; echo "::endgroup::"; continue; }
             fi
-            # 3. et seulement là, écrire l'URL dans l'item
-            python3 ../histoviz-media/.github/scripts/marquer_produit.py \
-                    --file-dir "$FILE_DIR" --slug "$slug" --duree "$duree" --url "$url"
+            # 3. et seulement là, écrire l'URL dans l'item — SAUF en re-rendu. Un item déjà au-delà
+            # de `prêt` (programmé, publié…) re-rendu à la main (workflow_dispatch avec slug) garde
+            # son statut : le MP4 de la Release est remplacé (--clobber, même URL), rien d'autre.
+            # Sans cette garde, marquer_produit l'avancerait d'un cran — un `programmé` passerait
+            # `publié` sans avoir été posté (01/10/2026, re-rendu des vidéos sans polices).
+            statut=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('statut') or '')" "$FILE_DIR/$slug.json")
+            if [ "$statut" != "prêt" ]; then
+              echo "re-rendu : MP4 remplacé sur la Release, statut « $statut » inchangé"
+            else
+              python3 ../histoviz-media/.github/scripts/marquer_produit.py \
+                      --file-dir "$FILE_DIR" --slug "$slug" --duree "$duree" --url "$url"
+            fi
             echo "::endgroup::"
           done
 
