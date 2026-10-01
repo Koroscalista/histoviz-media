@@ -6,7 +6,7 @@
   "type": "reseau",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-tchequie-rail/reseau-tchequie-rail.mp4",
-    "duree_s": 45.0
+    "duree_s": 46.5
   },
   "caption": "The real Czech rail network, opening and closure dates from OpenHistoricalMap (uneven quality). It starts in 1827 with the horse-drawn České Budějovice–Linz line, continental Europe's first public railway — steam only arrives later. Czechia still has the densest rail network in the world per square kilometre. Land: Natural Earth.",
   "post_at": "2026-10-08T17:00:00+02:00",
@@ -27,6 +27,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-01T12:55:00+02:00",
+      "note": "vidéo remplacée : intro pic + rembobinage, durée 45 -> 46,5 s"
     }
   ],
   "notion_id": 257
