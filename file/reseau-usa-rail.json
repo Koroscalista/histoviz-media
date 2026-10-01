@@ -27,7 +27,13 @@
     {
       "statut": "programmé",
       "at": "2026-09-29T10:35:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-01T12:45:00+02:00",
+      "note": "ABANDONNÉ — rendu refusé par Alexis le 01/10/2026 : la donnée Atack, datée par relevés, s'affiche trop clairsemée à l'échelle des 48 États — le réseau apparaît par taches éparses au lieu de se tracer. Le sujet reste valable, c'est le rendu à reprendre."
     }
   ],
-  "notion_id": 121
+  "notion_id": 121,
+  "abandonne": true
 }
