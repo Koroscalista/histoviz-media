@@ -12,7 +12,10 @@
   "caption": "Italy has 62 UNESCO World Heritage sites. China has 61.\n\nWatch Spain lead in 2002 with 38 sites, watch China join the list in 1987 and climb from nothing, and watch Italy hold on by a single site.\n\n📊 See cumulative UNESCO World Heritage sites by country from 1978 to 2026 in this animated ranking. Explore how Europe dominated the early lists, how China and India caught up, and where France, Germany and Spain stand today.\n\nSource: UNESCO World Heritage Centre, via the UNESCO DataHub (© UNESCO/World Heritage Centre). A transboundary site counts for each of its States Parties, as UNESCO does. No session was held in 2020 and 2022.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #unesco #worldheritage #heritage #architecture #italy #china #datavisualization #barchartrace",
   "post_at": "2026-10-31T17:00:00+01:00",
   "priorite": 0,
-  "bloque": null,
+  "bloque": {
+    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
+    "at": "2026-10-01T17:46:27+00:00"
+  },
   "abandonne": false,
   "publication": null,
   "historique": [
