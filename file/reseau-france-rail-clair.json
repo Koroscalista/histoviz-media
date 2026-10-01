@@ -12,7 +12,10 @@
   "caption": "24,206 km of French railway, drawn line by line on the year each section actually opened.\n\nWatch the network grow out of Paris from 1827, thread every province by the end of the century — then watch lines start to disappear again.\n\n📊 See the French rail network build itself from 1827 to 2024 in this animated map, 11,031 sections placed at their real opening dates. Explore how the star-shaped network radiated from Paris, and where it later retreated.\n\nSource: OpenHistoricalMap — start_date and end_date on railway ways (ODbL); coverage quality varies. Land: Natural Earth (public domain).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #railway #trains #france #sncf #infrastructure #maps #datavisualization #historymap",
   "post_at": "2026-11-14T17:00:00+01:00",
   "priorite": 0,
-  "bloque": null,
+  "bloque": {
+    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
+    "at": "2026-10-01T17:46:27+00:00"
+  },
   "abandonne": false,
   "publication": null,
   "historique": [
