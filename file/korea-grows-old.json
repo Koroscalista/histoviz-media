@@ -12,11 +12,8 @@
   "caption": "In 1950, four Koreans in ten were under fifteen. In 2016 seniors overtook children, and in 2020 the population itself started to shrink.\n\nWatch the pyramid invert inside a single lifetime: the war leaves a notch in 1953, the widest generation is born in 1963, and births fall below replacement in 1983.\n\n📊 See South Korea's population by age and sex from 1950 to 2023 in this animated pyramid, in thousands. Explore how the base narrowed, how the boom generation climbed the chart, and what the fastest ageing ever recorded actually looks like.\n\nSource: UN World Population Prospects 2024, Population Division, UN DESA — population by 5-year age groups and sex, medium variant.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #korea #southkorea #demography #population #ageing #populationpyramid #datavisualization #asia",
   "post_at": "2026-11-30T17:00:00+01:00",
   "priorite": 0,
-  "bloque": {
-    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
-    "at": "2026-10-01T17:46:27+00:00"
-  },
-  "abandonne": false,
+  "bloque": null,
+  "abandonne": true,
   "publication": null,
   "historique": [
     {
@@ -43,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-09-29T10:35:00+02:00",
       "note": "créneau déplacé de 2026-10-09T17:00:00+02:00 à 2026-11-30T17:00:00+01:00 (insertion de la série rail)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-07T14:30:25+00:00",
+      "motif": "abandon : série grows-old abandonnée"
     }
   ]
 }
