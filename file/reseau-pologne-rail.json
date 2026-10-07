@@ -1,6 +1,6 @@
 {
   "slug": "reseau-pologne-rail",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -32,7 +32,16 @@
       "statut": "programmé",
       "at": "2026-10-01T12:55:00+02:00",
       "note": "vidéo remplacée : intro pic + rembobinage, durée 45 -> 46,5 s"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-07T15:55:47.895Z"
     }
   ],
-  "notion_id": 256
+  "notion_id": 256,
+  "publication": {
+    "media_id": "18411613663089812",
+    "permalink": "https://www.instagram.com/reel/DeMuom8FZSF/",
+    "published_at": "2026-10-07T15:55:47.895Z"
+  }
 }
