@@ -10,7 +10,7 @@
     "duree_s": 40.0
   },
   "caption": "One ordinary day on the French rail network: 9,455 scheduled train services, all moving at once.\n\nWatch the network wake up before dawn, saturate at rush hour and empty again after midnight — every dot is a real service from the published timetable.\n\n📊 See a full day of French rail traffic in this animated flow map, built from the SNCF Voyageurs GTFS timetable for Thursday 3 September 2026 — TGV INOUI, OUIGO, Intercités and TER, across 2,486 stations. Explore how Paris pulls the whole network, and when the country actually moves.\n\nSource: SNCF Voyageurs GTFS, transport.data.gouv.fr (Licence Ouverte). Positions are interpolated between the published stops; the GTFS carries no track geometry, so stations are joined in straight lines.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #trains #railway #france #sncf #transport #mobility #datavisualization #opendata",
-  "post_at": "2026-10-02T17:00:00+02:00",
+  "post_at": "2026-12-01T17:00:00+01:00",
   "priorite": 0,
   "bloque": {
     "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
