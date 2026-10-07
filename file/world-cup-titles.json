@@ -1,7 +1,7 @@
 {
   "slug": "world-cup-titles",
   "notion_id": 95,
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -10,15 +10,14 @@
     "duree_s": 64.366667
   },
   "caption": "Only eight nations have ever won the World Cup. Brazil has five of them.\n\nWatch Uruguay open the count in 1930, Brazil take a third crown in 1970 and pull clear, and Spain finally join the list in 2010.\n\n📊 See every FIFA World Cup title by nation from 1930 to 2022 in this animated ranking. Explore how Brazil reached five, how Italy and Germany settled on four each, and how Argentina climbed to three.\n\nSource: Wikipedia — List of FIFA World Cup finals, from FIFA records (CC BY-SA). The three titles won by West Germany (1954, 1974, 1990) are credited to Germany, following FIFA practice. No tournament was held in 1942 and 1946.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #worldcup #football #soccer #fifa #brazil #sportshistory #datavisualization #barchartrace",
-  "post_at": "2026-10-01T17:00:00+02:00",
+  "post_at": "2026-12-05T17:00:00+01:00",
   "priorite": 0,
-  "bloque": null,
-  "abandonne": false,
-  "publication": {
-    "media_id": "18112205276589425",
-    "permalink": "https://www.instagram.com/reel/Dd9Uy0ClE-H/",
-    "published_at": "2026-10-01T16:21:24.328Z"
+  "bloque": {
+    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
+    "at": "2026-10-07T10:49:48+00:00"
   },
+  "abandonne": false,
+  "publication": null,
   "historique": [
     {
       "statut": "idée",
@@ -43,6 +42,16 @@
     {
       "statut": "publié",
       "at": "2026-10-01T16:21:24.328Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-07T10:49:48+00:00",
+      "motif": "post supprimé (rendu défectueux), à re-rendre et ressortir"
     }
-  ]
+  ],
+  "publication_supprimee": {
+    "media_id": "18112205276589425",
+    "permalink": "https://www.instagram.com/reel/Dd9Uy0ClE-H/",
+    "published_at": "2026-10-01T16:21:24.328Z"
+  }
 }
