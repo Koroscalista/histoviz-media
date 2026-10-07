@@ -12,11 +12,8 @@
   "caption": "No country has pushed death further away, or faster. By 2010 Japan's curve runs out of axis.\n\nWatch post-war Japan still burying children in 1947, watch universal health insurance arrive in 1961, and watch the women's peak march past eighty-five after 1990.\n\n📊 See the distribution of age at death in Japan from 1947 to 2024 in this animated distribution, men against women, life-table dx per 100,000. Explore the fastest mortality decline ever recorded, and what a population that outlives everyone actually looks like.\n\nSource: HMD. Human Mortality Database. Max Planck Institute for Demographic Research (Germany), University of California, Berkeley (USA), and French Institute for Demographic Studies (France). Available at www.mortality.org. CC BY 4.0. Period life tables 1x1, Japan, dx by sex.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #japan #mortality #longevity #lifeexpectancy #demography #ageing #datavisualization #distribution",
   "post_at": "2026-11-05T17:00:00+01:00",
   "priorite": 0,
-  "bloque": {
-    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
-    "at": "2026-10-01T17:46:27+00:00"
-  },
-  "abandonne": false,
+  "bloque": null,
+  "abandonne": true,
   "publication": null,
   "historique": [
     {
@@ -38,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-10T08:15:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-07T14:30:25+00:00",
+      "motif": "abandon : série age-we-die abandonnée"
     }
   ]
 }
