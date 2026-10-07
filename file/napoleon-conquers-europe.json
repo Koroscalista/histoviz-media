@@ -12,11 +12,8 @@
   "caption": "In 1803 France had one ally in Europe. By 1812 even Prussia and Austria marched under its banner.\n\nWatch Switzerland, the Kingdom of Italy, Bavaria, Württemberg, Baden, Saxony and Naples fall in behind France between 1803 and 1806, then the Duchy of Warsaw and Westphalia in 1807 — and watch Russia stand alone at the other end of the map.\n\n📊 See who controlled what in Europe, year by year, from 1803 to 1812 in this animated map. Explore how the French sphere grew from a single confederation into a continent of allies and satellites, on the eve of the Russian campaign.\n\nSource: OpenHistoricalMap — historical borders by date (ODbL), Napoleonic chronology.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #napoleon #europeanhistory #empire #france #19thcentury #maps #datavisualization #historymap",
   "post_at": "2026-11-08T17:00:00+01:00",
   "priorite": 0,
-  "bloque": {
-    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
-    "at": "2026-10-01T17:46:27+00:00"
-  },
-  "abandonne": false,
+  "bloque": null,
+  "abandonne": true,
   "publication": null,
   "historique": [
     {
@@ -52,6 +49,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-10T08:15:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-07T14:30:25+00:00",
+      "motif": "abandon : supprimé définitivement (Alexis 07/10)"
     }
   ]
 }
