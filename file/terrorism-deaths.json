@@ -12,11 +12,8 @@
   "caption": "2014 was the worst year on record: 44,600 people killed by terrorist attacks worldwide, 14,095 of them in Iraq alone.\n\nWatch the ranking move country by country — Switzerland tops it in 1970 with 47 deaths, Burundi and Sri Lanka in the nineties, Iraq after 2003, Afghanistan and Nigeria at the end.\n\n📊 See deaths from terrorist attacks by country from 1970 to 2021 in this animated ranking. Explore how the geography of terrorism moved from Europe and Latin America to South Asia, the Middle East and the Sahel — and how small the early numbers look beside the later ones.\n\nSource: Global Terrorism Database, National Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland, via Our World in Data. The database holds no records for 1993, a year lost by its compilers; that gap is interpolated. Regional aggregates are excluded.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #terrorism #conflict #geopolitics #security #middleeast #20thcentury #datavisualization #barchartrace",
   "post_at": "2026-10-27T17:00:00+01:00",
   "priorite": 0,
-  "bloque": {
-    "raison": "rendu runner sans polices ni drapeaux (node_modules absent) — à re-rendre et valider",
-    "at": "2026-10-01T17:46:27+00:00"
-  },
-  "abandonne": false,
+  "bloque": null,
+  "abandonne": true,
   "publication": null,
   "historique": [
     {
@@ -38,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-07T14:30:25+00:00",
+      "motif": "abandon : trop d'ex-aequo, illisible"
     }
   ]
 }
