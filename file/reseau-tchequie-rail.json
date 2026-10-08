@@ -1,6 +1,6 @@
 {
   "slug": "reseau-tchequie-rail",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -32,7 +32,16 @@
       "statut": "programmé",
       "at": "2026-10-01T12:55:00+02:00",
       "note": "vidéo remplacée : intro pic + rembobinage, durée 45 -> 46,5 s"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-08T15:03:42.875Z"
     }
   ],
-  "notion_id": 257
+  "notion_id": 257,
+  "publication": {
+    "media_id": "17961238971236346",
+    "permalink": "https://www.instagram.com/reel/DePNeq8iTin/",
+    "published_at": "2026-10-08T15:03:42.875Z"
+  }
 }
