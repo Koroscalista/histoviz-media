@@ -1,7 +1,7 @@
 {
   "slug": "evolution-france-1789-1816",
   "notion_id": 41,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18123901015914208",
+    "permalink": "https://www.instagram.com/reel/DeR915BjDdw/",
+    "published_at": "2026-10-09T16:44:27.470Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -44,6 +48,10 @@
       "statut": "programmé",
       "at": "2026-10-09T16:41:14+00:00",
       "note": "republication : nouvelle musique (Beethoven 5) + caption au nouveau format"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-09T16:44:27.470Z"
     }
   ],
   "publication_precedente": {
