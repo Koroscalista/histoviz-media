@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/wheat-production/wheat-production.mp4",
     "duree_s": 44.066667
   },
-  "caption": "In 1961 the Soviet Union grew more wheat than anyone on Earth: 62 million tonnes. China now grows 140.\n\nWatch India climb from 11 million tonnes to 113 after the Green Revolution, and watch Russia take third place as the USSR line disappears in 1991.\n\n📊 See wheat production by country from 1961 to 2024 in this animated ranking, in millions of tonnes. Explore how China, India and Russia came to dominate the harvest, and where the United States, Canada and Australia sit today.\n\nSource: FAOSTAT, via Our World in Data (CC BY 4.0). FAO regional and income-group aggregates are excluded to keep a country-to-country ranking; the USSR is kept as a single entity until 1991.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #wheat #agriculture #farming #food #china #india #datavisualization #barchartrace",
+  "caption": "🌾 Who grows the world's wheat — 1961 → 2024.\n\nIn 1961 the Soviet Union grew more wheat than anyone: 62 million tonnes. China now grows 140. Watch India's line after 1968: high-yield seeds and irrigation — the Green Revolution — take it from 11 to 113 million tonnes. And watch Russia appear in third place the moment the USSR line disappears in 1991.\n\n📊 Data: FAOSTAT, via Our World in Data (CC BY 4.0). The USSR counts as a single entity until 1991.\n\n#wheat #agriculture #food #history #dataviz #india #china #barchartrace",
   "post_at": "2026-11-06T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

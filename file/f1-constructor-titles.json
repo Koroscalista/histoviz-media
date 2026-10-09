@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/f1-constructor-titles/f1-constructor-titles.mp4",
     "duree_s": 60.3
   },
-  "caption": "Ferrari has 16 Formula 1 constructors' titles. Nobody else has more than 10.\n\nWatch Vanwall open the count in 1958, Lotus lead the way through the sixties, Ferrari take the lead in 1982 — and watch Mercedes stack eight titles from 2014.\n\n📊 See every Formula 1 Constructors' Championship from 1958 to 2025 in this animated ranking. Explore how Ferrari, McLaren, Williams, Lotus, Mercedes and Red Bull built their totals, and when each era began and ended.\n\nSource: F1DB — Formula One database, github.com/f1db/f1db (CC BY 4.0). Flags show each team's racing licence nationality.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #formula1 #f1 #ferrari #mclaren #mercedes #motorsport #datavisualization #barchartrace",
+  "caption": "🏎️ Every Formula 1 constructors' title — 1958 → 2025.\n\nFerrari has 16, nobody else more than 10. But that total is built on longevity: Ferrari is the only team to have raced every season. Watch the eras instead — Lotus in the sixties, Ferrari's run from 1999, then Mercedes stacking eight straight titles from 2014 🏁\n\n📊 Data: F1DB (CC BY 4.0). Flags show each team's racing licence nationality.\n\n#formula1 #f1 #ferrari #mercedes #history #dataviz #motorsport #barchartrace",
   "post_at": "2026-10-13T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

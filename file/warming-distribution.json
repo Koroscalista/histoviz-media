@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/warming-distribution/warming-distribution.mp4",
     "duree_s": 75.0
   },
-  "caption": "In 2021, 99% of days on Earth were warmer than the hottest day of 1880.\n\nWatch the whole bell curve of daily temperatures slide right: only 15% of days beat 1880's warmest in 1950, 77% by 1980 — and by 2021, 80% of days sit above +1 °C.\n\n📊 See every day of the year sorted by temperature, from 1880 to 2021, in this animated distribution of global land-surface anomalies in 0.2 °C bins against the 1951-1980 average. Explore how warming moved the entire distribution, not just its average.\n\nSource: Berkeley Earth, daily TAVG full dataset (CC BY-NC 4.0). 52,078 daily values; anomalies measured against the January 1951 – December 1980 average.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #climate #climatechange #globalwarming #temperature #science #berkeleyearth #datavisualization #distribution",
+  "caption": "🌡️ Every day of the year, sorted by temperature — 1880 → 2021.\n\nWarming isn't just a higher average: the whole curve moves. In 1950, 15% of days were warmer than the hottest day of 1880. By 1980, 77%. In 2021, 99% 🔥 Watch the bell slide right until 1880's extremes become today's ordinary days.\n\n📊 Data: Berkeley Earth, daily global land-surface temperature (CC BY-NC 4.0). 52,078 daily anomalies against the 1951–1980 average.\n\n#climate #climatechange #globalwarming #history #dataviz #science #temperature #distribution",
   "post_at": "2026-10-22T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

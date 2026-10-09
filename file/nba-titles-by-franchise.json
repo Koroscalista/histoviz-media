@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nba-titles-by-franchise/nba-titles-by-franchise.mp4",
     "duree_s": 62.4
   },
-  "caption": "The Boston Celtics have 18 NBA titles. The Los Angeles Lakers have 17. Nobody else has more than 7.\n\nWatch Boston start its run in 1959 and build a 16-to-9 lead by 1986, then watch the Lakers, the Bulls and Golden State close the gap.\n\n📊 See every NBA championship by franchise from 1947 to 2025 in this animated ranking. Explore how Boston and Los Angeles built their dynasties, and where Chicago, San Antonio and Philadelphia stand today.\n\nSource: Wikipedia — List of NBA champions, from NBA records (CC BY-SA). Titles are credited to the franchise as it exists today (Minneapolis Lakers to Los Angeles, Syracuse Nationals to Philadelphia). The Seattle SuperSonics keep their 1979 title.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #nba #basketball #celtics #lakers #championship #sportshistory #datavisualization #barchartrace",
+  "caption": "🏀 Every NBA title, franchise by franchise — 1947 → 2025.\n\nTwo franchises hold a third of every title ever handed out: Boston 18, the Lakers 17, nobody else above 7. Boston built most of its lead in one stretch — eleven titles between 1957 and 1969, with Bill Russell. That's why the gap looked unbridgeable at 16 to 9 in 1986, and why it took the Lakers decades to close it.\n\n📊 Data: Wikipedia, from NBA records (CC BY-SA). Titles go to today's franchise (Minneapolis → Los Angeles, Syracuse → Philadelphia).\n\n#nba #basketball #celtics #lakers #history #dataviz #sportshistory #barchartrace",
   "post_at": "2026-10-16T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/britain-rail-gtfs/britain-rail-gtfs.mp4",
     "duree_s": 40.0
   },
-  "caption": "One ordinary day on Britain's railways: 22,264 scheduled train services, all moving at once.\n\nWatch the network wake before dawn, saturate at rush hour and empty out overnight — every dot is a real service, from intercity to sleeper.\n\n📊 See a full day of British rail traffic in this animated flow map, built from the published National Rail GTFS timetable for Thursday 3 September 2026, across 2,584 stations. Explore how London pulls the whole network, and when the country actually moves.\n\nSource: National Rail GTFS via travelwhiz, data from RDG/ATOC (CC BY 4.0). Positions are interpolated between the published stops; stations are joined in straight lines, as the GTFS carries no track geometry. Service classes approximate the operator: intercity (Avanti, LNER, GWR, CrossCountry, TransPennine…), night (Caledonian Sleeper), regional (the rest).\n\n🔔 Follow for more historical data.\n\n#history #dataviz #trains #railway #britain #uk #nationalrail #transport #datavisualization #opendata",
+  "caption": "🚆 One day of trains in Great Britain — 24 hours, every service.\n\n22,264 scheduled services across 2,584 stations. Watch London: almost every line points to it, and the whole network pulses to its commuter rush. Then the country empties overnight while the Caledonian Sleeper heads north to Scotland 🌙\n\n📊 Data: National Rail GTFS via travelwhiz, RDG/ATOC data (CC BY 4.0), Thursday 3 September 2026. Positions interpolated between stops; stations joined in straight lines.\n\n#uk #britain #trains #railway #nationalrail #dataviz #maps #transport",
   "post_at": "2026-10-27T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-10T08:15:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

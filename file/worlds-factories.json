@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/worlds-factories/worlds-factories.mp4",
     "duree_s": 30.0
   },
-  "caption": "In 2004 the United States made two and a half times as much as China. By 2021 China out-produced the next three countries combined.\n\nWatch China cross the United States in 2010 and finish at $4,846 billion of manufacturing value added, against $2,497 billion.\n\n📊 See manufacturing value added by country from 1997 to 2021 in this animated ranking, in billions of US dollars. Explore how China's WTO accession, the financial crisis and Covid reshaped the world's industrial base, and where Japan, Germany, South Korea and India stand.\n\nSource: World Bank Open Data, from UN National Accounts (CC BY 4.0), indicator NV.IND.MANF.CD. The series ends in 2021 because that is the last year reported for the United States.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #manufacturing #industry #china #economics #globaltrade #supplychain #datavisualization #barchartrace",
+  "caption": "🏭 Who is the world's factory — 1997 → 2021.\n\nIn 2004 the United States made two and a half times as much as China. China crossed it in 2010, and by 2021 out-produced the next three countries combined: $4,846 billion of manufacturing value added against $2,497 billion for the US. Joining the WTO in 2001 opened every market to it; the rest is scale.\n\n📊 Data: World Bank, from UN National Accounts (CC BY 4.0). The series ends in 2021, the last year reported for the United States.\n\n#manufacturing #industry #china #history #dataviz #economics #supplychain #barchartrace",
   "post_at": "2026-10-23T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:14+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }

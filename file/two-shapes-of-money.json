@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/two-shapes-of-money/two-shapes-of-money.mp4",
     "duree_s": 30.766667
   },
-  "caption": "Two rich countries, almost the same median income — and two completely different shapes.\n\nWatch the American curve run from $24 a day at the 10th percentile to $169 at the 90th, while Denmark runs from $32 to $97. Half the spread, forty years running.\n\n📊 See how the United States and Denmark distribute their income from 1980 to 2024 in this animated distribution: share of population by daily income in 2017 PPP dollars, across 105 logarithmic brackets. Explore what inequality looks like when you draw it as a shape rather than a number.\n\nSource: Gapminder Income Mountains (v3), from World Bank PovcalNet / PIP, via open-numbers (CC BY 4.0). Bracket 20 starts at $2.00 a day; each bracket is 1.32 times the previous one. Modelled estimates.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #inequality #income #economics #denmark #unitedstates #wealthgap #datavisualization #distribution",
+  "caption": "💵 Two shapes of money: United States vs Denmark — 1980 → 2024.\n\nAlmost the same median income, two very different shapes. In the US, the poorest tenth lives on $24 a day or less and the richest tenth on $169 or more; in Denmark, $32 and $97. Same wealth, half the spread — that's redistribution, drawn as a shape 📐\n\n📊 Data: Gapminder Income Mountains v3, from World Bank PIP (CC BY 4.0). Daily income per person in 2017 PPP dollars; modelled estimates.\n\n#inequality #income #denmark #unitedstates #history #dataviz #economics #distribution",
   "post_at": "2026-10-15T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -35,6 +35,11 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T18:00:00+02:00",
+      "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
     }
   ]
 }
