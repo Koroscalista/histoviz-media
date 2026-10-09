@@ -1,7 +1,7 @@
 {
   "slug": "evolution-france-1789-1816",
   "notion_id": 41,
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
@@ -9,16 +9,12 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/evolution-france-1789-1816/evolution-france-1789-1816.mp4",
     "duree_s": 43.2
   },
-  "caption": "In 1789 France stops at its own borders. By 1810 its sphere runs from Spain to the Duchy of Warsaw. By 1815 all of it is gone.\n\nWatch the Comtat Venaissin go first in 1791, then Savoy, Belgium and the Rhineland; watch Prussia, Spain and Austria fall into the sphere after 1807; then watch the whole structure unravel from 1813.\n\n📊 See the territorial evolution of France and its sphere from 1789 to 1816 in this animated map — annexations, satellite kingdoms, allies and subject states, year by year. Explore how the Revolution and the Empire redrew Europe, and how quickly it collapsed.\n\nSource: OpenHistoricalMap — historical borders by date (ODbL), revolutionary and Napoleonic chronology.\n\n🔔 Follow for more historical data.\n\n#history #dataviz #napoleon #frenchrevolution #france #empire #europeanhistory #maps #datavisualization #historymap",
-  "post_at": "2026-10-09T17:00:00+02:00",
+  "caption": "🇫🇷 The rise and fall of revolutionary and Napoleonic France — 1789 → 1816.\n\nFrance grows in rings 🗺️ First annexations along its own border (Avignon, Savoy, Belgium, the Rhineland), then sister republics and satellite kingdoms, several ruled by Napoleon's relatives, then beaten powers forced into line: Prussia in 1807, Spain in 1808, Austria in 1809. That is why it unravels so fast. The outer rings were held by force, not loyalty: after the Russian disaster of 1812 they switch sides in 1813, and by 1815 France is back near its 1789 borders.\n\n📊 Data: revolutionary and Napoleonic chronology. Each state's status (annexed, vassal, ally, subject) is a year-by-year simplification.\n🌍 Borders: OpenHistoricalMap (ODbL)\n\n#france #napoleon #frenchrevolution #history #dataviz #maps #historymap #europe",
+  "post_at": "2026-10-09T18:30:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": {
-    "media_id": "18054302552602739",
-    "permalink": "https://www.instagram.com/reel/DeRyB1aDcBc/",
-    "published_at": "2026-10-09T15:01:15.229Z"
-  },
+  "publication": null,
   "historique": [
     {
       "statut": "idée",
@@ -43,6 +39,16 @@
     {
       "statut": "publié",
       "at": "2026-10-09T15:01:15.229Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-09T16:41:14+00:00",
+      "note": "republication : nouvelle musique (Beethoven 5) + caption au nouveau format"
     }
-  ]
+  ],
+  "publication_precedente": {
+    "media_id": "18054302552602739",
+    "permalink": "https://www.instagram.com/reel/DeRyB1aDcBc/",
+    "published_at": "2026-10-09T15:01:15.229Z"
+  }
 }
