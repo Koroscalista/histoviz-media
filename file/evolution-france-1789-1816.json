@@ -1,7 +1,7 @@
 {
   "slug": "evolution-france-1789-1816",
   "notion_id": 41,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "territoire",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18054302552602739",
+    "permalink": "https://www.instagram.com/reel/DeRyB1aDcBc/",
+    "published_at": "2026-10-09T15:01:15.229Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -35,6 +39,10 @@
     {
       "statut": "programmé",
       "at": "2026-09-09T17:11:13+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-09T15:01:15.229Z"
     }
   ]
 }
