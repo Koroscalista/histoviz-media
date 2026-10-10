@@ -10,7 +10,7 @@
     "duree_s": 64.366667
   },
   "caption": "⚽ Every FIFA World Cup title — 1930 → 2022.\n\nOnly eight nations have ever won it, and Brazil has five. Watch Uruguay open the count in 1930, Brazil win three of four tournaments from 1958 to 1970 and pull clear, and Spain join the club only in 2010. In 92 years the trophy has never left Europe and South America 🏆\n\n📊 Data: Wikipedia, from FIFA records (CC BY-SA). West Germany's three titles count for Germany; no tournament was held in 1942 and 1946.\n\n#worldcup #football #soccer #brazil #history #dataviz #fifa #barchartrace",
-  "post_at": "2026-11-08T17:00:00+01:00",
+  "post_at": "2026-11-12T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -49,6 +49,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-08T17:00:00+01:00 à 2026-11-12T17:00:00+01:00 (série rail intercalée)"
     }
   ],
   "publication_supprimee": {
