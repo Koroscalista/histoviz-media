@@ -1,0 +1,33 @@
+{
+  "slug": "czechia-rail-gtfs",
+  "notion_id": 281,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/czechia-rail-gtfs/czechia-rail-gtfs.mp4",
+    "duree_s": 40.0
+  },
+  "caption": "🚆 One day of trains in Czechia — Thursday 15 October 2026.\n\n9,039 trains across more than 2,400 stations, from Pendolino and RegioJet to the smallest branch lines. Peak: 609 trains on the move at 07:15.\n\n📊 Data: CIS JŘ national timetable, GTFS by spojenka.cz. Train categories inferred from line names. Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#czechia #czechrepublic #ceskedrahy #trains #railway #dataviz #maps #transport",
+  "post_at": "2026-11-11T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "série rail style nuit, intercalée (demande Alexis 10/10)"
+    }
+  ]
+}
