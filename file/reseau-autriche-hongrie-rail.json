@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-autriche-hongrie-rail",
+  "notion_id": 276,
+  "statut": "programmé",
+  "pilier": 1,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-autriche-hongrie-rail/reseau-autriche-hongrie-rail.mp4",
+    "duree_s": 46.5
+  },
+  "caption": "🚂 Austria-Hungary's railways, built at their real dates — 1827 → today.\n\nLook for the two stars: lines converge on Vienna in the west and on Budapest in the east 🗺️ After the 1867 Compromise, Hungary ran its own railway policy and built its network around its own capital. Most of these rails were laid by a single empire before 1918; today they belong to a dozen countries, the colours you see.\n\n📊 Data: OpenHistoricalMap (opening and closure dates) + OpenStreetMap (gaps), ODbL. Coverage is uneven; about 3% of the km carry an estimated opening year. Borders of 1914: CShapes 2.0.\n🌍 Land: Natural Earth\n\n#austriahungary #railways #habsburg #history #dataviz #maps #trains #europe",
+  "post_at": "2026-10-11T17:00:00+02:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-10T12:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-10T12:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T12:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T12:00:00+02:00"
+    }
+  ]
+}
