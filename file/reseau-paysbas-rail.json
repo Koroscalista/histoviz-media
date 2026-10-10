@@ -9,7 +9,7 @@
     "duree_s": 46.5
   },
   "caption": "🚂 The Netherlands' railways, built at their real dates — 1839 → today.\n\nWatch the second half: the mesh thins out. Nearly half of the sections ever built in the Netherlands have since closed, mostly local and secondary lines. What survived is one of the most intensively used rail networks in the world 🚆\n\n📊 Data: OpenHistoricalMap (opening and closure dates, ODbL). Coverage is uneven, some lines are missing or undated.\n🌍 Land: Natural Earth\n\n#netherlands #railways #history #dataviz #maps #historymap #trains #europe",
-  "post_at": "2026-10-10T17:00:00+02:00",
+  "post_at": "2026-10-10T19:00:00+02:00",
   "priorite": 0,
   "historique": [
     {
@@ -37,6 +37,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T11:20:00+02:00",
+      "note": "créneau déplacé de 2026-10-10T17:00:00+02:00 à 2026-10-10T19:00:00+02:00 (demande Alexis : France 17h + Pays-Bas 19h le 10/10)"
     }
   ],
   "notion_id": 258
