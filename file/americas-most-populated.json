@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "👥 The Americas' most populated countries — 1800 → 2025.\n\nIn 1800 the United States had 7 million people. It now has 342 million, nearly fifty times more — two centuries of immigration on top of natural growth. Watch Brazil pass Mexico in 1853, Colombia pass Canada in 1974 and Argentina in 1992, and Venezuela's curve bend as people flee from 2016.\n\n📊 Data: World Bank (1960–2025) and Gapminder (before 1960), CC BY 4.0. Figures before ~1950 are scholarly reconstructions.\n\n#americas #population #unitedstates #brazil #history #dataviz #demography #barchartrace",
-  "post_at": "2026-10-26T17:00:00+01:00",
+  "post_at": "2026-10-28T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-26T17:00:00+01:00 à 2026-10-28T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
