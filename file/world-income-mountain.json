@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "⛰️ The whole world, sorted by daily income — 1800 → 2024.\n\nIn 1800, 74% of humanity lived on less than $2 a day. By 2020, 4.9% — one person in twenty. Watch the mountain split after 1950 as a richer hump pulls away, poverty peak at 1.46 billion people in 1980, then Asia's growth drag the whole curve to the right.\n\n📊 Data: Gapminder Income Mountains v3, from World Bank PIP (CC BY 4.0). 2017 PPP dollars; figures before 1980 are modelled estimates.\n\n#poverty #income #inequality #history #dataviz #economics #development #distribution",
-  "post_at": "2026-11-02T17:00:00+01:00",
+  "post_at": "2026-11-04T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -45,6 +45,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-02T17:00:00+01:00 à 2026-11-04T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
