@@ -10,7 +10,7 @@
     "duree_s": 60.3
   },
   "caption": "🏎️ Every Formula 1 constructors' title — 1958 → 2025.\n\nFerrari has 16, nobody else more than 10. But that total is built on longevity: Ferrari is the only team to have raced every season. Watch the eras instead — Lotus in the sixties, Ferrari's run from 1999, then Mercedes stacking eight straight titles from 2014 🏁\n\n📊 Data: F1DB (CC BY 4.0). Flags show each team's racing licence nationality.\n\n#formula1 #f1 #ferrari #mercedes #history #dataviz #motorsport #barchartrace",
-  "post_at": "2026-10-13T17:00:00+02:00",
+  "post_at": "2026-11-16T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,10 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T17:15:40+00:00"
     }
   ]
 }
