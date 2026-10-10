@@ -10,7 +10,7 @@
     "duree_s": 40.0
   },
   "caption": "🚆 One day of trains in Italy — Thursday 8 October 2026.\n\n9,461 scheduled trains across 2,186 stations. Frecciarossa and Italo trace the high-speed spine Turin–Milan–Bologna–Florence–Rome–Naples, while Lombardy's regional web lights up around Milan. Two rush hours: 1,084 trains on the move at 07:18, 1,080 at 18:43. Each ring is a train calling at a station.\n\n📊 Data: Trenitalia & Italo GTFS (Italian National Access Point, converted by deryclem) and Trenord GTFS (Regione Lombardia), CC BY 4.0. Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#italy #trenitalia #frecciarossa #trains #railway #dataviz #maps #transport",
-  "post_at": "2026-11-05T17:00:00+01:00",
+  "post_at": "2026-11-08T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -28,6 +28,11 @@
       "statut": "programmé",
       "at": "2026-10-10T17:30:00+02:00",
       "note": "créneau du 05/11 libéré par france-rail-gtfs (demande Alexis)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-05T17:00:00+01:00 à 2026-11-08T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
