@@ -10,7 +10,7 @@
     "duree_s": 45.5
   },
   "caption": "☢️ Nuclear firepower, country by country — 1945 → 2010.\n\nAmerican firepower peaked in 1962, at 11,623 equivalent megatons — yet the warhead count kept rising for another 24 years. The bombs got smaller and more accurate: more warheads, less raw power. The world total peaked in 1981 near 15,800, the USSR took the lead in 1985, and after START I both arsenals collapsed.\n\n📊 Data: Kyungwon Suh, Strategic Nuclear Forces Dataset v2.0, via Our World in Data (CC BY 4.0). Strategic warheads deliverable in a first strike only; scholarly estimates, as real inventories are secret.\n\n#nuclear #coldwar #nuclearweapons #history #dataviz #geopolitics #armscontrol #barchartrace",
-  "post_at": "2026-10-17T17:00:00+02:00",
+  "post_at": "2026-10-18T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-17T17:00:00+02:00 à 2026-10-18T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
