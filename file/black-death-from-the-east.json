@@ -1,0 +1,40 @@
+{
+  "slug": "black-death-from-the-east",
+  "notion_id": 286,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "signature",
+  "type": null,
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/black-death-from-the-east/black-death-from-the-east.mp4",
+    "duree_s": 39.8
+  },
+  "caption": "This month a lab worker died in Siberia. Suspected plague. Nearly 200 people put under watch. Still unconfirmed.\n\nWe've been here before. 🐀\n\n1346. A Mongol army is stuck outside Caffa, a Genoese port in Crimea. Their own camp is dying of plague. So they load the corpses into catapults and throw them over the walls.\n\nThe Genoese run for their ships. That's the part that mattered.\n\nMessina, October 1347. Marseille on All Saints' Day. Genoa, Venice, Barcelona, Bordeaux, London, Bergen. ⛵ Every port they reach becomes the next departure.\n\nInland it travels 75 km a day. Nothing moves that fast in the 14th century. Nothing.\n\nSix years later, one European in three is dead. 💀 Around 25 million people.\n\nBohemia and central Poland are the only places that get off lightly, and nobody really knows why.\n\nThe bacterium never left. Same rodents, same steppe, same region as this month's case.\n\n— Sources: the Irkutsk case via Al Jazeera, UN News/WHO and CNBC (5–6 Oct 2026), cause of death not confirmed. Origin near Lake Issyk-Kul 1338–39: Spyrou et al., Nature 606 (2022). Caffa: Gabriele de' Mussi (c. 1348) and Wheelis, Emerging Infectious Diseases 8(9), 2002 — a chronicle, not a proof. Port arrival dates: O. J. Benedictow, The Black Death 1346–1353 (2004). Zones by year redrawn from an atlas plate of the second pandemic, approximate. Mortality estimates range from 30 to 60 %. Basemap: Natural Earth.\n\n#history #blackdeath #plague #middleages #maps #dataviz #cartography #medievalhistory #europeanhistory #historyfacts #pandemic #1347",
+  "post_at": "2026-10-13T17:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-10T17:15:40+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-10T17:15:40+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-10T17:15:40+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T17:15:40+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T17:15:40+00:00"
+    }
+  ]
+}
