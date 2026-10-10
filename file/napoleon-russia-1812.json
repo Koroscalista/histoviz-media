@@ -10,7 +10,7 @@
     "duree_s": 42.0
   },
   "caption": "❄️ Napoleon's march on Moscow — 1812.\n\n340,000 men crossed the Niemen in June. 4,000 came back across it. Watch the band narrow at every step: only 100,000 reached Moscow, and most of the losses came before the first snow — hunger, disease and desertion, not battle. Smolensk and Borodino were victories; they cost the army anyway.\n\n📊 Data: Charles Minard's 1869 figurative map of the Russian campaign, redrawn.\n\n#napoleon #1812 #minard #history #dataviz #militaryhistory #russia #historymap",
-  "post_at": "2026-10-28T17:00:00+01:00",
+  "post_at": "2026-10-29T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -54,6 +54,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-28T17:00:00+01:00 à 2026-10-29T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
