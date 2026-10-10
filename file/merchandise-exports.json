@@ -10,7 +10,7 @@
     "duree_s": 44.8
   },
   "caption": "📦 Who sells the most goods to the world — 1960 → 2024.\n\nFor thirty years the United States and Germany traded the top spot. Then China joined the WTO in 2001 and became the planet's shop floor: from nowhere in 1960 to $3,576 billion of goods sold in 2024 🏭 Watch the curve: it isn't a slow climb, it's a door opening.\n\n📊 Data: World Bank / WITS, from UN COMTRADE (CC BY 4.0). Belgium is reported with Luxembourg before 1999, Russia only from 1992.\n\n#trade #exports #china #history #dataviz #economics #globaltrade #barchartrace",
-  "post_at": "2026-10-11T17:00:00+02:00",
+  "post_at": "2026-11-09T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T12:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-11T17:00:00+02:00 à 2026-11-09T17:00:00+01:00 (demande Alexis : Autriche-Hongrie le 11/10, Who sells… à la première date libre)"
     }
   ]
 }
