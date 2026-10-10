@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-autriche-rail",
+  "notion_id": 283,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-autriche-rail/reseau-autriche-rail.mp4",
+    "duree_s": 46.5
+  },
+  "caption": "🚂 Austria's railways, built at their real dates — 1836 → today.\n\nWatch the network crowd into the east and thin into single threads through the Alps ⛰️ It starts in 1836 with a horse-drawn line to Gmunden; steam arrives in 1837 with the Nordbahn out of Vienna, and in 1854 the Semmering line opens as the first true mountain railway. West of Salzburg, the mountains leave room for little more than one corridor through the valleys.\n\n📊 Data: OpenHistoricalMap (opening and closure dates) + OpenStreetMap (gaps), ODbL. Coverage is uneven; for lines missing from OpenHistoricalMap (~600 km) the opening year is an estimate for the whole line (Wikipedia, Wikidata).\n🌍 Land: Natural Earth\n\n#austria #railways #alps #history #dataviz #maps #trains #europe",
+  "post_at": "2026-11-17T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T13:00:00+02:00"
+    }
+  ]
+}
