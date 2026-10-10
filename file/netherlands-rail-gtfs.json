@@ -1,0 +1,33 @@
+{
+  "slug": "netherlands-rail-gtfs",
+  "notion_id": 278,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/netherlands-rail-gtfs/netherlands-rail-gtfs.mp4",
+    "duree_s": 40.0
+  },
+  "caption": "🚆 One day of trains in the Netherlands — Thursday 15 October 2026.\n\n6,338 trains on one of Europe's busiest networks: Sprinters and Intercitys every few minutes between Amsterdam, Utrecht, Rotterdam and The Hague, plus ICE and Eurostar heading abroad. Peaks: 437 trains on the move at 08:25, 441 at 17:25.\n\n📊 Data: OVapi GTFS (NDOV open data), rail services only. Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#netherlands #ns #trains #railway #dataviz #maps #transport #holland",
+  "post_at": "2026-10-15T17:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "série rail style nuit, intercalée (demande Alexis 10/10)"
+    }
+  ]
+}
