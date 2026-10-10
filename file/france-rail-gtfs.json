@@ -1,20 +1,24 @@
 {
   "slug": "france-rail-gtfs",
   "notion_id": 160,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-rail-gtfs/france-rail-gtfs.mp4",
-    "duree_s": 40.0
+    "duree_s": 40
   },
   "caption": "🚄 One day of trains in France — 24 hours, every service.\n\n9,455 scheduled services across 2,486 stations. Watch the star: TGV, Intercités and TER all converge on Paris, a layout set in 1842 when the network was planned from the capital outward. The country wakes before dawn and empties again after midnight 🌙\n\n📊 Data: SNCF Voyageurs GTFS, transport.data.gouv.fr (Licence Ouverte), Thursday 3 September 2026. Positions interpolated between stops; stations joined in straight lines.\n\n#france #sncf #trains #railway #tgv #dataviz #maps #transport",
   "post_at": "2026-10-10T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "17910042168311031",
+    "permalink": "https://www.instagram.com/reel/DeUYWgnE9v1/",
+    "published_at": "2026-10-10T15:14:59.604Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -55,6 +59,10 @@
       "statut": "programmé",
       "at": "2026-10-10T11:20:00+02:00",
       "note": "créneau déplacé de 2026-11-05T17:00:00+01:00 à 2026-10-10T17:00:00+02:00 (demande Alexis : France 17h + Pays-Bas 19h le 10/10)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-10T15:14:59.604Z"
     }
   ]
 }
