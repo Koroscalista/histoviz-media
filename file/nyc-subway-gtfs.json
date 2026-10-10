@@ -10,7 +10,7 @@
     "duree_s": 40.0
   },
   "caption": "🚇 One day on the New York subway — 24 hours, every train.\n\n8,348 scheduled trains across 459 stations, each dot a real train in its line colour. Watch the system breathe: thin before dawn, Manhattan saturating at rush hour — and, unlike most metros, it never fully stops. New York runs 24/7 🌙\n\n📊 Data: MTA subway GTFS timetable for Thursday 3 September 2026 (data.ny.gov). Positions interpolated between stops; track layout reconstructed from station sequences.\n\n#newyork #nyc #subway #mta #dataviz #transit #maps #opendata",
-  "post_at": "2026-10-18T17:00:00+02:00",
+  "post_at": "2026-10-19T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-18T17:00:00+02:00 à 2026-10-19T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
