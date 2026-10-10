@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-slovaquie-rail",
+  "notion_id": 284,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-slovaquie-rail/reseau-slovaquie-rail.mp4",
+    "duree_s": 46.5
+  },
+  "caption": "🚂 Slovakia's railways, built at their real dates — 1840 → today.\n\nThe network runs east–west along the valleys, squeezed between the Carpathian ridges ⛰️ It starts in 1840 with a horse-drawn line out of Bratislava, and the big burst of the early 1870s is the Košice–Bohumín railway, built while Slovakia was still Upper Hungary.\n\n📊 Data: OpenHistoricalMap (opening and closure dates) + OpenStreetMap (gaps), ODbL. Coverage is uneven, some lines are missing or undated.\n🌍 Land: Natural Earth\n\n#slovakia #railways #carpathians #history #dataviz #maps #trains #europe",
+  "post_at": "2026-11-19T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T13:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T13:00:00+02:00"
+    }
+  ]
+}
