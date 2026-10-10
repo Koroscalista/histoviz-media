@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "🏅 Nobel Prizes, country by country — 1901 → 2025.\n\nThe United States has 431. The United Kingdom, second, has 113. It wasn't always so: Germany and France led the first decades. Watch the ranking tip after 1933, when Jewish and dissident scientists fled Nazi Germany — many of them to American universities, which never gave the lead back 🎓\n\n📊 Data: Nobel Prize API, nobelprize.org (CC0). Each prize goes to the country of the laureate's institution at the time; organisations awarded the Peace Prize are excluded.\n\n#nobelprize #science #history #dataviz #research #unitedstates #germany #barchartrace",
-  "post_at": "2026-11-04T17:00:00+01:00",
+  "post_at": "2026-11-07T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -45,6 +45,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-04T17:00:00+01:00 à 2026-11-07T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
