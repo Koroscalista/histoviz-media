@@ -10,7 +10,7 @@
     "duree_s": 62.4
   },
   "caption": "🏀 Every NBA title, franchise by franchise — 1947 → 2025.\n\nTwo franchises hold a third of every title ever handed out: Boston 18, the Lakers 17, nobody else above 7. Boston built most of its lead in one stretch — eleven titles between 1957 and 1969, with Bill Russell. That's why the gap looked unbridgeable at 16 to 9 in 1986, and why it took the Lakers decades to close it.\n\n📊 Data: Wikipedia, from NBA records (CC BY-SA). Titles go to today's franchise (Minneapolis → Los Angeles, Syracuse → Philadelphia).\n\n#nba #basketball #celtics #lakers #history #dataviz #sportshistory #barchartrace",
-  "post_at": "2026-10-16T17:00:00+02:00",
+  "post_at": "2026-10-17T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-16T17:00:00+02:00 à 2026-10-17T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
