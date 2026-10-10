@@ -1,6 +1,6 @@
 {
   "slug": "reseau-paysbas-rail",
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -42,7 +42,16 @@
       "statut": "programmé",
       "at": "2026-10-10T11:20:00+02:00",
       "note": "créneau déplacé de 2026-10-10T17:00:00+02:00 à 2026-10-10T19:00:00+02:00 (demande Alexis : France 17h + Pays-Bas 19h le 10/10)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-10T17:02:00.360Z"
     }
   ],
-  "notion_id": 258
+  "notion_id": 258,
+  "publication": {
+    "media_id": "18025988333871172",
+    "permalink": "https://www.instagram.com/reel/DeUkpHFAOSK/",
+    "published_at": "2026-10-10T17:02:00.360Z"
+  }
 }
