@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/germany-rail-gtfs/germany-rail-gtfs.mp4",
     "duree_s": 40.0
   },
-  "caption": "🚆 One day of trains in Germany — 24 hours, every service.\n\n43,124 scheduled services across 7,540 stations. Look for the centre and you won't find one: unlike France or Britain, Germany has no single capital pulling everything, so traffic spreads across Berlin, Hamburg, the Ruhr, Frankfurt and Munich at once 🇩🇪 Watch the ICE lines thread through a dense regional mesh.\n\n📊 Data: Deutsche Bahn / DELFI timetables via gtfs.de (CC BY 4.0), Thursday 3 September 2026. Positions interpolated between stops; stations joined in straight lines.\n\n#germany #trains #railway #deutschebahn #dataviz #maps #transport #opendata",
-  "post_at": "2026-10-25T17:00:00+01:00",
+  "caption": "🚆 One day of trains in Germany — Thursday 15 October 2026.\n\n43,026 trains: ICE, Intercity, regional trains and S-Bahn. Peaks: 2,743 trains on the move at 07:18 and 2,723 at 17:18 — the ripples in the curve come from the clockface timetable (Taktfahrplan).\n\n📊 Data: DELFI e.V. via gtfs.de (CC BY 4.0). Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#germany #deutschebahn #ice #trains #railway #dataviz #maps #transport",
+  "post_at": "2026-10-27T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "vidéo remplacée : version style nuit, horaire du jeudi 15/10/2026 (demande Alexis 10/10) ; créneau déplacé de 2026-10-25T17:00:00+01:00 à 2026-10-27T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
