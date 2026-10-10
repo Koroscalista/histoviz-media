@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "🎾 Grand Slam singles titles, country by country — 1905 → 2025.\n\nThe United States has 323. Switzerland, nine million people, has 30 — most of them won by one man, Roger Federer. Watch Britain lead in 1905, the US pull clear to 203 by 1965, the majors stop twice for war, and Spain, France and Switzerland arrive in the modern era.\n\n📊 Data: Wikipedia, from the four majors' official records (CC BY-SA). Men's and women's singles combined; each title goes to the country the champion represented that year.\n\n#tennis #grandslam #wimbledon #federer #history #dataviz #sportshistory #barchartrace",
-  "post_at": "2026-10-21T17:00:00+02:00",
+  "post_at": "2026-10-22T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-21T17:00:00+02:00 à 2026-10-22T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
