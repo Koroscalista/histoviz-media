@@ -10,7 +10,7 @@
     "duree_s": 45.5
   },
   "caption": "🏦 Who holds the world's war chest — 1960 → 2025.\n\nChina had $80 billion in reserves in 1995. By 2014 it had $3,900 billion. It's the mirror image of the export boom: a country that sells far more than it buys piles up dollars, and Beijing kept them to hold the yuan down. Watch the US lead early, Japan and Germany take over, then China leave everyone behind 💰\n\n📊 Data: World Bank, from IMF International Financial Statistics (CC BY 4.0). Reserves include gold; the world total is the sum of reporting countries.\n\n#economics #centralbank #china #history #dataviz #reserves #globaleconomy #barchartrace",
-  "post_at": "2026-10-19T17:00:00+02:00",
+  "post_at": "2026-10-20T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-19T17:00:00+02:00 à 2026-10-20T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
