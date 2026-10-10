@@ -10,7 +10,7 @@
     "duree_s": 57.566667
   },
   "caption": "🏛️ UNESCO World Heritage sites, country by country — 1978 → 2026.\n\nItaly 62, China 61: a one-site race. China only joined the list in 1987, starting from zero. Watch Europe dominate the early lists, Spain lead in 2002, and China add a site or two every session until it's right behind Italy.\n\n📊 Data: UNESCO World Heritage Centre, via the UNESCO DataHub. A transboundary site counts for each of its countries; no session was held in 2020 and 2022.\n\n#unesco #worldheritage #italy #china #history #dataviz #travel #barchartrace",
-  "post_at": "2026-10-24T17:00:00+02:00",
+  "post_at": "2026-10-26T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-24T17:00:00+02:00 à 2026-10-26T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
