@@ -1,0 +1,40 @@
+{
+  "slug": "austerlitz-1805",
+  "notion_id": 285,
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "filler",
+  "type": "bataille",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/austerlitz-1805/austerlitz-1805.mp4",
+    "duree_s": 75.0
+  },
+  "caption": "⚔️ The Battle of Austerlitz — 2 December 1805, hour by hour.\n\nNapoleon gave up the Pratzen Heights on purpose, and even asked for an armistice, as if he were afraid. The Allies took the bait: their columns came down off the heights to crush his thin right wing, emptying the centre of their own line. At nine, as the fog lifted, Soult stormed the heights and cut the Allied army in two. By evening, about 36,000 Allied soldiers had been killed, wounded or captured, against 9,000 French.\n\n📊 Data: order of battle from Alombert & Colin (1904) and Duffy (1977), losses from Chandler. Unit movements are reconstructed from first-hand accounts and situation maps: a plausible choreography, not a GPS track.\n🌍 Land: Copernicus DEM relief; 1805 ponds redrawn from the USMA atlas; rivers OpenStreetMap.\n\n#napoleon #austerlitz #1805 #napoleonicwars #militaryhistory #history #dataviz #maps",
+  "post_at": "2026-10-11T18:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-10T19:05:52+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-10T19:05:52+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-10T19:05:52+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T19:05:52+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T19:05:52+02:00"
+    }
+  ]
+}
