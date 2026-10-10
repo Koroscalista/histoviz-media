@@ -10,7 +10,7 @@
     "duree_s": 30.0
   },
   "caption": "🏭 Who is the world's factory — 1997 → 2021.\n\nIn 2004 the United States made two and a half times as much as China. China crossed it in 2010, and by 2021 out-produced the next three countries combined: $4,846 billion of manufacturing value added against $2,497 billion for the US. Joining the WTO in 2001 opened every market to it; the rest is scale.\n\n📊 Data: World Bank, from UN National Accounts (CC BY 4.0). The series ends in 2021, the last year reported for the United States.\n\n#manufacturing #industry #china #history #dataviz #economics #supplychain #barchartrace",
-  "post_at": "2026-10-23T17:00:00+02:00",
+  "post_at": "2026-10-25T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-23T17:00:00+02:00 à 2026-10-25T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
