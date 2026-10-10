@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "👶 Where children still don't survive — 1900 → 2024.\n\nIn 1950 one child in four died before turning five. Today it's one in twenty-seven. Watch the ranking change continents: in 1900 it's led by Russia, Austria and Germany, above 37%; in 2024 by Nigeria and Niger, around 11%. Read the start carefully: in 1900 only 25 countries counted their dead, almost all of them in Europe.\n\n📊 Data: UN IGME and Gapminder, via Our World in Data (CC BY 4.0). 25 countries reported in 1900, 212 today; years between surveys are interpolated.\n\n#childmortality #publichealth #globalhealth #history #dataviz #demography #development #barchartrace",
-  "post_at": "2026-11-03T17:00:00+01:00",
+  "post_at": "2026-11-06T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -45,6 +45,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-03T17:00:00+01:00 à 2026-11-06T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
