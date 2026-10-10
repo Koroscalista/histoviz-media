@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "👥 Europe's most populated countries — 1800 → 2025.\n\nIn 1800 Russia and France were neck and neck, 31 million against 30. Today Russia has 144 million, France 69. France's birth rate fell in the 19th century, decades before the rest of Europe — so Germany passed it in 1871 and never looked back. And watch the end: Russia peaks at 149 million in 1992, then shrinks.\n\n📊 Data: World Bank (1960–2025) and Gapminder (before 1960), CC BY 4.0. Figures before ~1950 are scholarly reconstructions; Russia is counted as European.\n\n#europe #population #russia #france #history #dataviz #demography #barchartrace",
-  "post_at": "2026-10-20T17:00:00+02:00",
+  "post_at": "2026-10-21T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-20T17:00:00+02:00 à 2026-10-21T17:00:00+02:00 (série rail intercalée)"
     }
   ]
 }
