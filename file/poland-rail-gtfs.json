@@ -1,0 +1,33 @@
+{
+  "slug": "poland-rail-gtfs",
+  "notion_id": 279,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/poland-rail-gtfs/poland-rail-gtfs.mp4",
+    "duree_s": 40.0
+  },
+  "caption": "🚆 One day of trains in Poland — Thursday 15 October 2026.\n\n6,784 trains across 2,980 stations, from PKP Intercity's Pendolinos to every regional operator. Warsaw, the Tricity, Silesia and Kraków light up first. Peaks: 706 trains on the move at 06:54, 736 at 16:45.\n\n📊 Data: PKP PLK & Koleje Mazowieckie open data, GTFS by Mikołaj Kuranowski (mkuran.pl). Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#poland #pkp #pendolino #trains #railway #dataviz #maps #transport",
+  "post_at": "2026-10-23T17:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "série rail style nuit, intercalée (demande Alexis 10/10)"
+    }
+  ]
+}
