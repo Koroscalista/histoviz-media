@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "🥇 Summer Olympic gold, country by country — 1896 → 2024.\n\nThe United States has 1,110 golds. Second place has 395 — and it's a country that no longer exists. Watch the Soviet Union arrive in 1952, climb to second in forty years, then vanish in 1992; its successors start again from zero. Meanwhile China arrives late and reaches 303 🏟️\n\n📊 Data: Wikipedia, from IOC and Olympedia records (CC BY-SA). The USSR, Unified Team, Russia, East and West Germany are counted separately, as the IOC does.\n\n#olympics #olympicgames #goldmedal #history #dataviz #sportshistory #ussr #barchartrace",
-  "post_at": "2026-11-07T17:00:00+01:00",
+  "post_at": "2026-11-10T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -40,6 +40,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-11-07T17:00:00+01:00 à 2026-11-10T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
