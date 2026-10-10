@@ -10,7 +10,7 @@
     "duree_s": 44.8
   },
   "caption": "🏙️ City-dwellers, country by country — 1960 → 2024.\n\nIn 1960, 132 million Chinese lived in cities. Today 928 million do — more than India and the United States combined. Until 1978 China kept its people on the land; once the economy opened, hundreds of millions moved to the factories. Watch the world tip majority-urban in 2007 🌆\n\n📊 Data: Gapminder, Systema Globalis (CC BY 4.0). No world total is published for this series.\n\n#urbanization #cities #china #population #history #dataviz #india #barchartrace",
-  "post_at": "2026-10-30T17:00:00+01:00",
+  "post_at": "2026-11-02T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -54,6 +54,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-30T17:00:00+01:00 à 2026-11-02T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
