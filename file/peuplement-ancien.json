@@ -10,7 +10,7 @@
     "duree_s": 75.0
   },
   "caption": "🏺 How many people lived in the ancient world — 4000 BC → year 0.\n\nNobody counted. But population density times habitable land gives an order of magnitude: about 2 million each in East Asia and the Near East in 4000 BC. By year zero East Asia is near 40 million, four times the Near East and four times Europe — river valleys and rice feed more mouths per hectare 🌾\n\n📊 Data: derived from McEvedy & Jones (1978), cross-checked with Biraben (1979). Orders of magnitude, not measurements.\n\n#ancienthistory #antiquity #population #history #dataviz #archaeology #demography #barchartrace",
-  "post_at": "2026-10-29T17:00:00+01:00",
+  "post_at": "2026-10-30T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -54,6 +54,11 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "créneau déplacé de 2026-10-29T17:00:00+01:00 à 2026-10-30T17:00:00+01:00 (série rail intercalée)"
     }
   ]
 }
