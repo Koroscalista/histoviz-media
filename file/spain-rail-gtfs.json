@@ -1,0 +1,33 @@
+{
+  "slug": "spain-rail-gtfs",
+  "notion_id": 280,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/spain-rail-gtfs/spain-rail-gtfs.mp4",
+    "duree_s": 40.0
+  },
+  "caption": "🚄 One day of Renfe trains in Spain — Thursday 15 October 2026.\n\n5,947 Renfe trains: AVE, Avlo and Avant radiate from Madrid while Cercanías and Rodalies pulse around Madrid and Barcelona. 532 high-speed runs in a day. Busiest moments: 599 trains on the move at 08:32, 605 at 19:56. Iryo and Ouigo are not included (no open timetable).\n\n📊 Data: Renfe Data GTFS (data.renfe.com), CC BY 4.0. Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#spain #renfe #ave #trains #railway #dataviz #maps #transport",
+  "post_at": "2026-11-05T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-10T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-10T18:00:00+02:00",
+      "note": "série rail style nuit, intercalée (demande Alexis 10/10)"
+    }
+  ]
+}
