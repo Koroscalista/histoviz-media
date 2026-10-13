@@ -1,7 +1,7 @@
 {
   "slug": "grand-slam-titles-by-country",
   "notion_id": 96,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -50,6 +50,10 @@
       "statut": "prêt",
       "at": "2026-10-13T16:35:14+00:00",
       "note": "retiré du calendrier : à recouper (1er mouvement du top 3 à 8,7 s)"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-13T19:27:26+00:00"
     }
   ]
 }
