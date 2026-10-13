@@ -10,7 +10,7 @@
     "duree_s": 40.0
   },
   "caption": "🚆 One day of trains in Great Britain — Thursday 15 October 2026.\n\n22,122 trains, every operator from LNER and Avanti to Northern, ScotRail and Southern. London's commuter web dominates: 1,690 trains on the move at 07:50, 1,675 at 17:52.\n\n📊 Data: National Rail timetable, GTFS by travelwhiz (CC BY 4.0). Positions interpolated between stops; stations joined in straight lines.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#uk #britain #nationalrail #trains #railway #dataviz #maps #transport",
-  "post_at": "2026-11-01T17:00:00+01:00",
+  "post_at": "2026-11-12T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -45,6 +45,11 @@
       "statut": "programmé",
       "at": "2026-10-10T18:00:00+02:00",
       "note": "vidéo remplacée : version style nuit, horaire du jeudi 15/10/2026 (demande Alexis 10/10) ; créneau déplacé de 2026-10-27T17:00:00+01:00 à 2026-11-01T17:00:00+01:00 (série rail intercalée)"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-13T16:35:02+00:00",
+      "note": "recalé 2026-11-01T17:00:00+01:00 -> 2026-11-12T17:00:00+01:00 (GTFS 1/sem jeudi, rail 1/sem dimanche)"
     }
   ]
 }
