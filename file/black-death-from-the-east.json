@@ -1,7 +1,7 @@
 {
   "slug": "black-death-from-the-east",
   "notion_id": 286,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "signature",
   "type": null,
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18192279418403832",
+    "permalink": "https://www.instagram.com/reel/DecNb1DiJCQ/",
+    "published_at": "2026-10-13T16:13:23.760Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -35,6 +39,10 @@
     {
       "statut": "programmé",
       "at": "2026-10-10T17:15:40+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-13T16:13:23.760Z"
     }
   ]
 }
