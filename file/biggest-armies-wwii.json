@@ -1,7 +1,7 @@
 {
   "slug": "biggest-armies-wwii",
   "notion_id": 181,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "filler",
   "type": "race",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18113317190111195",
+    "permalink": "https://www.instagram.com/reel/DeeqH1Zm0aI/",
+    "published_at": "2026-10-14T15:02:16.624Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -40,6 +44,10 @@
       "statut": "programmé",
       "at": "2026-10-09T18:00:00+02:00",
       "note": "caption réécrite au nouveau format (modèle Alexis du 09/10)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-14T15:02:16.624Z"
     }
   ],
   "origine": "manuel"
