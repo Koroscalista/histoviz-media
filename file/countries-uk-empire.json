@@ -1,0 +1,29 @@
+{
+  "slug": "countries-uk-empire",
+  "notion_id": 305,
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "atlas",
+  "type": "atlas",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/countries-uk-empire/countries-uk-empire.mp4",
+    "duree_s": 61.7
+  },
+  "caption": "🇬🇧 The empire on which the sun never set — every country British forces reached, 1169 → 1957.\n\nBritain is less than 0.2% of the world's land, yet its forces reached 94 of today's countries ⚓ The key was the Royal Navy: for centuries it carried settlers, redcoats and gunboats across every ocean, and after Trafalgar in 1805 no fleet could challenge it for a hundred years. One surprise on the map: after World War One, Cecil Rhodes' dream of an unbroken British line \"from Cairo to Cape Town\" actually came true 🗺️\n\nWas yours one of them? 👇\n\n📊 Data: S. Laycock, All the Countries We've Ever Invaded; Wikipedia — wars involving the United Kingdom. Laycock's broader count reaches 171; this map only keeps colonies, land invasions and direct attacks (raid, naval, blockade). Present-day borders, microstates not drawn.\n🌍 Land: Natural Earth\n\n#britishempire #uk #royalnavy #history #dataviz #maps #colonialism #historymap",
+  "post_at": "2026-10-16T17:00:00+02:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "produit",
+      "at": "2026-10-13T19:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-13T19:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-13T19:00:00+02:00"
+    }
+  ]
+}
