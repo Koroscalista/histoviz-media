@@ -9,7 +9,7 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/nyc-subway-gtfs/nyc-subway-gtfs.mp4",
     "duree_s": 30.0
   },
-  "caption": "🚇 One day on the New York subway — 24 hours, every train.\n\n8,348 scheduled trains across 459 stations, each dot a real train in its line colour. Watch the system breathe: thin before dawn, Manhattan saturating at rush hour — and, unlike most metros, it never fully stops. New York runs 24/7 🌙\n\n📊 Data: MTA subway GTFS timetable for Thursday 3 September 2026 (data.ny.gov). Positions interpolated between stops; track layout reconstructed from station sequences.\n\n#newyork #nyc #subway #mta #dataviz #transit #maps #opendata",
+  "caption": "🚇 One day on the New York subway — 24 hours, every train.\n\n8,348 scheduled trains across 459 stations, each dot a real train in its line colour. Watch the system breathe: thin before dawn, Manhattan saturating at rush hour — and, unlike most metros, it never fully stops. New York runs 24/7 🌙\n\n📊 Data: MTA subway GTFS timetable for Thursday 15 October 2026 (data.ny.gov). Every train follows the real track geometry (MTA shapes); positions interpolated between stops.\n🛰️ Imagery: USGS The National Map (public domain).\n\n#newyork #nyc #subway #mta #dataviz #transit #maps #opendata",
   "post_at": "2026-10-22T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
@@ -55,6 +55,11 @@
       "statut": "programmé",
       "at": "2026-10-16T16:30:30+00:00",
       "note": "v2 tracé réel, 30 s"
+    },
+    {
+      "statut": "programmé",
+      "note": "caption v2 (tracé réel)",
+      "at": "2026-10-16T16:30:32+00:00"
     }
   ]
 }
