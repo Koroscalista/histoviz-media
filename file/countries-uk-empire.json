@@ -1,7 +1,7 @@
 {
   "slug": "countries-uk-empire",
   "notion_id": 305,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "atlas",
   "type": "atlas",
@@ -24,6 +24,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-13T19:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-16T15:05:59.471Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "17913018639496552",
+    "permalink": "https://www.instagram.com/reel/Dej0FuCmUyd/",
+    "published_at": "2026-10-16T15:05:59.471Z"
+  }
 }
