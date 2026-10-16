@@ -60,6 +60,11 @@
       "statut": "programmé",
       "note": "caption v2 (tracé réel)",
       "at": "2026-10-16T16:30:32+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-16T17:22:11+00:00",
+      "note": "v2 tracé réel, 30 s"
     }
   ]
 }
