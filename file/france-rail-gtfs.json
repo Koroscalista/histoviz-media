@@ -1,24 +1,20 @@
 {
   "slug": "france-rail-gtfs",
   "notion_id": 160,
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-rail-gtfs/france-rail-gtfs.mp4",
-    "duree_s": 40
+    "duree_s": 30.0
   },
-  "caption": "🚄 One day of trains in France — 24 hours, every service.\n\n9,455 scheduled services across 2,486 stations. Watch the star: TGV, Intercités and TER all converge on Paris, a layout set in 1842 when the network was planned from the capital outward. The country wakes before dawn and empties again after midnight 🌙\n\n📊 Data: SNCF Voyageurs GTFS, transport.data.gouv.fr (Licence Ouverte), Thursday 3 September 2026. Positions interpolated between stops; stations joined in straight lines.\n\n#france #sncf #trains #railway #tgv #dataviz #maps #transport",
-  "post_at": "2026-10-10T17:00:00+02:00",
+  "caption": "🚄 One day of trains in France — Thursday 15 October 2026.\n\n9,117 trains across 2,421 stations: every TGV INOUI, OUIGO, Intercités and TER. Watch the star: the lines all converge on Paris, a layout set in 1842 when the network was planned from the capital outward. Peaks: 1,082 trains on the move at 07:20, 1,127 at 18:44.\n\n📊 Data: SNCF Voyageurs GTFS, transport.data.gouv.fr (Licence Ouverte). Each train follows the real track (SNCF Réseau & OpenStreetMap network); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#france #sncf #trains #railway #tgv #dataviz #maps #transport",
+  "post_at": "2026-10-18T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": {
-    "media_id": "17910042168311031",
-    "permalink": "https://www.instagram.com/reel/DeUYWgnE9v1/",
-    "published_at": "2026-10-10T15:14:59.604Z"
-  },
+  "publication": null,
   "historique": [
     {
       "statut": "idée",
@@ -63,6 +59,11 @@
     {
       "statut": "publié",
       "at": "2026-10-10T15:14:59.604Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-16T11:53:05+00:00",
+      "note": "v2 tracé réel (republication demandée par Alexis le 16/10) ; ancienne publication 10/10 : https://www.instagram.com/reel/DeUYWgnE9v1/ (media 17910042168311031)"
     }
   ]
 }
