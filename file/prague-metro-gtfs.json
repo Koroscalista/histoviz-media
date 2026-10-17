@@ -1,0 +1,29 @@
+{
+  "slug": "prague-metro-gtfs",
+  "notion_id": 313,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/prague-metro-gtfs/prague-metro-gtfs.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚇 One day on the Prague Metro — Thursday 22 October 2026.\n\n1,787 trains on the three lines A, B and C, opened in 1974, crossing under the Vltava. Each dot is a scheduled train on the real track, in its line colour. Morning peak: 97 trains on the move at 08:12.\n\n📊 Data: PID GTFS timetable (CC BY 4.0).\n🛰️ Imagery: Sentinel-2 cloudless 2023 by EOX (CC BY-NC-SA 4.0).\n\n#prague #praha #metro #czechia #transport #dataviz #maps #satellite",
+  "post_at": "2026-12-08T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-17T12:06:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-17T12:06:52+00:00",
+      "note": "série métros satellite, 1 par semaine (Alexis 17/10)"
+    }
+  ]
+}
