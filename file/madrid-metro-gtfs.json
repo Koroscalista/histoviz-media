@@ -1,0 +1,29 @@
+{
+  "slug": "madrid-metro-gtfs",
+  "notion_id": 310,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/madrid-metro-gtfs/madrid-metro-gtfs.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚇 A typical weekday on the Madrid Metro.\n\nOne of Europe's largest metro networks, opened in 1919, shown from the 6 a.m. opening to the evening. Each dot is a train following the real track, in its line colour, generated from the published service frequencies. Line 3 is missing from the open data used here.\n\n📊 Data: Powered by CRTM — Metro de Madrid GTFS (published frequencies).\n🛰️ Imagery: Sentinel-2 cloudless 2023 by EOX (CC BY-NC-SA 4.0).\n\n#madrid #metro #spain #transport #dataviz #maps #satellite #citylife",
+  "post_at": "2026-11-17T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-17T12:06:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-17T12:06:52+00:00",
+      "note": "série métros satellite, 1 par semaine (Alexis 17/10)"
+    }
+  ]
+}
