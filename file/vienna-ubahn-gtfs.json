@@ -1,0 +1,29 @@
+{
+  "slug": "vienna-ubahn-gtfs",
+  "notion_id": 312,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/vienna-ubahn-gtfs/vienna-ubahn-gtfs.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚇 One day on the Vienna U-Bahn — Thursday 22 October 2026.\n\n2,890 trains on lines U1, U2, U3, U4 and U6, crossing the Danube and circling the old city. Each dot is a scheduled train on the real track, in its line colour. Morning peak: 113 trains on the move at 07:27.\n\n📊 Data: Wiener Linien GTFS timetable.\n🛰️ Imagery: Sentinel-2 cloudless 2023 by EOX (CC BY-NC-SA 4.0).\n\n#vienna #wien #ubahn #wienerlinien #austria #dataviz #maps #satellite",
+  "post_at": "2026-12-01T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-17T12:06:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-17T12:06:52+00:00",
+      "note": "série métros satellite, 1 par semaine (Alexis 17/10)"
+    }
+  ]
+}
