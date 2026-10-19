@@ -1,7 +1,7 @@
 {
   "slug": "nba-titles-by-franchise",
   "notion_id": 98,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "17987624681881512",
+    "permalink": "https://www.instagram.com/reel/Derh5l1gOMz/",
+    "published_at": "2026-10-19T15:00:49.673Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -54,6 +58,10 @@
       "statut": "programmé",
       "at": "2026-10-19T12:40:00+02:00",
       "note": "republication : 1re version sortie sans logos de franchises (media_id 17946994095341936, https://www.instagram.com/reel/DemYXcggIfw/). MP4 remplacé sur la Release (logos ajoutés, audio d'origine). Créneau 2026-10-19T17:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-19T15:00:49.673Z"
     }
   ]
 }
