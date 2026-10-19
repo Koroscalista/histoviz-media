@@ -1,0 +1,39 @@
+{
+  "slug": "waterloo-1815",
+  "notion_id": 294,
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "filler",
+  "type": "bataille",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/waterloo-1815/waterloo-1815.mp4",
+    "duree_s": 75
+  },
+  "caption": "⚔️ The Battle of Waterloo — 18 June 1815, hour by hour.\n\nNapoleon waited for the mud to dry and called the day \"a mere breakfast\". He believed the Prussians were retreating east. They were 13 km away at Wavre, and had been marching toward him since dawn. The attack began at half past eleven. British heavy cavalry broke d'Erlon's assault, then 9,000 French horsemen charged the ridge again and again: the squares held. At 4:30 the Prussians struck his flank at Plancenoit. At 7:30 the Imperial Guard climbed the ridge and was thrown back by the British Foot Guards. By nightfall the French had lost about 33,000 men, the Coalition about 22,000. Napoleon abdicated four days later.\n\n📊 Data: order of battle from Wikipedia's \"Waterloo campaign order of battle\"; losses from Wikipedia and Barbero. Unit movements are reconstructed from first-hand accounts and situation maps: a plausible choreography, not a GPS track.\n🌍 Land: Copernicus DEM relief; 1815 woods from the USMA atlas; rivers OpenStreetMap.\n\n#napoleon #waterloo #1815 #napoleonicwars #militaryhistory #history #dataviz #maps",
+  "post_at": "2026-10-20T18:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-19T15:03:37+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-19T15:03:37+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-19T15:03:37+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-19T15:03:37+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-19T15:03:37+02:00"
+    }
+  ]
+}
