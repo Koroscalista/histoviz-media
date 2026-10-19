@@ -1,0 +1,39 @@
+{
+  "slug": "french-foreign-legion",
+  "notion_id": 314,
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "signature",
+  "type": null,
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/french-foreign-legion/french-foreign-legion.mp4",
+    "duree_s": 45.8
+  },
+  "caption": "🎖️ The French Foreign Legion — 1831 to today.\n\nIn 1831, France created an army for men who were not French. Since then, men from more than 150 countries have served in it, and the Legion was sent where France bled most: over 10,000 legionnaires killed in Indochina alone. Its founding legend is Camerone, Mexico, 30 April 1863. 65 men held a farmhouse against about 2,000 Mexican soldiers from morning until evening. At 6 pm, the last six, out of ammunition, charged with fixed bayonets. Three were still standing. Joining the Legion could give you a new identity, and a legionnaire wounded in combat can ask for French nationality: \"Français par le sang versé\", French by spilled blood.\n\n📊 Data: legionnaires killed by campaign from the FSALE table \"État des campagnes de la Légion 1831-1981\"; Camerone from the Legion's official account and Ryan (1996). Troop movements are reconstructed from accounts, not a GPS track. The flags and map illustrate the 150+ nationalities; they are not a complete list.\n🌍 Land: Copernicus DEM relief; Natural Earth borders.\n📷 Memorial photo: JC Plé / Bernard Dupont, CC BY-SA 2.0.\n\n#foreignlegion #legionetrangere #camerone #frenchhistory #militaryhistory #history #dataviz #maps",
+  "post_at": "2026-10-23T18:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-19T15:35:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-19T15:35:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-19T15:35:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-19T15:35:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-19T15:35:00+02:00"
+    }
+  ]
+}
