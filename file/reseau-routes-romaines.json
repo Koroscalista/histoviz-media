@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-routes-romaines",
+  "notion_id": 42,
+  "statut": "programmé",
+  "pilier": 1,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-routes-romaines/reseau-routes-romaines.mp4",
+    "duree_s": 45.0
+  },
+  "caption": "🏛️ Every known Roman road, drawn region by region until the whole empire is joined up.\n\nIt starts in Italy, radiating out of Rome, then moves through each region in roughly the order Rome conquered it, from Hispania to Britannia and Dacia. About 278,000 km of roads in all, from Hadrian's Wall to the Euphrates and the Nile 🗺️ Built first to move legions, they carried trade, mail and ideas for centuries, and many modern roads still follow their lines.\n\n📊 Data: Itiner-e, digital atlas of ancient roads (de Soto et al., Scientific Data 2025, CC BY 4.0). Provinces c. AD 117: Digital Atlas of the Roman Empire (DARE). Construction dates are mostly unknown, so no years are shown.\n🌍 Land: Natural Earth\n\nℹ️ The colours are 12 regions of the empire, not its provinces: around AD 117 Rome had more than 40 provinces, far too many to tell apart on one map, so neighbouring provinces are grouped together (Gaul = Narbonensis + Lugdunensis + Aquitania + Belgica, and so on).\n\n#romanempire #romanroads #ancientrome #history #dataviz #maps #spqr #archaeology",
+  "post_at": "2026-10-21T17:00:00+02:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-19T20:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-19T20:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-19T20:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-19T20:00:00+02:00"
+    }
+  ]
+}
