@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-portugal-rail",
+  "notion_id": 318,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-portugal-rail/reseau-portugal-rail.mp4",
+    "duree_s": 50.0
+  },
+  "caption": "🚂 Portugal's railways · 1856 → 2026\n\nPortugal built its railways late and slowly: the first line left Lisbon in 1856, and the narrow-gauge lines climbing into the mountains of the north were still being extended in the 1930s and 40s. At its peak around 1950 the network reached about 3,500 km. Then the road won. Between 1988 and 1991 most of the rural lines of Trás-os-Montes and the Alentejo closed, and closures went on into the 2010s (Tua, Corgo, Tâmega, Figueira da Foz, Beja). Today about 2,500 km remain, mostly along the coast from Braga to Lisbon and down to the Algarve.\n\n📊 Data: track geometry © OpenStreetMap contributors (ODbL); opening dates from OSM, cross-checked section by section with Portuguese Wikipedia, which also gives most closures. A suspended service counts as a closure; former lines now part of Porto's light metro stay drawn. Lines with no sourced date are left out.\n🌍 Land: Natural Earth\n\n#portugal #railways #trains #comboios #history #dataviz #maps #europe",
+  "post_at": "2026-11-29T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-20T18:00:00+02:00"
+    }
+  ]
+}
