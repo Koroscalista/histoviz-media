@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-grece-rail",
+  "notion_id": 316,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-grece-rail/reseau-grece-rail.mp4",
+    "duree_s": 46.5
+  },
+  "caption": "🇬🇷 Greece's railways take shape · 1869 → today\n\nGreece's first train ran in 1869, 8 km from Piraeus to Athens. About a third of the network at its peak was built under the Ottoman Empire: Thessaloniki–Idomeni (1872), Thrace (1873), Salonica–Monastir (1894) and Salonica–Constantinople (1896), all inherited after 1912–1920. The network peaked at around 2,550 km in the 1950s. Then the debt crisis hit: the whole metre-gauge Peloponnese network has had its services suspended since 2011, and Storm Daniel shut Thessaly's lines in 2023. Suspended lines are shown as closed; the line that became Athens Metro line 1 stays drawn.\n\n📊 Data: opening and closure year of every section, sourced line by line (greekrailtickets.gr, Wikipedia, Hellenic Parliament); track geometry © OpenStreetMap contributors (ODbL). A few dates differ by a year between sources.\n🌍 Land: Natural Earth\n\n#greece #railways #trains #history #ottomanempire #peloponnese #dataviz #maps",
+  "post_at": "2026-11-15T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-20T18:00:00+02:00"
+    }
+  ]
+}
