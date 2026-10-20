@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-turquie-rail",
+  "notion_id": 317,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-turquie-rail/reseau-turquie-rail.mp4",
+    "duree_s": 49.0
+  },
+  "caption": "🚂 Turkey's railways · 1858 → 2026\n\nAnatolia's first train ran in 1858, on the British-built İzmir–Aydın line. Until 1918 the network grew through foreign concessions: the German-backed Anatolian Railway reached Ankara (1892) and Konya (1896), then the Baghdad Railway crossed the Taurus. The Republic then built its own lines east and to the Black Sea coal: Sivas, Zonguldak, Erzurum (1939). The Kars line in the far east is older: the Russian Empire laid Kars–Sarıkamış in 1899 and a narrow-gauge line on to Erzurum in 1917; Turkey rebuilt it to standard gauge in 1949–1961, and the map dates it from the first track. In blue, the high-speed lines, from Ankara–Eskişehir in 2009 to Çerkezköy–Kapıkule, opened on 9 October 2026.\n\n📊 Data: OpenHistoricalMap + OpenStreetMap (ODbL); opening years set section by section from Turkish Wikipedia's list of railway lines and Wikidata. Kilometres are line length (about 9,500 km for TCDD in 2024). A suspended service counts as a closure (Kars–Gyumri, 1993). Sections without a sourced date are left out.\n🌍 Land: Natural Earth\n\n#turkey #türkiye #railways #trains #history #ottomanempire #dataviz #maps",
+  "post_at": "2026-11-22T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-20T18:00:00+02:00"
+    }
+  ]
+}
