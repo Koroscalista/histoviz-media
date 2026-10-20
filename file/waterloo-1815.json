@@ -1,7 +1,7 @@
 {
   "slug": "waterloo-1815",
   "notion_id": 294,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "filler",
   "type": "bataille",
@@ -34,6 +34,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-19T15:03:37+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-20T16:04:13.466Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18108371351236162",
+    "permalink": "https://www.instagram.com/reel/DeuN58PjHgu/",
+    "published_at": "2026-10-20T16:04:13.466Z"
+  }
 }
