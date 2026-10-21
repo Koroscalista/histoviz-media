@@ -1,0 +1,29 @@
+{
+  "slug": "germany-vs-poland-rail",
+  "notion_id": 328,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/germany-vs-poland-rail/germany-vs-poland-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚆 Germany vs Poland — every train of the same day, Thursday 15 October 2026.\n\nSame rules on both sides: long-distance and regional trains only, without Germany's S-Bahn or the urban SKM lines of Warsaw, Gdańsk and Kraków. Germany ran over 26,000 trains that day, Poland about 6,000, on a territory only 12% smaller. Long-distance trains (EIP, EIC, IC, TLK) make up 9% of Polish traffic against 3% in Germany, and Poland's busiest moment comes in the afternoon (650 trains on the move at 16:45), not at the morning rush.\n\n📊 Data: DELFI e.V. via gtfs.de (CC BY 4.0) · PKP PLK & Koleje Mazowieckie data, GTFS by Mikołaj Kuranowski. Trains follow the real tracks (© OpenStreetMap); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#germany #poland #trains #railway #deutschebahn #pkp #dataviz #maps",
+  "post_at": "2026-11-07T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T10:09:26+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T10:09:26+00:00",
+      "note": "série versus rail, doublon 2 h après nobel-prizes-by-country ; pas 2 GTFS le même jour (Alexis 21/10)"
+    }
+  ]
+}
