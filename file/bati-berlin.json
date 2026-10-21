@@ -1,0 +1,39 @@
+{
+  "slug": "bati-berlin",
+  "notion_id": 321,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-berlin/bati-berlin.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Berlin, every building standing today by year of construction — 1850 → 2015.\n\nWatch the orange rings of the 1870–1914 boom fill the map, then the gap of the war years. In August 1961 the Wall cuts the city in two, and its death strip stays empty for 28 years: when the Wall falls in 1989, the strip fills with new buildings, from Potsdamer Platz to Mitte. Only buildings still standing today appear, so the city destroyed in 1943–45 is not here.\n\n📊 Data: ALKIS Berlin footprints and storeys, Umweltatlas Berlin building age by block and decade (dl-de/zero-2.0); exact years within a decade, and non-residential buildings, are estimated from neighbouring buildings and district history. Heights exaggerated ×3.\n🧱 Wall: official 1989 course, Geoportal Berlin.\n🌍 Map: OpenStreetMap contributors.\n\n#berlin #berlinwall #germany #history #architecture #dataviz #maps #urbanism",
+  "post_at": "2026-10-23T17:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T18:00:00+02:00"
+    }
+  ]
+}
