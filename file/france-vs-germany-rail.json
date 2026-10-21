@@ -1,0 +1,29 @@
+{
+  "slug": "france-vs-germany-rail",
+  "notion_id": 320,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-vs-germany-rail/france-vs-germany-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚆 France vs Germany — every train of the same day, Thursday 15 October 2026.\n\nSame rules on both sides: long-distance and regional trains only (TGV, OUIGO, Intercités, TER vs ICE, IC, RE, RB), with S-Bahn, RER and Transilien left out. Germany ran over 25,000 trains that day, France about 8,800, on two-thirds of France's area. The curves tell the rest: French trains bunch up at rush hour (nearly 1,100 on the move at 18:45, barely 450 at noon), while Germany's clockface timetable keeps around 1,350 trains running all day.\n\n📊 Data: DELFI e.V. via gtfs.de (CC BY 4.0) · SNCF Voyageurs GTFS (Licence Ouverte). Trains follow the real tracks (© OpenStreetMap, SNCF Réseau); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#france #germany #trains #railway #sncf #deutschebahn #dataviz #maps",
+  "post_at": "2026-10-22T19:00:00+02:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T08:07:20+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T08:07:20+00:00",
+      "note": "versus FR/DE, doublon 2 h après reseau-turquie-rail (Alexis 21/10), musique Rossini"
+    }
+  ]
+}
