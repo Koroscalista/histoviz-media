@@ -1,0 +1,39 @@
+{
+  "slug": "bati-paris",
+  "notion_id": 43,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-paris/bati-paris.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Paris, every building standing today by year of construction — 1860 → 2025.\n\nThe red core is Haussmann's Paris and the decades after him: by 1914 most of the city you walk through today was already built. Then the 1930s ring of brick housing at the edges, a few towers in the 1970s, and relatively little since: Paris rarely demolishes.\n\n📊 Data: French national building database BDNB (CSTB, Licence Ouverte), which groups adjoining buildings; heights from BD TOPO (IGN). Only 40% of the buildings have an exact recorded year: 48% were recorded as a round decade and are spread over the nearby years, 11% have no year and take the year of neighbouring buildings. Buildings older than 1860 appear from the first frame. Heights exaggerated.\n🌍 Map: OpenStreetMap contributors.\n\n#paris #france #history #architecture #dataviz #maps #urbanism #haussmann",
+  "post_at": "2026-11-27T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T21:00:00+02:00"
+    }
+  ]
+}
