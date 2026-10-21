@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-maghreb-rail",
+  "notion_id": 338,
+  "statut": "programmé",
+  "pilier": 1,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-maghreb-rail/reseau-maghreb-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚂 Railways of Morocco, Algeria & Tunisia · 1862 → 2026\n\nMost lines were laid from 1862 to the 1930s, largely by French companies, under colonial rule in Algeria and the Tunisian and Moroccan protectorates, plus a few in Spanish-zone Morocco. Some 3,000 km of mostly narrow-gauge branches closed from the 1930s on; the Méditerranée-Niger line around Béchar, run by a French state body, shut on 1 January 1963. National railways took over: SNCFT 1956, ONCF 1963, SNTF 1976. Since 2009 new lines have redrawn the map: Al Boraq (2018), Algeria's Hauts Plateaux and Béchar–Gara Djebilet.\n\n📊 Data: dates reconstructed section by section from historical sources; undated sections omitted; approximate routes for vanished lines; some closure years estimated from the last recorded service.\n🌍 Land: Natural Earth; Morocco–Western Sahara boundary (disputed) not drawn · track © OpenStreetMap\n\n#Maghreb #Morocco #Algeria #Tunisia #railways #history #maps #dataviz",
+  "post_at": "2026-11-04T17:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T20:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T20:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T20:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T20:00:00+02:00"
+    }
+  ]
+}
