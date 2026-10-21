@@ -1,0 +1,39 @@
+{
+  "slug": "bati-marseille",
+  "notion_id": 326,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-marseille/bati-marseille.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Central Marseille, every building standing today by year of construction — 1860 → 2025.\n\nThe dense red centre grew around the Old Port during the 19th-century boom of the port. In 1943 the occupiers dynamited the old quarter on the north side of the port, rebuilt after the war, and the 2000s transform the docks of the Joliette with the CMA CGM tower and the MuCEM.\n\n📊 Data: French national building database BDNB (CSTB, Licence Ouverte), which groups adjoining buildings; heights from BD TOPO (IGN). Only 29% of the buildings have an exact recorded year: 44% were recorded as a round decade and are spread over the nearby years, 27% have no year and take the year of neighbouring buildings. Buildings older than 1860 appear from the first frame. Heights exaggerated.\n🌍 Map: OpenStreetMap contributors.\n\n#marseille #france #history #architecture #dataviz #maps #urbanism #mediterranean",
+  "post_at": "2026-12-11T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T21:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T21:00:00+02:00"
+    }
+  ]
+}
