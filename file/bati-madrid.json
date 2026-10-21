@@ -1,0 +1,39 @@
+{
+  "slug": "bati-madrid",
+  "notion_id": 324,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-madrid/bati-madrid.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Madrid, every building standing today by year of construction — 1850 → 2025.\n\nMadrid's old core was largely rebuilt in the 19th century, and the cadastre records the year of a building's last major rebuild, so the centre fills in between 1880 and 1910 rather than appearing at the start. From 1860 the Castro plan pushes the grid north and east into Chamberí and Salamanca. Building slows during the Civil War (1936–39), then explodes: the 1950s–70s boom brings the blocks of the outer districts and the towers along the Castellana and AZCA.\n\n📊 Data: Spanish cadastre (Dirección General del Catastro, INSPIRE Buildings). 65% of buildings have an exact recorded year; 35% were recorded as a round year and are spread over the nearby years. Very few buildings are dated before 1850. Heights estimated from floor counts, exaggerated.\n🌍 Map: OpenStreetMap contributors.\n\n#madrid #spain #history #architecture #dataviz #maps #urbanism #cityplanning",
+  "post_at": "2026-12-18T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T23:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T23:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T23:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T23:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T23:00:00+02:00"
+    }
+  ]
+}
