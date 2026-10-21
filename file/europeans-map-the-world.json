@@ -1,0 +1,39 @@
+{
+  "slug": "europeans-map-the-world",
+  "notion_id": 333,
+  "statut": "programmé",
+  "pilier": 1,
+  "format": "filler",
+  "type": "exploration",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/europeans-map-the-world/europeans-map-the-world.mp4",
+    "duree_s": 126.7
+  },
+  "caption": "🧭 World exploration, from Europe's point of view — 793 → 1968.\n\nIn 793, Europeans knew little beyond Europe, the Mediterranean and the Middle East. Norse sailors reached Iceland, Greenland and Vinland; Marco Polo crossed Asia and came home by sea. From the 1430s the Portuguese worked down the African coast, and within a century Columbus, da Gama and Magellan's crew had linked the oceans. The interiors came last: Siberia with the Cossacks, then North America, Australia and Africa in the 1800s, and Antarctica in the 1900s. The fog only lifts where an expedition passed or a survey reached Europe.\n\n📊 Data: routes of about 260 voyages, expeditions and surveys, composed from published accounts (Wikipedia, Morison, Beaglehole, Skelton) and approximate. The percentages are computed from these revealed areas, not historical measurements; a sea enclosed by charted routes counts as known, and the last blanks lift in 1968, when Apollo 8's crew photographed the whole Earth.\n🌍 Land: Natural Earth\n\n#exploration #ageofdiscovery #explorers #history #historymaps #worldhistory #dataviz #maps",
+  "post_at": "2026-11-01T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T15:16:11+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T15:16:11+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T15:16:11+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T15:16:11+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T15:16:11+00:00"
+    }
+  ]
+}
