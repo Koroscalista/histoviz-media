@@ -1,0 +1,33 @@
+{
+  "slug": "reseau-europe-ouest-rail",
+  "notion_id": 288,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "reseau",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/reseau-europe-ouest-rail/reseau-europe-ouest-rail.mp4",
+    "duree_s": 46.5
+  },
+  "caption": "🚂 Western Europe's railways, every line at its real opening date — 1825 → today.\n\nBritain lays the first lines, then the continent catches up fast: by 1937 the countries on this map run about 217,000 km of track 🗺️ After that the tide turns. Cars and lorries win the short routes and thousands of branch lines close: the UK falls from about 26,000 km to 15,000, France from about 37,000 to 29,000. The faded lines are the ones that closed; today about 182,000 km remain in service.\n\n📊 Data: OpenHistoricalMap (opening and closure dates) + OpenStreetMap (gaps), ODbL; Spain: Esteban-Oliver & Martí-Henneberg (DATA917). Coverage is uneven by country, and some lines in the Balkans and Luxembourg carry an estimated opening year (Wikidata). Switzerland is left blank: fewer than half of its lines are dated in the source.\n🌍 Land: Natural Earth\n\n#railways #europe #trains #history #dataviz #maps #rail #infrastructure",
+  "post_at": "2026-10-28T19:00:00+01:00",
+  "priorite": 0,
+  "historique": [
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T12:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T12:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T12:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T12:00:00+02:00"
+    }
+  ]
+}
