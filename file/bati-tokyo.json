@@ -1,0 +1,39 @@
+{
+  "slug": "bati-tokyo",
+  "notion_id": 322,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-tokyo/bati-tokyo.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Central Tokyo, every building standing today by year of construction — 1920 → 2021.\n\nAlmost nothing from before 1945 survives: the 1923 earthquake and the 1945 firebombing destroyed most of the old city, and Tokyo rebuilds fast, a building rarely lasts more than 40 years. The red pockets are the post-war rebuild, then the high-growth years and the 1980s bubble, and finally the towers of the bay. Landmarks keep their real completion year.\n\n📊 Data: footprints and measured heights from PLATEAU (MLIT, open data). Japan publishes no open building-age register: only the ~7% of buildings flagged as new since 2016 are measured, all other years are estimated from the history and housing statistics of each ward. Heights exaggerated.\n🌍 Map: OpenStreetMap contributors; ward boundaries MLIT.\n\n#tokyo #japan #history #architecture #dataviz #maps #urbanism #skyline",
+  "post_at": "2026-10-29T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T18:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T18:00:00+02:00"
+    }
+  ]
+}
