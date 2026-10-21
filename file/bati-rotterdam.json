@@ -1,0 +1,39 @@
+{
+  "slug": "bati-rotterdam",
+  "notion_id": 331,
+  "statut": "programmé",
+  "pilier": 4,
+  "format": "filler",
+  "type": "bati",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-rotterdam/bati-rotterdam.mp4",
+    "duree_s": 32.0
+  },
+  "caption": "🏙️ Rotterdam, every building standing today by year of construction — 1850 → 2025.\n\nOn 14 May 1940 German bombing razed the old centre. Only surviving buildings are shown, so the heart of the city stays dark until the 1950s, then lights up in post-war colours, while the 19th-century and interwar districts around it survived. The skyline by the river is the 2000s.\n\n📊 Data: BAG building register (Kadaster, CC0); heights 3D BAG (TU Delft / 3DGI, CC BY 4.0). About 3,400 buildings recorded with the placeholder year 1941, mostly in the 1916–1930s garden village of Vreewijk, are spread block by block over 1916–1940. Heights exaggerated ×3.\n🌍 Map: OpenStreetMap contributors; districts CBS.\n\n#rotterdam #netherlands #history #architecture #dataviz #maps #urbanism #ww2",
+  "post_at": "2026-11-13T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-21T19:00:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-21T19:00:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-21T19:00:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T19:00:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T19:00:00+02:00"
+    }
+  ]
+}
