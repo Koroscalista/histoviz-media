@@ -1,0 +1,29 @@
+{
+  "slug": "britain-vs-france-rail",
+  "notion_id": 329,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/britain-vs-france-rail/britain-vs-france-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚆 Britain vs France — every train of the same day, Thursday 15 October 2026.\n\nSame rules on both sides: long-distance and regional trains, with the Elizabeth line, London Overground and Merseyrail left out on one side, RER and Transilien on the other. Britain ran over 19,000 trains that day, more than twice France's 8,800, on less than half its area. London's commuter operators (Southern, Thameslink, South Western) are counted as mainline railways, which flatters the British side a little. The rhythm differs too: Britain still has 1,300 trains moving at noon, France drops to 450 between its two rush hours.\n\n📊 Data: National Rail GTFS by travelwhiz (CC BY 4.0) · SNCF Voyageurs GTFS (Licence Ouverte). Trains follow the real tracks (operators' shapes, © OpenStreetMap, SNCF Réseau); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#britain #france #trains #railway #nationalrail #sncf #dataviz #maps",
+  "post_at": "2026-11-14T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-21T10:09:26+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-21T10:09:26+00:00",
+      "note": "série versus rail, doublon 2 h après f1-constructor-titles ; pas 2 GTFS le même jour (Alexis 21/10)"
+    }
+  ]
+}
