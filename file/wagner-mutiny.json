@@ -1,0 +1,39 @@
+{
+  "slug": "wagner-mutiny",
+  "notion_id": 341,
+  "statut": "programmé",
+  "pilier": 2,
+  "format": "signature",
+  "type": null,
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/wagner-mutiny/wagner-mutiny.mp4",
+    "duree_s": 57.9
+  },
+  "caption": "⚔️ Wagner's mutiny — June 2023.\n\nWagner was Russia's private army, accused by UN investigators of executions and torture from Syria to Mali. In Ukraine it sent waves of recruited prisoners into Bakhmut. On 23 June 2023, day 485 of a war Russian planners expected to win in ten days, its boss Yevgeny Prigozhin turned on the army over heavy losses and missing ammunition. His men took the Southern Military District headquarters in Rostov without a fight and drove up the M4 towards Moscow, shooting down six helicopters and a command plane. 200 km from the capital, he cut a deal and turned back. Two months later, to the day, his plane crashed with Wagner's other leaders on board; the Kremlin denies any involvement. The war it was fighting has now lasted 1,720 days.\n\n📊 Data: front lines from DeepStateMap; Wagner deployments and abuses from UN OHCHR, the UN Panel of Experts on CAR and Human Rights Watch; human cost from Mediazona/BBC Russian (Russian dead identified by name), UALosses (Ukrainian dead and missing identified by name), UN OHCHR (verified civilian casualties) and CSIS estimates (July 2026). Real totals are higher: both sides hide their losses. The route of the column and the aircraft crash sites are approximate.\n🌍 Land: Natural Earth.\n📷 TV still: Kremlin televised address, 24 June 2023 (via Sky News).\n\n#wagner #prigozhin #ukrainewar #russia #ukraine #history #dataviz #maps",
+  "post_at": "2026-11-09T17:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-10-22T15:40:00+02:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-10-22T15:40:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-22T15:40:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-22T15:40:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-22T15:40:00+02:00"
+    }
+  ]
+}
