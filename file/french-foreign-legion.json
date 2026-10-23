@@ -1,7 +1,7 @@
 {
   "slug": "french-foreign-legion",
   "notion_id": 314,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "signature",
   "type": null,
@@ -34,6 +34,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-19T15:35:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-23T17:06:00.501Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18128821177873335",
+    "permalink": "https://www.instagram.com/reel/De2DZ6lFNYZ/",
+    "published_at": "2026-10-23T17:06:00.501Z"
+  }
 }
