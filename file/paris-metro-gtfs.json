@@ -1,20 +1,24 @@
 {
   "slug": "paris-metro-gtfs",
   "notion_id": 306,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/paris-metro-gtfs/paris-metro-gtfs.mp4",
-    "duree_s": 30.0
+    "duree_s": 30
   },
   "caption": "🚇 One day on the Paris Metro — Thursday 22 October 2026.\n\n11,620 trains across all 16 lines, from the first departure before dawn to the last one after midnight. Each dot is a scheduled train moving along the real track, in its line colour. Rush hour peaks at 503 trains on the move at 08:10 — and line 14 now runs all the way to Orly airport.\n\n📊 Data: Île-de-France Mobilités GTFS timetable (transport.data.gouv.fr).\n🛰️ Imagery: Sentinel-2 cloudless 2023 by EOX (CC BY-NC-SA 4.0).\n\n#paris #metro #ratp #idfm #transport #dataviz #maps #satellite",
   "post_at": "2026-10-24T17:00:00+02:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "17968479338983906",
+    "permalink": "https://www.instagram.com/reel/De4aBxfFGfY/",
+    "published_at": "2026-10-24T15:02:20.691Z"
+  },
   "historique": [
     {
       "statut": "prêt à publier",
@@ -24,6 +28,10 @@
       "statut": "programmé",
       "at": "2026-10-17T12:06:52+00:00",
       "note": "série métros satellite, 1 par semaine (Alexis 17/10)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-24T15:02:20.691Z"
     }
   ]
 }
