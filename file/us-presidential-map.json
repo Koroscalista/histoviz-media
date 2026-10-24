@@ -1,13 +1,13 @@
 {
   "slug": "us-presidential-map",
   "notion_id": 332,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "electorale",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/us-presidential-map/us-presidential-map.mp4",
-    "duree_s": 75.0
+    "duree_s": 75
   },
   "caption": "🇺🇸 Who won each state in every US presidential election — 1796 → 2024.\n\nRed for Republicans and blue for Democrats is recent: TV networks only settled on it in 2000. Here those colors are applied backwards to each party's lineage, blue for Jefferson's Democratic-Republicans and then the Democrats, red for the Federalists, the Whigs and then the Republicans. The map flips over two centuries. After the Civil War, the South votes as one Democratic bloc for decades. After the Civil Rights Act of 1964, it swings Republican, while the Northeast and the West Coast move the other way. The parties did not just trade states, they traded voters.\n\n📊 Data: electoral votes by state from the U.S. National Archives (Electoral College records), winner in each state cross-checked with Wikipedia.\nWhat the map simplifies:\n• The lineage is a convention. The Republican Party was founded in 1854, partly from the Whigs; it is not the same party as the Federalists.\n• Each state takes the color of the candidate who won most of its electoral votes. Split states (Maine and Nebraska today) and faithless electors are not shown. Maryland 1800 and North Dakota 1892 are striped.\n• In the early decades, many states let their legislature, not voters, choose the electors.\n• 1824: Jackson won the most electoral votes, but the House elected John Quincy Adams. Both men came from the Democratic-Republicans.\n• 1860: both Democratic candidates, Douglas and Breckinridge, are blue. 1872: Greeley, a Liberal Republican backed by the Democrats, is blue.\n• Third parties are yellow.\n• Grey means no vote counted: the Confederate states in 1864, states not yet readmitted in 1868, and votes Congress refused to count in 1864 and 1872.\n• Borders are today's. West Virginia is shown with Virginia until 1860 (it split off in 1863), and Maine with Massachusetts until 1816 (it split off in 1820). States appear once they first vote. Washington, D.C. votes from 1964 but is not counted in the state tally. Alaska and Hawaii are insets, not to scale.\n🌍 Land: Natural Earth.\n\n#uspolitics #presidentialelection #electoralcollege #ushistory #americanhistory #history #dataviz #maps",
   "post_at": "2026-10-24T19:00:00+02:00",
@@ -23,6 +23,15 @@
       "statut": "programmé",
       "at": "2026-10-21T14:37:46+00:00",
       "note": "24/10 19h (17h = paris-metro-gtfs)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-24T17:04:20.249Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18013384778763162",
+    "permalink": "https://www.instagram.com/reel/De4n_hnHJQr/",
+    "published_at": "2026-10-24T17:04:20.249Z"
+  }
 }
