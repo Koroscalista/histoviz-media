@@ -1,7 +1,7 @@
 {
   "slug": "reseau-hongrie-rail",
   "notion_id": 282,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -33,6 +33,15 @@
       "statut": "programmé",
       "at": "2026-10-13T16:35:08+00:00",
       "note": "recalé 2026-11-15T17:00:00+01:00 -> 2026-10-25T17:00:00+01:00 (GTFS 1/sem jeudi, rail 1/sem dimanche)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-25T16:03:59.002Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18076751393751047",
+    "permalink": "https://www.instagram.com/reel/De7F4XqAsuU/",
+    "published_at": "2026-10-25T16:03:59.002Z"
+  }
 }
