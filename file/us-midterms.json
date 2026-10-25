@@ -1,13 +1,13 @@
 {
   "slug": "us-midterms",
   "notion_id": 339,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "midterms",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/us-midterms/us-midterms.mp4",
-    "duree_s": 32.0
+    "duree_s": 32
   },
   "caption": "🗳️ US midterms: House seats won or lost by the president's party — 1862 → 2022.\n\nMidterms are a vote on the president, and voters almost always send a correction. Since 1862 the president's party has lost House seats in 36 of 41 midterms, 32 seats on average. The worst came in 1894, when Grover Cleveland's Democrats lost 125 seats after the Panic of 1893. Only three times did the president's party really gain ground: 1934 with the New Deal, 1998 amid Bill Clinton's impeachment, and 2002 after 9/11. On November 3, 2026, Donald Trump's Republicans defend the 220 seats they won in 2024.\n\n📊 Data: party divisions of the House at the start of each Congress, Office of the Historian, U.S. House of Representatives. Each bar compares the Congress elected at the midterm with the one before it, in seats.\nWhat the chart simplifies:\n• Counts are taken at the start of each Congress, so later special elections and party switches are left out.\n• The House grew until 1913, so a gain in seats is not always a gain in share. In 1902 Republicans gained 7 seats while the House grew by 29.\n• In 1866, Andrew Johnson was a Democrat elected on Lincoln's National Union ticket. The Republican gains counted for his party were in fact won against him.\n• Third parties and independents are not shown.\n\n#midterms #midterms2026 #uspolitics #congress #houseofrepresentatives #ushistory #dataviz #history",
   "post_at": "2026-10-25T18:00:00+01:00",
@@ -23,6 +23,15 @@
       "statut": "programmé",
       "at": "2026-10-21T17:32:57+00:00",
       "note": "dim. 25/10 18h, avant le vote du 3/11 (17h = reseau-hongrie-rail)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-25T17:02:36.040Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18182151076441029",
+    "permalink": "https://www.instagram.com/reel/De7Moykk9sq/",
+    "published_at": "2026-10-25T17:02:36.040Z"
+  }
 }
