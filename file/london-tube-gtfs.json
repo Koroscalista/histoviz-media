@@ -1,20 +1,24 @@
 {
   "slug": "london-tube-gtfs",
   "notion_id": 307,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/london-tube-gtfs/london-tube-gtfs.mp4",
-    "duree_s": 30.0
+    "duree_s": 30
   },
   "caption": "🚇 One day on the London Underground — Thursday 22 October 2026.\n\n8,783 trains across the 11 Tube lines of the world's oldest underground railway, opened in 1863. Each dot is a scheduled train following the real track, in its official line colour. Two rush hours: 471 trains on the move at 08:30 and again at 18:06.\n\n📊 Data: DfT Bus Open Data Service GTFS (OGL) · tracks © OpenStreetMap contributors · line colours: TfL colour standard.\n🛰️ Imagery: Sentinel-2 cloudless 2023 by EOX (CC BY-NC-SA 4.0).\n\n#london #tube #underground #tfl #transport #dataviz #maps #satellite",
   "post_at": "2026-10-27T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18006592583794428",
+    "permalink": "https://www.instagram.com/reel/DfAPcL2k99h/",
+    "published_at": "2026-10-27T16:03:25.157Z"
+  },
   "historique": [
     {
       "statut": "prêt à publier",
@@ -24,6 +28,10 @@
       "statut": "programmé",
       "at": "2026-10-17T12:06:52+00:00",
       "note": "série métros satellite, 1 par semaine (Alexis 17/10)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-27T16:03:25.157Z"
     }
   ]
 }
