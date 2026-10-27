@@ -1,7 +1,7 @@
 {
   "slug": "most-battles-won",
   "notion_id": null,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 1,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/most-battles-won/most-battles-won.mp4",
     "duree_s": 45.0
   },
-  "caption": null,
-  "post_at": null,
+  "caption": "⚔️ The countries that won the most major battles — 1500 → 2003.\n\nFor centuries, ancient Rome's 55 victories stay the record. France draws level in 1745, pulls ahead two years later and never gives the lead back 🇫🇷 The engine is three centuries of almost constant European war, and above all Napoleon: France adds 82 wins between 1800 and 1815 alone. Then comes Waterloo. Winning battles is not the same as winning wars.\n\n📊 Data: Historical Conflict Event Dataset (C. Miller & K. S. Bakar, Journal of Conflict Resolution, 2022), based on T. Jaques' Dictionary of Battles and Sieges, Harvard Dataverse, CC0. Only major battles count (3+ on the 1–6 Lehmann-Zhukov scale); many battles in the dataset carry no scale and are left out. A coalition win counts for every member, civil-war battles for no one, and historical states are credited to today's country (Prussia → Germany, England → UK).\n\n#france #battles #history #dataviz #militaryhistory #napoleon #rome #barchartrace",
+  "post_at": "2026-11-16T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -27,6 +27,14 @@
     {
       "statut": "produit",
       "at": "2026-10-26T16:07:15+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-27T08:13:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-27T08:13:52+00:00"
     }
   ]
 }

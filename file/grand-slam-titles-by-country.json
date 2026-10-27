@@ -1,7 +1,7 @@
 {
   "slug": "grand-slam-titles-by-country",
   "notion_id": 96,
-  "statut": "produit",
+  "statut": "programmé",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -9,8 +9,8 @@
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/grand-slam-titles-by-country/grand-slam-titles-by-country.mp4",
     "duree_s": 75.0
   },
-  "caption": "🎾 Grand Slam singles titles, country by country — 1905 → 2025.\n\nThe United States has 323. Switzerland, nine million people, has 30 — most of them won by one man, Roger Federer. Watch Britain lead in 1905, the US pull clear to 203 by 1965, the majors stop twice for war, and Spain, France and Switzerland arrive in the modern era.\n\n📊 Data: Wikipedia, from the four majors' official records (CC BY-SA). Men's and women's singles combined; each title goes to the country the champion represented that year.\n\n#tennis #grandslam #wimbledon #federer #history #dataviz #sportshistory #barchartrace",
-  "post_at": null,
+  "caption": "🎾 Grand Slam singles titles, country by country — 1905 → 2025.\n\nThe United States takes the lead in 1919 and ends on 323 titles. Part of it is the calendar: when the world wars stop the other majors, the US Championships keep going, so American titles keep ticking while almost everyone else freezes 🗽 Australia climbs from 48 to 112 between 1946 and 1965, its post-war golden age. And Switzerland goes from 7 to 30 between 2000 and 2018: the Federer years.\n\n📊 Data: Wikipedia, from the four majors' official records (CC BY-SA). Men's and women's singles combined; each title goes to the country the champion represented that year.\n\n#tennis #grandslam #history #dataviz #wimbledon #federer #sportshistory #barchartrace",
+  "post_at": "2026-11-18T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
@@ -54,6 +54,14 @@
     {
       "statut": "produit",
       "at": "2026-10-13T19:27:26+00:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-27T08:13:52+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-27T08:13:52+00:00"
     }
   ]
 }
