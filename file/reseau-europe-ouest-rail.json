@@ -1,7 +1,7 @@
 {
   "slug": "reseau-europe-ouest-rail",
   "notion_id": 288,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -28,6 +28,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-21T12:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-28T18:02:35.981Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "17948549625348824",
+    "permalink": "https://www.instagram.com/reel/DfDB2YuDWrg/",
+    "published_at": "2026-10-28T18:02:35.981Z"
+  }
 }
