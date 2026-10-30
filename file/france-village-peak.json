@@ -1,21 +1,42 @@
 {
   "slug": "france-village-peak",
   "notion_id": 319,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "relief",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-village-peak/france-village-peak.mp4",
-    "duree_s": 33.0
+    "duree_s": 33
   },
   "caption": "🌾 When did your village peak? France, 1793 → 2021\n\nEvery French commune, coloured against its own population record: gold while it is at its all-time high, blue once it has fallen below it. Around 1800 the whole map glows — most French people still lived in villages. Then industry and the railways drew people into the towns, and the countryside went dark: by 1950, 9 communes in 10 had at least 10% fewer people than at their peak, and 7 in 10 had peaked before 1900. After 1960 the light returns, but only around cities, suburbs and the coasts 🏙️\n\n📊 Data: French Historical GIS (Litvine, Séguy, Thévenin et al., CC BY-NC 4.0), commune censuses 1793–1999 at the borders of each date; Eurostat Census 2021 1 km grid for 2021. The counter covers the 34,018 communes with a complete series and stops at the last commune census (1999).\n\n#france #history #dataviz #maps #demography #ruralexodus #villages #population",
   "post_at": "2026-10-30T17:00:00+01:00",
   "priorite": 0,
   "historique": [
-    {"statut": "prêt", "at": "2026-10-20T17:15:00+02:00"},
-    {"statut": "produit", "at": "2026-10-20T17:15:00+02:00"},
-    {"statut": "prêt à publier", "at": "2026-10-20T17:15:00+02:00"},
-    {"statut": "programmé", "at": "2026-10-20T17:15:00+02:00"}
-  ]
+    {
+      "statut": "prêt",
+      "at": "2026-10-20T17:15:00+02:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-10-20T17:15:00+02:00"
+    },
+    {
+      "statut": "prêt à publier",
+      "at": "2026-10-20T17:15:00+02:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-10-20T17:15:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-10-30T16:15:24.075Z"
+    }
+  ],
+  "publication": {
+    "media_id": "18120018280991288",
+    "permalink": "https://www.instagram.com/reel/DfH_NM1jvJc/",
+    "published_at": "2026-10-30T16:15:24.075Z"
+  }
 }
