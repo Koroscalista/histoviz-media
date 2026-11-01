@@ -1,7 +1,7 @@
 {
   "slug": "europeans-map-the-world",
   "notion_id": 333,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 1,
   "format": "filler",
   "type": "exploration",
@@ -34,6 +34,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-21T15:16:11+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-01T16:30:01.678Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "17920393791528189",
+    "permalink": "https://www.instagram.com/reel/DfNKZeIjcrx/",
+    "published_at": "2026-11-01T16:30:01.678Z"
+  }
 }
