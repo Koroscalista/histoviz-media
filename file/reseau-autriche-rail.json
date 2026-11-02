@@ -1,7 +1,7 @@
 {
   "slug": "reseau-autriche-rail",
   "notion_id": 283,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -38,6 +38,15 @@
       "statut": "programmé",
       "at": "2026-10-21T15:16:11+00:00",
       "note": "recalé 2026-11-01T17:00:00+01:00 -> 2026-11-02T17:00:00+01:00 (01/11 donné à europeans-map-the-world)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-02T16:04:38.199Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18358592866217989",
+    "permalink": "https://www.instagram.com/reel/DfPsWrLk749/",
+    "published_at": "2026-11-02T16:04:38.199Z"
+  }
 }
