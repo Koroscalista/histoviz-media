@@ -1,13 +1,13 @@
 {
   "slug": "bati-london",
   "notion_id": 323,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "bati",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/bati-london/bati-london.mp4",
-    "duree_s": 32.0
+    "duree_s": 32
   },
   "caption": "🏙️ Central London, every building standing today by year of construction — 1800 → 2025.\n\nThe Victorian boom fills the map in red and orange, terraces spreading along the new railways. The Blitz leaves a gap, then come post-war estates, the towers of the City and Canary Wharf, and the regeneration of the riverside.\n\n📊 Data: building footprints OS OpenMap Local (OGL). Only about a sixth of these buildings have a recorded date (Colouring London); the rest are estimated from official counts of homes by construction period in each neighbourhood (VOA Council Tax stock) and from local history. Heights exaggerated ×3.\n🌍 Map: OpenStreetMap contributors.\n\n#london #uk #history #architecture #dataviz #maps #urbanism #england",
   "post_at": "2026-11-06T17:00:00+01:00",
@@ -34,6 +34,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-21T19:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-06T16:24:42.864Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18140456173627569",
+    "permalink": "https://www.instagram.com/reel/DfaB1ycEbff/",
+    "published_at": "2026-11-06T16:24:42.864Z"
+  }
 }
