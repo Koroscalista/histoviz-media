@@ -1,20 +1,24 @@
 {
   "slug": "germany-rail-gtfs",
   "notion_id": 161,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/germany-rail-gtfs/germany-rail-gtfs.mp4",
-    "duree_s": 30.0
+    "duree_s": 30
   },
   "caption": "🚆 One day of trains in Germany — Thursday 15 October 2026.\n\n43,026 trains: ICE, Intercity, regional trains and S-Bahn. Peaks: 2,741 trains on the move at 07:18 and 2,720 at 17:18 — the ripples in the curve come from the clockface timetable (Taktfahrplan).\n\n📊 Data: DELFI e.V. via gtfs.de (CC BY 4.0). Trains follow the rail network (© OpenHistoricalMap) where it is mapped; positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#germany #deutschebahn #ice #trains #railway #dataviz #maps #transport",
   "post_at": "2026-11-05T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18098181020141923",
+    "permalink": "https://www.instagram.com/reel/DfaBOOxFy5C/",
+    "published_at": "2026-11-06T16:19:20.546Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -60,6 +64,10 @@
       "statut": "programmé",
       "note": "caption v2 (tracé réel)",
       "at": "2026-10-16T10:38:08+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-06T16:19:20.546Z"
     }
   ]
 }
