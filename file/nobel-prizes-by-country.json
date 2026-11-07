@@ -1,7 +1,7 @@
 {
   "slug": "nobel-prizes-by-country",
   "notion_id": 94,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -14,7 +14,11 @@
   "priorite": 1,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18147990514578093",
+    "permalink": "https://www.instagram.com/reel/DfctD6qFewW/",
+    "published_at": "2026-11-07T17:21:17.288Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -61,6 +65,10 @@
       "motif": "repost demandé par Alexis : titre vidéo « Nobel Prize origins », post initial supprimé",
       "retour": true,
       "ancien_permalink": "https://www.instagram.com/reel/DfckE6MgYiC/"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-07T17:21:17.288Z"
     }
   ]
 }
