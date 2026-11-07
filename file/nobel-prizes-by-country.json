@@ -1,7 +1,7 @@
 {
   "slug": "nobel-prizes-by-country",
   "notion_id": 94,
-  "statut": "publié",
+  "statut": "programmé",
   "pilier": 3,
   "format": "filler",
   "type": "race",
@@ -10,15 +10,11 @@
     "duree_s": 75
   },
   "caption": "🏅 Nobel Prizes, country by country — 1901 → 2025.\n\nThe United States has 431. The United Kingdom, second, has 113. It wasn't always so: Germany and France led the first decades. Watch the ranking tip after 1933, when Jewish and dissident scientists fled Nazi Germany — many of them to American universities, which never gave the lead back 🎓\n\n📊 Data: Nobel Prize API, nobelprize.org (CC0). Each prize goes to the country of the laureate's institution at the time; organisations awarded the Peace Prize are excluded.\n\n#nobelprize #science #history #dataviz #research #unitedstates #germany #barchartrace",
-  "post_at": "2026-11-07T17:00:00+01:00",
-  "priorite": 0,
+  "post_at": "2026-11-07T17:30:00+01:00",
+  "priorite": 1,
   "bloque": null,
   "abandonne": false,
-  "publication": {
-    "media_id": "18104436851641196",
-    "permalink": "https://www.instagram.com/reel/DfckE6MgYiC/",
-    "published_at": "2026-11-07T16:02:46.731Z"
-  },
+  "publication": null,
   "historique": [
     {
       "statut": "idée",
@@ -58,6 +54,13 @@
     {
       "statut": "publié",
       "at": "2026-11-07T16:02:46.731Z"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-11-07T17:30:00+01:00",
+      "motif": "repost demandé par Alexis : titre vidéo « Nobel Prize origins », post initial supprimé",
+      "retour": true,
+      "ancien_permalink": "https://www.instagram.com/reel/DfckE6MgYiC/"
     }
   ]
 }
