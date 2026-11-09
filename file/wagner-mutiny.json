@@ -1,7 +1,7 @@
 {
   "slug": "wagner-mutiny",
   "notion_id": 341,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 2,
   "format": "signature",
   "type": null,
@@ -34,6 +34,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-22T15:40:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-09T16:05:24.377Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18634532500065240",
+    "permalink": "https://www.instagram.com/reel/Dfht99mEvgx/",
+    "published_at": "2026-11-09T16:05:24.377Z"
+  }
 }
