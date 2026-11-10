@@ -1,0 +1,29 @@
+{
+  "slug": "france-vs-spain-rail",
+  "notion_id": 343,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/france-vs-spain-rail/france-vs-spain-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚆 France vs Spain — every train of the same day, Thursday 15 October 2026.\n\nSame rules on both sides: long-distance and regional trains, with RER and Transilien left out on one side, Cercanías and Rodalies on the other. France ran about 8,800 trains that day, almost five times Spain's 1,800, on a similar area. Spain's traffic leans on the high-speed lines radiating from Madrid, where Renfe, Ouigo and Iryo now compete. The rhythm differs too: France has two rush hours (960 trains moving at 8am, 1,090 at 6:45pm) and drops to 450 at noon; Spain stays between 240 and 340 all day.\n\n📊 Data: SNCF Voyageurs GTFS (Licence Ouverte) · Renfe Data GTFS (CC BY 4.0) · Ouigo España GTFS, Powered by MITRAMS. Iryo publishes no open timetable: its ~56 daily trains are estimated from its published 2026 service volumes. Trains follow the real tracks (© OpenStreetMap, SNCF Réseau, Railways of Spain GIS); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#france #spain #trains #railway #sncf #renfe #dataviz #maps",
+  "post_at": "2026-11-21T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-11-10T12:48:41+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-11-10T12:48:41+00:00",
+      "note": "série versus rail, samedi 19h, 1/semaine (Alexis 10/11) ; aucun autre GTFS ce jour-là"
+    }
+  ]
+}
