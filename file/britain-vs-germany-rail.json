@@ -1,0 +1,29 @@
+{
+  "slug": "britain-vs-germany-rail",
+  "notion_id": 344,
+  "statut": "programmé",
+  "pilier": 3,
+  "format": "filler",
+  "type": "flux",
+  "media": {
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/britain-vs-germany-rail/britain-vs-germany-rail.mp4",
+    "duree_s": 30.0
+  },
+  "caption": "🚆 Britain vs Germany — every train of the same day, Thursday 15 October 2026.\n\nSame rules on both sides: long-distance and regional trains, with the Elizabeth line, London Overground and Merseyrail left out on one side, the S-Bahn on the other. Germany ran over 26,000 trains that day against Britain's 19,000, yet minute by minute the two stay close: about 1,800 trains moving at Germany's morning peak, 1,540 at Britain's, and around 1,300 on each side at noon. Britain fits that traffic into less than 60% of Germany's area. London's commuter operators (Southern, Thameslink, South Western) are counted as mainline railways, which flatters the British side a little.\n\n📊 Data: National Rail GTFS by travelwhiz (CC BY 4.0) · DB/DELFI GTFS by gtfs.de (CC BY 4.0). Trains follow the real tracks (operators' shapes, © OpenStreetMap); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#britain #germany #trains #railway #nationalrail #deutschebahn #dataviz #maps",
+  "post_at": "2026-11-28T19:00:00+01:00",
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "prêt à publier",
+      "at": "2026-11-10T12:48:41+00:00"
+    },
+    {
+      "statut": "programmé",
+      "at": "2026-11-10T12:48:41+00:00",
+      "note": "série versus rail, samedi 19h, 1/semaine (Alexis 10/11) ; aucun autre GTFS ce jour-là"
+    }
+  ]
+}
