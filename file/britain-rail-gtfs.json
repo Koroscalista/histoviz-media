@@ -1,20 +1,24 @@
 {
   "slug": "britain-rail-gtfs",
   "notion_id": 162,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/britain-rail-gtfs/britain-rail-gtfs.mp4",
-    "duree_s": 30.0
+    "duree_s": 30
   },
   "caption": "🚆 One day of trains in Great Britain — Thursday 15 October 2026.\n\n22,122 trains, every operator from LNER and Avanti to Northern, ScotRail and Southern. London's commuter web dominates: 1,689 trains on the move at 07:50, 1,675 at 17:52.\n\n📊 Data: National Rail timetable, GTFS by travelwhiz (CC BY 4.0). Each train follows the real track (GTFS shapes); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#uk #britain #nationalrail #trains #railway #dataviz #maps #transport",
   "post_at": "2026-11-12T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18124733959938628",
+    "permalink": "https://www.instagram.com/reel/Dfpsw7RDvEu/",
+    "published_at": "2026-11-12T18:28:49.456Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -60,6 +64,10 @@
       "statut": "programmé",
       "note": "caption v2 (tracé réel)",
       "at": "2026-10-16T10:34:55+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-12T18:28:49.456Z"
     }
   ]
 }
