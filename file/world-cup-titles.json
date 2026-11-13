@@ -1,7 +1,7 @@
 {
   "slug": "world-cup-titles",
   "notion_id": 95,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 5,
   "format": "filler",
   "type": "race",
@@ -14,7 +14,11 @@
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18164599141500956",
+    "permalink": "https://www.instagram.com/reel/DfsBLAxDQ4z/",
+    "published_at": "2026-11-13T16:05:38.323Z"
+  },
   "historique": [
     {
       "statut": "idée",
@@ -59,6 +63,10 @@
       "statut": "programmé",
       "at": "2026-10-13T16:35:13+00:00",
       "note": "recalé 2026-11-12T17:00:00+01:00 -> 2026-11-13T17:00:00+01:00 (libère le 12/11 pour le GTFS)"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-13T16:05:38.323Z"
     }
   ],
   "publication_supprimee": {
