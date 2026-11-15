@@ -1,7 +1,7 @@
 {
   "slug": "reseau-grece-rail",
   "notion_id": 316,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 4,
   "format": "filler",
   "type": "reseau",
@@ -28,6 +28,15 @@
     {
       "statut": "programmé",
       "at": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-15T16:48:05.934Z"
     }
-  ]
+  ],
+  "publication": {
+    "media_id": "18252042784310097",
+    "permalink": "https://www.instagram.com/reel/DfxPoE8ARPd/",
+    "published_at": "2026-11-15T16:48:05.934Z"
+  }
 }
