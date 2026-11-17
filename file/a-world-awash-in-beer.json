@@ -1,0 +1,24 @@
+{
+  "slug": "a-world-awash-in-beer",
+  "notion_id": 92,
+  "statut": "idée",
+  "pilier": 3,
+  "format": null,
+  "type": null,
+  "media": {
+    "mp4_url": null,
+    "duree_s": null
+  },
+  "caption": null,
+  "post_at": null,
+  "priorite": 0,
+  "bloque": null,
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-11-17T08:12:27+00:00"
+    }
+  ]
+}
