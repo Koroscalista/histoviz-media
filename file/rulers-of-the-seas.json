@@ -1,13 +1,13 @@
 {
   "slug": "rulers-of-the-seas",
   "notion_id": 55,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 1,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/rulers-of-the-seas/rulers-of-the-seas.mp4",
+    "duree_s": 73.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-11-24T08:27:34+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-11-24T08:49:20+00:00"
     }
   ]
 }

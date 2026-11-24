@@ -1,13 +1,13 @@
 {
   "slug": "who-really-arms-the-world",
   "notion_id": 299,
-  "statut": "prêt",
+  "statut": "produit",
   "pilier": 2,
   "format": "filler",
   "type": "race",
   "media": {
-    "mp4_url": null,
-    "duree_s": null
+    "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/who-really-arms-the-world/who-really-arms-the-world.mp4",
+    "duree_s": 30.0
   },
   "caption": null,
   "post_at": null,
@@ -23,6 +23,10 @@
     {
       "statut": "prêt",
       "at": "2026-11-24T08:27:34+00:00"
+    },
+    {
+      "statut": "produit",
+      "at": "2026-11-24T08:50:25+00:00"
     }
   ]
 }
