@@ -1,0 +1,31 @@
+{
+  "slug": "where-the-world-bleeds",
+  "notion_id": 62,
+  "statut": "prêt",
+  "pilier": 2,
+  "format": "filler",
+  "type": "race",
+  "media": {
+    "mp4_url": null,
+    "duree_s": null
+  },
+  "caption": null,
+  "post_at": null,
+  "priorite": 0,
+  "bloque": {
+    "raison": "à valider (sensible) — édito 24/11 : feu vert d'Alexis requis avant calendrier (UCDP Israel–Palestine, génocides inclus)",
+    "at": "2026-11-24T08:27:34+00:00"
+  },
+  "abandonne": false,
+  "publication": null,
+  "historique": [
+    {
+      "statut": "idée",
+      "at": "2026-11-24T08:27:34+00:00"
+    },
+    {
+      "statut": "prêt",
+      "at": "2026-11-24T08:27:34+00:00"
+    }
+  ]
+}
