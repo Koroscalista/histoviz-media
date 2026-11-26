@@ -1,20 +1,24 @@
 {
   "slug": "italy-rail-gtfs",
   "notion_id": 277,
-  "statut": "programmé",
+  "statut": "publié",
   "pilier": 3,
   "format": "filler",
   "type": "flux",
   "media": {
     "mp4_url": "https://github.com/Koroscalista/histoviz-media/releases/download/italy-rail-gtfs/italy-rail-gtfs.mp4",
-    "duree_s": 30.0
+    "duree_s": 30
   },
   "caption": "🚆 One day of trains in Italy — Thursday 15 October 2026.\n\n9,405 scheduled trains across 2,190 stations. Frecciarossa and Italo trace the high-speed spine Turin–Milan–Bologna–Florence–Rome–Naples, while Lombardy's regional web lights up around Milan. Two rush hours: 1,094 trains on the move at 07:18, 1,091 at 18:43. Each ring is a train calling at a station.\n\n📊 Data: Trenitalia & Italo GTFS (Italian National Access Point, converted by deryclem) and Trenord GTFS (Regione Lombardia), CC BY 4.0. Each train follows the real track (operator shapes, rail network © OpenHistoricalMap where missing); positions interpolated between stops.\n🌍 Relief: AWS Terrain Tiles · Natural Earth.\n\n#italy #trenitalia #frecciarossa #trains #railway #dataviz #maps #transport",
   "post_at": "2026-11-26T17:00:00+01:00",
   "priorite": 0,
   "bloque": null,
   "abandonne": false,
-  "publication": null,
+  "publication": {
+    "media_id": "18038933774668447",
+    "permalink": "https://www.instagram.com/reel/DgNfYcSgkMz/",
+    "published_at": "2026-11-26T16:04:08.257Z"
+  },
   "historique": [
     {
       "statut": "produit",
@@ -48,6 +52,10 @@
       "statut": "programmé",
       "note": "caption v2 (tracé réel)",
       "at": "2026-10-16T10:34:46+00:00"
+    },
+    {
+      "statut": "publié",
+      "at": "2026-11-26T16:04:08.257Z"
     }
   ],
   "origine": "manuel"
